@@ -30,15 +30,16 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@sitecore-jss/sitecore-jss-nextjs": "~22.8.0",
-    "bootstrap": "^5.1.3",
+    "@tailwindcss/postcss": "^4.1.11",
     "font-awesome": "^4.7.0",
     "next": "^15.3.1",
     "next-localization": "^0.12.0",
+    "postcss": "^8.5.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "sass": "^1.52.3",
-    "sass-alias": "^1.0.5",
-    "sharp": "0.32.6"
+    "sharp": "0.32.6",
+    "tailwind-variants": "^1.0.0",
+    "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
     "@sitecore-jss/sitecore-jss-cli": "~22.8.0",
