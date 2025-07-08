@@ -4,13 +4,10 @@
     "next",
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "plugin:yaml/recommended",
-    "plugin:prettier/recommended"
+    "plugin:yaml/recommended"
   ],
   "plugins": [
     "@typescript-eslint",
-    "prettier",
     "yaml",
     "react"
   ],
