@@ -10,13 +10,101 @@
 // @ts-ignore 
 import { Field, ImageField, FileField, LinkField, Item } from '@sitecore-jss/sitecore-jss-nextjs';
 // @ts-ignore 
+import { RenderingParams as SampleProjectRenderingParams } from "./Sample.Project.model"
+// @ts-ignore 
 import { Sample as SampleProjectSample } from "./Sample.Project.model"
 // @ts-ignore 
 import { Multisite as SampleFoundationMultisite } from "./Sample.Foundation.model"
 // @ts-ignore 
 import { Presentation as SampleFoundationPresentation } from "./Sample.Foundation.model"
 
+export namespace RenderingParams {
+
+    /**
+    * Represents the template /sitecore/templates/Project/BlogModule/Rendering Params/Color
+    */
+    export type Color =  {
+        fields?: { 
+            /**
+            * Represents the color field (a904edf3-1b3c-4935-98fc-56c7301347ca).
+            */
+            color?: Field<string>;
+        }
+
+    }
+
+    /**
+    * Represents the GraphQL template /sitecore/templates/Project/BlogModule/Rendering Params/Color
+    */
+    export type ColorJson =  {
+        
+            /**
+            * Represents the color field (a904edf3-1b3c-4935-98fc-56c7301347ca).
+            */
+            color?: {
+                jsonValue: Field<string>
+            };
+
+
+    }
+
+    /**
+    * Represents the template /sitecore/templates/Project/BlogModule/Rendering Params/ColorParams
+    */
+    export type ColorParams =  {
+        fields?: { 
+            /**
+            * Represents the backgroundColor field (58e154ea-c655-415a-b149-cf2ae0bc10dd).
+            */
+            backgroundColor?: Field<string>;
+
+            /**
+            * Represents the textColor field (8d0c5b20-8e99-4fb3-a365-ffa72c2ae619).
+            */
+            textColor?: Field<string>;
+        }
+
+    }
+
+    /**
+    * Represents the GraphQL template /sitecore/templates/Project/BlogModule/Rendering Params/ColorParams
+    */
+    export type ColorParamsJson =  {
+        
+            /**
+            * Represents the backgroundColor field (58e154ea-c655-415a-b149-cf2ae0bc10dd).
+            */
+            backgroundColor?: {
+                jsonValue: Field<string>
+            };
+
+            /**
+            * Represents the textColor field (8d0c5b20-8e99-4fb3-a365-ffa72c2ae619).
+            */
+            textColor?: {
+                jsonValue: Field<string>
+            };
+
+
+    }
+}
 export namespace Sample.Project.BlogModule {
+
+    /**
+    * Represents the template /sitecore/templates/Project/BlogModule/Folder
+    */
+    export type Folder =  {
+        fields?: {         }
+
+    }
+
+    /**
+    * Represents the GraphQL template /sitecore/templates/Project/BlogModule/Folder
+    */
+    export type FolderJson =  {
+        
+
+    }
 
     /**
     * Represents the template /sitecore/templates/Project/BlogModule/Headless Site

@@ -15,13 +15,6 @@ export const Default = (props: RichTextProps): JSX.Element => {
     const id = props.params.RenderingIdentifier
 
     return (
-        <div className="mx-auto w-full">
-            <div
-                className={`component rich-text mx-auto ${props?.params?.styles.trimEnd()} ${container()}`}
-                id={id ? id : undefined}
-            >
-                <div className="component-content">{text}</div>
-            </div>
-        </div>
+       <></>
     )
 }

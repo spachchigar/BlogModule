@@ -16,7 +16,8 @@ module.exports = {
       },
       colors: {
         'br-color': '#001623', // custom color name
-        'btn-text-color':'#001623'
+        'btn-text-color':'#001623',
+        'primary':'#F6F7F7'
       },
     },
   },

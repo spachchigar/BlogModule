@@ -1,64 +1,64 @@
 ﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
 ---
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BaseComponentFoundation\Base Components\Cards\Base Card\card.yml
-ID: "2df607d8-3444-4dee-a49e-10fe61087e3f"
-Parent: "703c3e49-4dd1-4b80-8fcb-c9ad731a5d0a"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/Base Components/Cards/Base Card/card
-Signature: 7W8ihctSvXL32Wi/L1HKxJtn6UuL/Uo2sadplN2Z+9U=
-Modified: 638876460707587973
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BaseComponentFoundation\Base Components\Cards.yml
-ID: "10df4044-48b6-4567-aaaa-9af4660c3126"
-Parent: "b65b78f3-fa05-4c64-8873-7833bc2ace00"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Foundation/Base Components/Cards
-Signature: MDsPZX8rnYdnEbaK6tT90KruAOFlg3mM0ZUIxBYYcDg=
-Modified: 638876460707557984
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BaseComponentFoundation\Base Components\Cards\Base Card\card\image.yml
-ID: "4cdfe26a-4b8b-4476-88a7-94d7e71379b5"
-Parent: "2df607d8-3444-4dee-a49e-10fe61087e3f"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/Base Components/Cards/Base Card/card/image
-Signature: m/KcVO1DmhbT7KKAWgxmmRnPpw46wzY0h0nN/6J6VQk=
-Modified: 638876460707643147
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BaseComponentFoundation\Base Components.yml
-ID: "b65b78f3-fa05-4c64-8873-7833bc2ace00"
-Parent: "b26bd035-8d0a-4df3-8f67-2de3c7fdd74a"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Foundation/Base Components
-Signature: /3us2kCHIH7Uv0C672ESGnGjVoP52Tx86STlILgjAgA=
-Modified: 638876460707537972
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BaseComponentFoundation\Base Components\Cards\Base Card\card\content.yml
-ID: "cf17dfe1-3883-4130-8cc4-df7163c27a2c"
-Parent: "2df607d8-3444-4dee-a49e-10fe61087e3f"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/Base Components/Cards/Base Card/card/content
-Signature: YkSmZxE7yEyLx9ZPwxl5R4udbNnqfz/mzY9f1PenXtQ=
-Modified: 638876460707627967
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BaseComponentFoundation\Base Components\Cards\Base Card.yml
+  C:\Users\rodedara\Desktop\BlogModule\src\serialization\BaseComponentFoundation\Base Components\Cards\Base Card.yml
 ID: "703c3e49-4dd1-4b80-8fcb-c9ad731a5d0a"
 Parent: "10df4044-48b6-4567-aaaa-9af4660c3126"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/Base Components/Cards/Base Card
 Signature: 34S8Riu/dLOMYZZ75kB1M0Pn9YPZy8u78aZZLRVNVgc=
-Modified: 638876460707577960
+Modified: 638876520639149502
 ---
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BaseComponentFoundation\Base Components\Cards\Base Card\card\title.yml
+  C:\Users\rodedara\Desktop\BlogModule\src\serialization\BaseComponentFoundation\Base Components\Cards\Base Card\card\title.yml
 ID: "5dbb37bc-547a-4623-8796-92eacc63b10e"
 Parent: "2df607d8-3444-4dee-a49e-10fe61087e3f"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/Base Components/Cards/Base Card/card/title
 Signature: aH6gJDwl7LCm/dkR02Zo1tSV3tmmSrDt82u/cf2vrBE=
-Modified: 638876460707618139
+Modified: 638876520639194546
+---
+File: |
+  C:\Users\rodedara\Desktop\BlogModule\src\serialization\BaseComponentFoundation\Base Components.yml
+ID: "b65b78f3-fa05-4c64-8873-7833bc2ace00"
+Parent: "b26bd035-8d0a-4df3-8f67-2de3c7fdd74a"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/Base Components
+Signature: /3us2kCHIH7Uv0C672ESGnGjVoP52Tx86STlILgjAgA=
+Modified: 638876520639105982
+---
+File: |
+  C:\Users\rodedara\Desktop\BlogModule\src\serialization\BaseComponentFoundation\Base Components\Cards.yml
+ID: "10df4044-48b6-4567-aaaa-9af4660c3126"
+Parent: "b65b78f3-fa05-4c64-8873-7833bc2ace00"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/Base Components/Cards
+Signature: MDsPZX8rnYdnEbaK6tT90KruAOFlg3mM0ZUIxBYYcDg=
+Modified: 638876520639129438
+---
+File: |
+  C:\Users\rodedara\Desktop\BlogModule\src\serialization\BaseComponentFoundation\Base Components\Cards\Base Card\card.yml
+ID: "2df607d8-3444-4dee-a49e-10fe61087e3f"
+Parent: "703c3e49-4dd1-4b80-8fcb-c9ad731a5d0a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Base Components/Cards/Base Card/card
+Signature: 7W8ihctSvXL32Wi/L1HKxJtn6UuL/Uo2sadplN2Z+9U=
+Modified: 638876520639179557
+---
+File: |
+  C:\Users\rodedara\Desktop\BlogModule\src\serialization\BaseComponentFoundation\Base Components\Cards\Base Card\card\content.yml
+ID: "cf17dfe1-3883-4130-8cc4-df7163c27a2c"
+Parent: "2df607d8-3444-4dee-a49e-10fe61087e3f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/Base Components/Cards/Base Card/card/content
+Signature: YkSmZxE7yEyLx9ZPwxl5R4udbNnqfz/mzY9f1PenXtQ=
+Modified: 638876520639214573
+---
+File: |
+  C:\Users\rodedara\Desktop\BlogModule\src\serialization\BaseComponentFoundation\Base Components\Cards\Base Card\card\image.yml
+ID: "4cdfe26a-4b8b-4476-88a7-94d7e71379b5"
+Parent: "2df607d8-3444-4dee-a49e-10fe61087e3f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/Base Components/Cards/Base Card/card/image
+Signature: m/KcVO1DmhbT7KKAWgxmmRnPpw46wzY0h0nN/6J6VQk=
+Modified: 638876520639234579

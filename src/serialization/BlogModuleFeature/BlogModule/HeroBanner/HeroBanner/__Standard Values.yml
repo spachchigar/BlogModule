@@ -1,18 +1,8 @@
 ﻿---
-ID: "c5968616-f2ec-4357-979d-b221d846056f"
-Parent: "b6ec5501-913e-480f-89ff-e424cce6fa59"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/BlogModule/HeroBanner/HeroBanner
-SharedFields:
-- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
-  Hint: __Icon
-  Value: wordprocessing/32x32/header.png
-- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
-  Hint: __Base template
-  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
-- ID: "f7d48a55-2158-4f02-9356-756654404f73"
-  Hint: __Standard values
-  Value: "{BBECDE97-F3D4-4F2C-A9AF-275AB7B696DD}"
+ID: "bbecde97-f3d4-4f2c-a9af-275ab7b696dd"
+Parent: "c5968616-f2ec-4357-979d-b221d846056f"
+Template: "c5968616-f2ec-4357-979d-b221d846056f"
+Path: /sitecore/templates/Feature/BlogModule/HeroBanner/HeroBanner/__Standard Values
 Languages:
 - Language: en
   Versions:
@@ -20,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250707T112947Z
+      Value: 20250709T051425Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,7 +21,7 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "199c93ea-d3a4-49bb-959f-b68cc78b23c5"
+      Value: "06f2bd44-0427-488d-a08e-a0573680950b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
