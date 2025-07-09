@@ -50,8 +50,8 @@ const getLinkField = (props: NavigationProps): LinkField => ({
 })
 
 export const Default = (props: NavigationProps): JSX.Element => {
-    const [isOpenMenu, openMenu] = useState(false)
-    const { sitecoreContext } = useSitecoreContext()
+    // const [isOpenMenu, openMenu] = useState(false)
+    // const { sitecoreContext } = useSitecoreContext()
     const styles =
         props.params != null
             ? `${props.params.GridParameters ?? ''} ${props?.params?.Styles ?? ''}`.trimEnd()
@@ -68,20 +68,20 @@ export const Default = (props: NavigationProps): JSX.Element => {
         )
     }
 
-    const handleToggleMenu = (
-        event?: React.MouseEvent<HTMLElement>,
-        flag?: boolean
-    ): void => {
-        if (event && sitecoreContext?.pageEditing) {
-            event.preventDefault()
-        }
+    // const handleToggleMenu = (
+    //     event?: React.MouseEvent<HTMLElement>,
+    //     flag?: boolean
+    // ): void => {
+    //     if (event && sitecoreContext?.pageEditing) {
+    //         event.preventDefault()
+    //     }
 
-        if (flag !== undefined) {
-            return openMenu(flag)
-        }
+    //     if (flag !== undefined) {
+    //         return openMenu(flag)
+    //     }
 
-        openMenu(!isOpenMenu)
-    }
+    //     openMenu(!isOpenMenu)
+    // }
 
     // const list = Object.values(props.fields)
     //   .filter((element) => element)
