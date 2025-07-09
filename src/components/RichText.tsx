@@ -5,6 +5,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs'
 import { PageContent } from 'models/Feature.JSS Experience Accelerator.Model'
 import { ComponentProps } from 'lib/component-props'
+import { container, button } from '../assets/tailwindcss'
 
 export type RichTextProps = ComponentProps & PageContent.Text
 
@@ -17,11 +18,13 @@ export const Default = (props: RichTextProps): JSX.Element => {
     const id = props.params.RenderingIdentifier
 
     return (
-        <div
-            className={`component rich-text ${props?.params?.styles.trimEnd()} `}
-            id={id ? id : undefined}
-        >
-            <div className="component-content">{text}</div>
+        <div className="mx-auto w-full">
+            <div
+                className={`component rich-text mx-auto ${props?.params?.styles.trimEnd()} ${container()}`}
+                id={id ? id : undefined}
+            >
+                <div className="component-content">{text}</div>
+            </div>
         </div>
     )
 }
