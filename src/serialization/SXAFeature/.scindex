@@ -1,0 +1,829 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Media.yml
+ID: "9f9e56db-db69-4ab8-9f9a-863ad3961d1f"
+Parent: "3a7e1003-9223-4cfd-b8f5-1b1d62a0de37"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Media
+Signature: XLdo6TLLqYiHUfcOxUpM4uH/lgIu3Iwer1r6MYhHRwA=
+Modified: 638876460707643147
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation.yml
+ID: "54f3e9c5-b108-47c6-b183-0ed7fc99e20a"
+Parent: "3a7e1003-9223-4cfd-b8f5-1b1d62a0de37"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation
+Signature: y13mKiIXgSsRfRlGIIl5Nu9tsIEDhTq9z4e9T308k/g=
+Modified: 638876460707643147
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content.yml
+ID: "29afd098-a8b7-40ca-bd0e-28a1fd6f40b1"
+Parent: "3a7e1003-9223-4cfd-b8f5-1b1d62a0de37"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content
+Signature: 5664iOnb6+0Lsws9iX+d2WSbALBGV0mRuTQ7w2fGnNY=
+Modified: 638876460707643147
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Styling\Styles8.yml
+ID: "47941461-f5b5-4707-804b-69990971e6a1"
+Parent: "326f217e-fbb7-4be5-beea-2bc95810ba1d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Styling/Styles8
+Signature: Vt3sMtqTJbKvKu6JAbwBL6GtlEOtTgDU45YC5ALFj6E=
+Modified: 638876460718474485
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Media\Image.yml
+ID: "d885df8c-b2d6-4007-b34b-2bbafb527304"
+Parent: "9f9e56db-db69-4ab8-9f9a-863ad3961d1f"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Media/Image
+Signature: JQ50cWnan+gU6u9InpYtT37jogCW5ZXiLwIGpGS22yM=
+Modified: 638876460707643147
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Media\Image Folder.yml
+ID: "f7a45276-87f1-4ea5-bf25-e3c7cb7aa993"
+Parent: "9f9e56db-db69-4ab8-9f9a-863ad3961d1f"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Media/Image Folder
+Signature: LGlqiAdHszuGX7+RSqyv1O6CqYkg8bHO65lWau4e5qM=
+Modified: 638876460707643147
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Datasource.yml
+ID: "f46b5e68-ca11-426e-96de-443cd08d8efe"
+Parent: "54f3e9c5-b108-47c6-b183-0ed7fc99e20a"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Datasource
+Signature: LoWHseG899n100+A7qr8tPmW3dMwnVwhROa9FFGL4II=
+Modified: 638876460717066307
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\RowSplitter\Styling\Styles8.yml
+ID: "9ba62b79-b72e-4d63-a123-5fed10f694d1"
+Parent: "2da64c8d-024f-4e48-9a4f-be82ff4cba13"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/RowSplitter/Styling/Styles8
+Signature: MVV0t0lev0Cg3khyY0ZsTy1oQ7GaKFP7ufSGMp+wpz0=
+Modified: 638876460718613726
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Rendering Parameters.yml
+ID: "6cf51503-ff55-4ec5-b234-972611a0be63"
+Parent: "54f3e9c5-b108-47c6-b183-0ed7fc99e20a"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Rendering Parameters
+Signature: aGcKU7qJUv3JG6RcWyXL0rhrCcAh1wBgCAM8SSywTuc=
+Modified: 638876460717100809
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Rendering Parameters.yml
+ID: "1d8f4d81-2f6a-48d8-9b65-ee8110a97a72"
+Parent: "29afd098-a8b7-40ca-bd0e-28a1fd6f40b1"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Rendering Parameters
+Signature: 3JqZ6cC2AZGy/qK3ZpJGjKzpT050jkrI7aQDBCElLas=
+Modified: 638876460717179756
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Text Folder.yml
+ID: "b762d567-87f5-493c-bb48-0c455d834457"
+Parent: "29afd098-a8b7-40ca-bd0e-28a1fd6f40b1"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Text Folder
+Signature: lA8ybUil9225lqg5lpgmRIJEYoUZO5b+nMgNjE6VDWE=
+Modified: 638876460717284419
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Promo.yml
+ID: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Parent: "29afd098-a8b7-40ca-bd0e-28a1fd6f40b1"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo
+Signature: 4jeMtH2jK4t6OA8nuLypTpOS1nkMAJpVqEPiCwufZ20=
+Modified: 638876460717126366
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters.yml
+ID: "b8b319b9-6ed9-4837-82df-7b904cc98384"
+Parent: "ae719431-35be-463d-a0ad-819c9b114e6c"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters
+Signature: aWd31FaoMhR/dZPuOUAjPhRnKjIDkQcYhVERz6G7tOY=
+Modified: 638876460717323310
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Media\Rendering Parameters\Image.yml
+ID: "15185b0e-6418-4449-9f93-4ff03b7ee032"
+Parent: "a6feb3de-e261-4e73-be00-e8e5d72e2dab"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Media/Rendering Parameters/Image
+Signature: SBlEkP3bHQ5FZW7H13aTomdUJ2bhG+t5gZnQ4BThQEg=
+Modified: 638876460717395902
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Media\Image\Image.yml
+ID: "3c3be4f0-803e-4363-82a7-f07322a52517"
+Parent: "d885df8c-b2d6-4007-b34b-2bbafb527304"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image
+Signature: sCuCV6gQnIS4sgp82vgrl0XAueuqmuIaeABWyKQgyYM=
+Modified: 638876460717386810
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Datasource\Link List Folder.yml
+ID: "c237d144-647a-4afe-aa7b-1570f3e3f139"
+Parent: "f46b5e68-ca11-426e-96de-443cd08d8efe"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Datasource/Link List Folder
+Signature: RfDF9tQcFdfw9VvVtqaU2RELh6rZ1NU32/n4WSCqh/U=
+Modified: 638876460717491669
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Rendering Parameters\LinkList.yml
+ID: "33c9207e-3b04-4606-8ef5-4ca99a97c776"
+Parent: "6cf51503-ff55-4ec5-b234-972611a0be63"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Rendering Parameters/LinkList
+Signature: a/w5VvcaEOtuFw/9BwcwI3d18EXhqqzNRj0NJDEYBfc=
+Modified: 638876460717515330
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Datasource\Link List.yml
+ID: "60c9ac62-4227-443e-8980-92c97e483832"
+Parent: "f46b5e68-ca11-426e-96de-443cd08d8efe"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Datasource/Link List
+Signature: UUJRMGIZkyMLmcFZiI2xxRzogPP7bCog+an1RZonCBc=
+Modified: 638876460717444993
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Rendering Parameters\Navigation.yml
+ID: "9ce34bf9-5c93-4dff-841d-8f649c2bd6c8"
+Parent: "6cf51503-ff55-4ec5-b234-972611a0be63"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Rendering Parameters/Navigation
+Signature: 2btGamA180ZY2K4D6BuZ+fcYWupl9nfcLMD6K623rqU=
+Modified: 638876460717535409
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Rendering Parameters\Page Content.yml
+ID: "ef87e73b-c7ff-49a2-ac59-9b0be83755c3"
+Parent: "1d8f4d81-2f6a-48d8-9b65-ee8110a97a72"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Rendering Parameters/Page Content
+Signature: fnavrwQut+kvXQ4ut441QDToMhbKYDmTIjpZWhTJZVg=
+Modified: 638876460717535409
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Promo Folder\__Standard Values.yml
+ID: "444f9f3a-1ab4-438c-81fb-0624e58f6bc1"
+Parent: "8fe7f8dc-cb5d-42c2-99f8-76608c243f10"
+Template: "8fe7f8dc-cb5d-42c2-99f8-76608c243f10"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo Folder/__Standard Values
+Signature: 2zsiC5UwpP7AduCHYFrCup77dTDS/FiWLBGxx2rSkOk=
+Modified: 638876460718678671
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Rendering Parameters\Promo.yml
+ID: "881869ca-7f58-45ea-8b34-ad1bfd3551a8"
+Parent: "1d8f4d81-2f6a-48d8-9b65-ee8110a97a72"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Rendering Parameters/Promo
+Signature: YTMHFULbSd8ctGgaqOV7V1zc9hQlzaNNIPZ2BQsm3B4=
+Modified: 638876460717608078
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Text\Text.yml
+ID: "3a632f18-9fe1-4edf-a4a1-f2b33df4bdd4"
+Parent: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Text/Text
+Signature: VUsFoOPP8fu+OLo9KbKevPEZDKaxTv/vQJL5FedGJWw=
+Modified: 638876460717644901
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Text Folder\__Standard Values.yml
+ID: "d240c5ff-4a48-42f5-b0e5-f8ea931d58e1"
+Parent: "b762d567-87f5-493c-bb48-0c455d834457"
+Template: "b762d567-87f5-493c-bb48-0c455d834457"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Text Folder/__Standard Values
+Signature: tphCvNIlfVTxeetOZLTCrZuspHcX9Y5WqCl6MvKMU0U=
+Modified: 638876460718678671
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter.yml
+ID: "181740ea-a7ae-4799-a649-a75917570e38"
+Parent: "b8b319b9-6ed9-4837-82df-7b904cc98384"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter
+Signature: RnS3DgF5kWsLuy0fA+OszxSbuXxrazTmwbaNJGFFUmc=
+Modified: 638876460717644901
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\Container.yml
+ID: "45130bdb-bae3-4edc-aea8-7b68b9d94c7f"
+Parent: "b8b319b9-6ed9-4837-82df-7b904cc98384"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/Container
+Signature: zaybpNY1Wl0Gdzb+/nXUE5q3dDLzobbF2XWIsDxVatM=
+Modified: 638876460717644901
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Media\Rendering Parameters\Image\__Standard Values.yml
+ID: "a124693f-e2f4-444a-96cc-02304f54f0cb"
+Parent: "15185b0e-6418-4449-9f93-4ff03b7ee032"
+Template: "15185b0e-6418-4449-9f93-4ff03b7ee032"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Media/Rendering Parameters/Image/__Standard Values
+Signature: jVgcAvjQcgvulULN/SMEetDc3jmbNzKPQPUTCLHxDLc=
+Modified: 638876460718698745
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Media\Image\Image\ImageCaption.yml
+ID: "4d7b05d0-0300-486f-8f87-57de34a9b793"
+Parent: "3c3be4f0-803e-4363-82a7-f07322a52517"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/ImageCaption
+Signature: Ukgs+BSQ8AMU23EMeMADntNjGCgkeElJ38sOrYlcvIQ=
+Modified: 638876460717770483
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Datasource\Link List\Link List.yml
+ID: "83a9e082-fecf-44a7-81a2-f80685412d3d"
+Parent: "60c9ac62-4227-443e-8980-92c97e483832"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Datasource/Link List/Link List
+Signature: 80Aj7LxFiQQ37ETFSORA5WyIxYqKtasbnVD3xWh9CKY=
+Modified: 638876460717852501
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Datasource\Link\Link.yml
+ID: "6f42d8cc-85c6-4daa-8e19-2cf741818842"
+Parent: "6f108e3c-5d57-42f8-a910-c22920269b0a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Datasource/Link/Link
+Signature: i927LiUu5brMB3qW3UJLVSvR4vdtD3qnfJ3Ng2p/l70=
+Modified: 638876460717770483
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Media\Image\Image\TargetUrl.yml
+ID: "75fbf1b1-e7c5-494b-9633-693909f79425"
+Parent: "3c3be4f0-803e-4363-82a7-f07322a52517"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/TargetUrl
+Signature: x31MEY7uQgg5Jp9PLXbxuj9MTjfXjWEsP3pYo3np008=
+Modified: 638876460717770483
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Datasource\Link List\__Standard Values.yml
+ID: "e503ebb7-1ff1-4a7d-9cb3-97d465d04453"
+Parent: "60c9ac62-4227-443e-8980-92c97e483832"
+Template: "60c9ac62-4227-443e-8980-92c97e483832"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Datasource/Link List/__Standard Values
+Signature: 551HskY578oQgMw/UyKRJX7fu0WgbMKNNDcXl3iYl5k=
+Modified: 638876460718718818
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Promo\Promo\PromoIcon.yml
+ID: "f94b9858-c439-4291-863b-757b536c8b65"
+Parent: "7452a89a-ef55-46aa-a566-1327a1391778"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo/Promo/PromoIcon
+Signature: thqGQeAdmHG/vb5rh3C1R79B0zv8en6YKAciO8NJiTk=
+Modified: 638876460717931801
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Rendering Parameters\Navigation\Data.yml
+ID: "8233789b-4499-4b06-b169-c2fd09069ddd"
+Parent: "9ce34bf9-5c93-4dff-841d-8f649c2bd6c8"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Rendering Parameters/Navigation/Data
+Signature: DmprqcuoSy89hhLfeAVOeDmWK69jB6coS/wOGChxAuk=
+Modified: 638876460717852501
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Promo\Promo\PromoLink.yml
+ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+Parent: "7452a89a-ef55-46aa-a566-1327a1391778"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo/Promo/PromoLink
+Signature: +wzClfupHxboKq7dYjCvIVBushyywcWAC4L0Kzc4YT4=
+Modified: 638876460717931801
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Promo\Promo\PromoIcon2.yml
+ID: "739c6cc2-0031-463d-9599-13478fd50ee3"
+Parent: "7452a89a-ef55-46aa-a566-1327a1391778"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo/Promo/PromoIcon2
+Signature: WnB14NG6w4YtijTLDC0PPgTtX1z1Qsmr48fW1zpEiL8=
+Modified: 638876460718007813
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Rendering Parameters\Navigation\__Standard Values.yml
+ID: "ddf7ca89-356a-4ad4-874e-998f28924a21"
+Parent: "9ce34bf9-5c93-4dff-841d-8f649c2bd6c8"
+Template: "9ce34bf9-5c93-4dff-841d-8f649c2bd6c8"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Rendering Parameters/Navigation/__Standard Values
+Signature: K0Xk/4+bEN4/tvpzGdysEpCCol0buSXXuzLysIxhhi0=
+Modified: 638876460718774000
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Promo\Promo\PromoText.yml
+ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+Parent: "7452a89a-ef55-46aa-a566-1327a1391778"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo/Promo/PromoText
+Signature: G3OafIHmnHwOvp34lVkgTHfu2JZjU17irS/dif+XWTw=
+Modified: 638876460717904197
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Rendering Parameters\Rich Text\__Standard Values.yml
+ID: "9f1a4278-031f-4f5c-8af5-d1f47f78da09"
+Parent: "0f3b7336-6112-418c-8bba-b0526f3887ce"
+Template: "0f3b7336-6112-418c-8bba-b0526f3887ce"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Rendering Parameters/Rich Text/__Standard Values
+Signature: 0mDTh+FPCZfoUy7DLAoQjWVfvoLSBwkwmtCftoeUp1I=
+Modified: 638876460722603116
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Rendering Parameters\Page Content\__Standard Values.yml
+ID: "c3770a49-1bf0-4707-9e52-4eebd547b308"
+Parent: "ef87e73b-c7ff-49a2-ac59-9b0be83755c3"
+Template: "ef87e73b-c7ff-49a2-ac59-9b0be83755c3"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Rendering Parameters/Page Content/__Standard Values
+Signature: hh4ybuoBkJnvfj5E+QwYmuQvt0zXfBbDjSHpJqbPABM=
+Modified: 638876460718774000
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Text\Text\Text.yml
+ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+Parent: "3a632f18-9fe1-4edf-a4a1-f2b33df4bdd4"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Text/Text/Text
+Signature: w7LkjrThjumSdOJgisBOOU35LNYeVct9zxNnJ+wOw34=
+Modified: 638876460718037776
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Rendering Parameters\Title\__Standard Values.yml
+ID: "bc041095-6b44-4280-85ba-1e978cef2ed0"
+Parent: "a82e8931-0575-4175-917d-e904ef7e6dbe"
+Template: "a82e8931-0575-4175-917d-e904ef7e6dbe"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Rendering Parameters/Title/__Standard Values
+Signature: XDtLwNiBXmFWFZR7w3GdZRo699RKUxk4yp3q08w1ubw=
+Modified: 638876460722650550
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Rendering Parameters\Promo\__Standard Values.yml
+ID: "7db70db1-e96a-4aa5-bbfe-7ef0bb725312"
+Parent: "881869ca-7f58-45ea-8b34-ad1bfd3551a8"
+Template: "881869ca-7f58-45ea-8b34-ad1bfd3551a8"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Rendering Parameters/Promo/__Standard Values
+Signature: 1EoXGwrP7yWb0yT0JzxYPilOLXfFc/hOyGQL//9pQtA=
+Modified: 638876460722603116
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Grid.yml
+ID: "4fb05962-b924-42a0-92e2-b75dada6cf5c"
+Parent: "181740ea-a7ae-4799-a649-a75917570e38"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Grid
+Signature: 7iG4ifqTTKxH/ykx0W/D6liQVx4BWeV4aymmbytfBJg=
+Modified: 638876460718087786
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\RowSplitter\Styling.yml
+ID: "2da64c8d-024f-4e48-9a4f-be82ff4cba13"
+Parent: "db88efa8-e015-4b96-ba0e-348d8b510563"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/RowSplitter/Styling
+Signature: vxHseSnsZwCs8d6qgbOqCFZWLDW8zuZGxSdyV2sFcAM=
+Modified: 638876460718127819
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\Container\Styling.yml
+ID: "afe59c97-0e32-426e-87f4-d71e2f9d43b1"
+Parent: "45130bdb-bae3-4edc-aea8-7b68b9d94c7f"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/Container/Styling
+Signature: nhLWawIrqPQMKH8nImRzjvKnB6WrXcVWxyaCIf2s0ig=
+Modified: 638876460718057783
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Datasource\Link\Link\Link.yml
+ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
+Parent: "6f42d8cc-85c6-4daa-8e19-2cf741818842"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Datasource/Link/Link/Link
+Signature: 2DFhEf2pSYkGesxpBcj8ZNpT418i7zT0ELG0Sxw77CE=
+Modified: 638876460718143138
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\RowSplitter\__Standard Values.yml
+ID: "ebf4f937-c991-4d49-b577-b9521380f3ea"
+Parent: "db88efa8-e015-4b96-ba0e-348d8b510563"
+Template: "db88efa8-e015-4b96-ba0e-348d8b510563"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/RowSplitter/__Standard Values
+Signature: 74X0a5GpuQpZaD9fPLcekzGpMWD3V6vRBHzXfifj9Bk=
+Modified: 638876460722725772
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\Container\__Standard Values.yml
+ID: "32213f83-ef3e-40cc-9396-5654ccc94f74"
+Parent: "45130bdb-bae3-4edc-aea8-7b68b9d94c7f"
+Template: "45130bdb-bae3-4edc-aea8-7b68b9d94c7f"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/Container/__Standard Values
+Signature: biAJiaj7qIoS6n3F9AkEEwWf5KHCCg/gr9k9ovs/ZUA=
+Modified: 638876460722670678
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Datasource\Link List\Link List\Title.yml
+ID: "dc9aaee9-fc44-458d-a9fb-bac61d8b0234"
+Parent: "83a9e082-fecf-44a7-81a2-f80685412d3d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Datasource/Link List/Link List/Title
+Signature: 6xdlsiQ91U0oOrUaAtm89+DSD7uu1oE54V1gCT8T3cM=
+Modified: 638876460718143138
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Grid\ColumnWidth4.yml
+ID: "4496cf32-a24c-4210-8eff-b3fc62c967f1"
+Parent: "4fb05962-b924-42a0-92e2-b75dada6cf5c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Grid/ColumnWidth4
+Signature: ym3kQUNSPzgNe/ObHLJt+ONuCU+/h43Fb8J8eZ9npqs=
+Modified: 638876460718261377
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Grid\ColumnWidth2.yml
+ID: "718ce476-be2d-4456-8b3d-cf0f2a312cdf"
+Parent: "4fb05962-b924-42a0-92e2-b75dada6cf5c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Grid/ColumnWidth2
+Signature: JHE3HMy4MSRuH6+JKPDQO7pQNPgXhG3ijWLBMioQric=
+Modified: 638876460718241314
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Grid\ColumnWidth6.yml
+ID: "33beaa03-6cbc-497a-a8f9-0979f06ed121"
+Parent: "4fb05962-b924-42a0-92e2-b75dada6cf5c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Grid/ColumnWidth6
+Signature: duPyL650aBsJ/YKDw5MylG+Bq5lcJ3zi8serd+ydJpw=
+Modified: 638876460718294855
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Grid\ColumnWidth5.yml
+ID: "7cbf006e-6cfc-4e54-beeb-bb07542f289f"
+Parent: "4fb05962-b924-42a0-92e2-b75dada6cf5c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Grid/ColumnWidth5
+Signature: 2loVPzzdEs8WBSuRG0wIQiGbp4ZiZ2qR7YscZmsjFlM=
+Modified: 638876460718294855
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Grid\ColumnWidth3.yml
+ID: "bba175b5-49f3-41e7-953d-5615c842530f"
+Parent: "4fb05962-b924-42a0-92e2-b75dada6cf5c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Grid/ColumnWidth3
+Signature: VgsSLCnseddFphrTVVuclT7J1Wnql3bzxTmTq4xKAGw=
+Modified: 638876460718261377
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Grid\ColumnWidth7.yml
+ID: "3e3b0657-1079-4e0b-ae04-bd9e93eca36b"
+Parent: "4fb05962-b924-42a0-92e2-b75dada6cf5c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Grid/ColumnWidth7
+Signature: vfRKUJBJFNAx4m2Ssgovy+v9ANTgz3FPWRe5Dl1/VpA=
+Modified: 638876460718294855
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Grid\ColumnWidth8.yml
+ID: "bb9fc77c-03c2-4c51-a620-5c65513711f1"
+Parent: "4fb05962-b924-42a0-92e2-b75dada6cf5c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Grid/ColumnWidth8
+Signature: f58Ts7WCjEI2hA7r21fa1v8Tn5MPmvf27AyoevAFAoU=
+Modified: 638876460718294855
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Styling\Styles4.yml
+ID: "fdda06c2-8d15-46e7-a562-0f8de50aaedd"
+Parent: "326f217e-fbb7-4be5-beea-2bc95810ba1d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Styling/Styles4
+Signature: Jb84HngHydDfAAueF6GGWyARS1c/6dXNuDMoh5uZtDY=
+Modified: 638876460718413170
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Styling\Styles6.yml
+ID: "9f5dcccf-418d-49a2-8df9-b43f4011b0d1"
+Parent: "326f217e-fbb7-4be5-beea-2bc95810ba1d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Styling/Styles6
+Signature: jML/yUPrGTDa0ABaUAqOAgyQVJexP5nVi5ur6859lRw=
+Modified: 638876460718444331
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Styling\Styles1.yml
+ID: "a2c4abb2-90e9-4866-a428-753bf286c7a5"
+Parent: "326f217e-fbb7-4be5-beea-2bc95810ba1d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Styling/Styles1
+Signature: jFK7hW4SUFT7MQEM657ju55Uel/17Asi8gGJuJ0dIl4=
+Modified: 638876460718294855
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Styling\Styles5.yml
+ID: "150e00cc-82c8-4ce5-8b46-86a2769d481d"
+Parent: "326f217e-fbb7-4be5-beea-2bc95810ba1d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Styling/Styles5
+Signature: C6G2XQcqZTumb2JP5MReKNqiKSdt8qeRujG2Z4EgQT0=
+Modified: 638876460718413170
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Styling\Styles7.yml
+ID: "56eff754-65c8-4470-992a-1b1ed8a06014"
+Parent: "326f217e-fbb7-4be5-beea-2bc95810ba1d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Styling/Styles7
+Signature: KEdDUFHyTVEKVMH/Z2Lhsvvy0JcJRU17O+d+o4B74do=
+Modified: 638876460718454390
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\RowSplitter\Styling\Styles2.yml
+ID: "2d4dff46-7563-4671-a6e7-cfdb6bc2a175"
+Parent: "2da64c8d-024f-4e48-9a4f-be82ff4cba13"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/RowSplitter/Styling/Styles2
+Signature: aGQLCX61oa15PBjePZF+W0lXRocXHSiWZkH9WaFEdS0=
+Modified: 638876460718519615
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\RowSplitter\Styling\Styles4.yml
+ID: "dd4a8f2a-3a6c-4f00-a164-620eda04459f"
+Parent: "2da64c8d-024f-4e48-9a4f-be82ff4cba13"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/RowSplitter/Styling/Styles4
+Signature: f1AwA4QMI/xqcP+qGNUO60V+H7Tvmy9tIGBqn0NdMqU=
+Modified: 638876460718559783
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\Container\Styling\BackgroundImage.yml
+ID: "6845679d-e298-4e94-96eb-230cb7c3baae"
+Parent: "afe59c97-0e32-426e-87f4-d71e2f9d43b1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/Container/Styling/BackgroundImage
+Signature: pxu+PDMuuYGhnADdGQH4PaxP1jpi4vNo1PPM0GgnO6A=
+Modified: 638876460718221259
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\RowSplitter\Styling\Styles3.yml
+ID: "6b44b72d-2c7d-4089-b7b9-afa4e1ddd5f5"
+Parent: "2da64c8d-024f-4e48-9a4f-be82ff4cba13"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/RowSplitter/Styling/Styles3
+Signature: 354dlnfid+3lowNdgzH+Y+VS1E0J5fKdFkrkJzMtfYY=
+Modified: 638876460718539698
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\RowSplitter\Styling\Styles5.yml
+ID: "deb68026-9f4c-4c43-9c4f-e37299ab7d26"
+Parent: "2da64c8d-024f-4e48-9a4f-be82ff4cba13"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/RowSplitter/Styling/Styles5
+Signature: GlTYC+/IIXm8gvj9/1efojq0iD9Eun8TJTdcHO5uLPc=
+Modified: 638876460718559783
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\RowSplitter\Styling\Styles1.yml
+ID: "22e04fba-7af3-4efe-91d0-91c96c50e8f6"
+Parent: "2da64c8d-024f-4e48-9a4f-be82ff4cba13"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/RowSplitter/Styling/Styles1
+Signature: dtmuUhI3MlEddujGHqOmHuuSteSnoopCS0uyggNFwXQ=
+Modified: 638876460718499548
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator.yml
+ID: "3a7e1003-9223-4cfd-b8f5-1b1d62a0de37"
+Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator
+Signature: xr+gEDYJsbIuomNU6kdYbQXR5EE8t77mdMcUiM/jUdE=
+Modified: 638876460707643147
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure.yml
+ID: "ae719431-35be-463d-a0ad-819c9b114e6c"
+Parent: "3a7e1003-9223-4cfd-b8f5-1b1d62a0de37"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure
+Signature: vpQCyeuwP3Zu5PJxwGlFksfzjNFBv609MWLgagQgu+w=
+Modified: 638876460707643147
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Media\Rendering Parameters.yml
+ID: "a6feb3de-e261-4e73-be00-e8e5d72e2dab"
+Parent: "9f9e56db-db69-4ab8-9f9a-863ad3961d1f"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Media/Rendering Parameters
+Signature: g/XkBmk++TGR2IsqT5CEkoMqitukynlhfAXzT2PPPXk=
+Modified: 638876460707796146
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Promo Folder.yml
+ID: "8fe7f8dc-cb5d-42c2-99f8-76608c243f10"
+Parent: "29afd098-a8b7-40ca-bd0e-28a1fd6f40b1"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo Folder
+Signature: 0pTy33v20w8JLYgaGPnFuwWbS/I1NBdMJ9KdxKGMFZs=
+Modified: 638876460717146383
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Text.yml
+ID: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Parent: "29afd098-a8b7-40ca-bd0e-28a1fd6f40b1"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Text
+Signature: qBHYMduqvdzPbo/ndGP66OQ5yrphW8pKUU0BdvqC0es=
+Modified: 638876460717233226
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Media\Image Folder\__Standard Values.yml
+ID: "022e5dc6-d21d-407b-8e4a-750d2d3a6f2d"
+Parent: "f7a45276-87f1-4ea5-bf25-e3c7cb7aa993"
+Template: "f7a45276-87f1-4ea5-bf25-e3c7cb7aa993"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Media/Image Folder/__Standard Values
+Signature: pp6OX33p0moOIhxWSFCTmbGw0eXD40T8hSX9v28Pj2I=
+Modified: 638876460718638540
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Datasource\Link.yml
+ID: "6f108e3c-5d57-42f8-a910-c22920269b0a"
+Parent: "f46b5e68-ca11-426e-96de-443cd08d8efe"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Datasource/Link
+Signature: 2VYs3AaLRFR5w0J4jnLy8YO4SF24TdCnEVL9Uis2h9s=
+Modified: 638876460717444993
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Promo\Promo.yml
+ID: "7452a89a-ef55-46aa-a566-1327a1391778"
+Parent: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo/Promo
+Signature: jWa1AL+bClqdCLUjIGbwwaUijiXx94RUocdOVorEL5w=
+Modified: 638876460717535409
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Rendering Parameters\Rich Text.yml
+ID: "0f3b7336-6112-418c-8bba-b0526f3887ce"
+Parent: "1d8f4d81-2f6a-48d8-9b65-ee8110a97a72"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Rendering Parameters/Rich Text
+Signature: xDuZeZhSWZrTMKRGcZrBTTVkfzODgMYjEDvs+2VezhQ=
+Modified: 638876460717634413
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Rendering Parameters\Title.yml
+ID: "a82e8931-0575-4175-917d-e904ef7e6dbe"
+Parent: "1d8f4d81-2f6a-48d8-9b65-ee8110a97a72"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Rendering Parameters/Title
+Signature: Qd3UYZH97B+qONG7DWVZapCItjDs7ANOJoclY/0zO8M=
+Modified: 638876460717644901
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\RowSplitter.yml
+ID: "db88efa8-e015-4b96-ba0e-348d8b510563"
+Parent: "b8b319b9-6ed9-4837-82df-7b904cc98384"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/RowSplitter
+Signature: wBMst2lT6ATOM3OX0TIz2fNaeNmaSZSoMnnneA9SrH8=
+Modified: 638876460717644901
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Media\Image\Image\Image.yml
+ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
+Parent: "3c3be4f0-803e-4363-82a7-f07322a52517"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/Image
+Signature: md7r18UZ6xg1r2qHpDexbzf1g/MZw0LSmWbvvbJWIX0=
+Modified: 638876460717770483
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Datasource\Link List Folder\__Standard Values.yml
+ID: "590ddb1a-d583-49fc-87aa-e7ac97b8261f"
+Parent: "c237d144-647a-4afe-aa7b-1570f3e3f139"
+Template: "c237d144-647a-4afe-aa7b-1570f3e3f139"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Datasource/Link List Folder/__Standard Values
+Signature: AxjQnD0yzMpXqtqH5XDR7wB2J0ztlViZmt8AwCABu8w=
+Modified: 638876460718738882
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Rendering Parameters\LinkList\__Standard Values.yml
+ID: "e45946b0-a197-4641-b767-0cea68814ded"
+Parent: "33c9207e-3b04-4606-8ef5-4ca99a97c776"
+Template: "33c9207e-3b04-4606-8ef5-4ca99a97c776"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Rendering Parameters/LinkList/__Standard Values
+Signature: YpQ8MnTBEe8WFxEpjtYH+wMhNOGKoyaPBhwfsIuBONA=
+Modified: 638876460718774000
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Promo\Promo\PromoText2.yml
+ID: "1f66862d-a5e3-405f-8e3e-b787b4c39b12"
+Parent: "7452a89a-ef55-46aa-a566-1327a1391778"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo/Promo/PromoText2
+Signature: blKPycKwvAzUwF1qAybZ9HlQMT8P1dwaH44U5kYyxPo=
+Modified: 638876460717931801
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Content\Promo\Promo\PromoText3.yml
+ID: "c6e604c3-5371-4e67-83df-a09a5ea66249"
+Parent: "7452a89a-ef55-46aa-a566-1327a1391778"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo/Promo/PromoText3
+Signature: f8W4v9RV2fN6eFOU/UDLvyvRNPitG3c8iy4BLrtPBzs=
+Modified: 638876460717987817
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Styling.yml
+ID: "326f217e-fbb7-4be5-beea-2bc95810ba1d"
+Parent: "181740ea-a7ae-4799-a649-a75917570e38"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Styling
+Signature: vxHseSnsZwCs8d6qgbOqCFZWLDW8zuZGxSdyV2sFcAM=
+Modified: 638876460718097791
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\__Standard Values.yml
+ID: "f0a4dcda-bff8-4398-b26a-de8e9fcccc64"
+Parent: "181740ea-a7ae-4799-a649-a75917570e38"
+Template: "181740ea-a7ae-4799-a649-a75917570e38"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/__Standard Values
+Signature: UuMdvqh8H+xqCZfgDpb5HQ0CsdeZPBx58v6jdaofNjE=
+Modified: 638876460722690777
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Navigation\Rendering Parameters\Navigation\Data\SerializerFieldNames.yml
+ID: "0b2c3107-f59d-46f1-b464-1657886c1c87"
+Parent: "8233789b-4499-4b06-b169-c2fd09069ddd"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Rendering Parameters/Navigation/Data/SerializerFieldNames
+Signature: QRuy8YN/WD33O+VDpRYrSIaZhBX9FjsoNMu4NmOeREU=
+Modified: 638876460718143138
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Grid\ColumnWidth1.yml
+ID: "292e92d0-5e59-48b4-8271-1ee910cfa0bc"
+Parent: "4fb05962-b924-42a0-92e2-b75dada6cf5c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Grid/ColumnWidth1
+Signature: tB6eoJuhCPdDAuDeEqCziLx+QG7Qc47oxkV2WgE1RGM=
+Modified: 638876460718241314
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Styling\Styles2.yml
+ID: "79777c28-bcd3-4c20-8c2a-abc99c3a4a6a"
+Parent: "326f217e-fbb7-4be5-beea-2bc95810ba1d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Styling/Styles2
+Signature: qnkvnjK7UfWCl/wC4xVgLlWeCLTtamHDNcYMmq0VuZE=
+Modified: 638876460718294855
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\ColumnSplitter\Styling\Styles3.yml
+ID: "591a783f-f3fd-4239-b233-1dad96d18be2"
+Parent: "326f217e-fbb7-4be5-beea-2bc95810ba1d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/ColumnSplitter/Styling/Styles3
+Signature: 4iISeT8iXuN4vYZJmhjFVJQYqmE6MoRB5PRAzTIMtDc=
+Modified: 638876460718294855
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\RowSplitter\Styling\Styles6.yml
+ID: "b0d40ee8-fa8e-4fd8-bd08-206294897c7c"
+Parent: "2da64c8d-024f-4e48-9a4f-be82ff4cba13"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/RowSplitter/Styling/Styles6
+Signature: 4lDXNfIQd1cmhmfqvRpNwEnuXR+n8P3jKKt4LoALBq4=
+Modified: 638876460718559783
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFeature\JSS Experience Accelerator\Page Structure\Rendering Parameters\RowSplitter\Styling\Styles7.yml
+ID: "41d71e94-ef5b-4883-a1e1-fc28ac995b73"
+Parent: "2da64c8d-024f-4e48-9a4f-be82ff4cba13"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Structure/Rendering Parameters/RowSplitter/Styling/Styles7
+Signature: jEa32CNfKVwq7mJ3DB2UrmgY1zaVI3328j1u8giOnR8=
+Modified: 638876460718559783

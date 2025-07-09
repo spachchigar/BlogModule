@@ -30,7 +30,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const renderContent = () => (
     <>
       <header>
-        <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
+        <div id="header" className='flex'>{route && <Placeholder name="headless-header" rendering={route} />}</div>
       </header>
       <main>
         <div id="content">{route && <Placeholder name="headless-main" rendering={route} />}</div>

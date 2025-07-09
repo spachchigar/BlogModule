@@ -55,7 +55,6 @@ export const Default = (props: NavigationProps): JSX.Element => {
       ? `${props.params.GridParameters ?? ''} ${props?.params?.Styles ?? ''}`.trimEnd()
       : '';
   const id = props.params != null ? props.params.RenderingIdentifier : null;
-
   if (!Object.values(props.fields).length) {
     return (
       <div className={`component navigation ${styles}`} id={id ? id : undefined}>
