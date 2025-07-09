@@ -18,7 +18,7 @@ type HeroBannerProps = ComponentProps & {
   },
   params: {
     backgroundColor: Field<string>;
-    tectColor: Field<string>;
+    textColor: Field<string>;
   }
 };
 
