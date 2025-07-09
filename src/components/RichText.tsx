@@ -1,11 +1,8 @@
 import { JSX } from 'react'
-import {
-    Field,
-    RichText as JssRichText,
-} from '@sitecore-jss/sitecore-jss-nextjs'
+import { RichText as JssRichText } from '@sitecore-jss/sitecore-jss-nextjs'
 import { PageContent } from 'models/Feature.JSS Experience Accelerator.Model'
 import { ComponentProps } from 'lib/component-props'
-import { container, button } from '../assets/tailwindcss'
+import { container } from '../assets/tailwindcss'
 
 export type RichTextProps = ComponentProps & PageContent.Text
 
