@@ -89,7 +89,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
 
   return (
     <div className={`component navigation ${styles}`} id={id ? id : undefined}>
-      <label className="menu-mobile-navigate-wrapper">
+      {/* <label className="menu-mobile-navigate-wrapper">
         <input
           type="checkbox"
           className="menu-mobile-navigate"
@@ -102,7 +102,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
             <ul className="clearfix">{list}</ul>
           </nav>
         </div>
-      </label>
+      </label> */}
     </div>
   );
 };
