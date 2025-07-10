@@ -11,6 +11,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs'
 import config from 'temp/config'
 import Scripts from 'src/Scripts'
+import { container } from 'assets/tailwindcss'
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -35,7 +36,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
     const renderContent = () => (
         <>
             <header>
-                <div id="header" className="flex">
+                <div id="header" className="bg-black">
                     {route && (
                         <Placeholder name="headless-header" rendering={route} />
                     )}

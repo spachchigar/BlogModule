@@ -25,6 +25,7 @@ type NavigationProps = {
     relativeLevel: number
 }
 
+//returns display text
 const getNavigationText = function (
     props: NavigationProps
 ): JSX.Element | string {
@@ -50,8 +51,9 @@ const getLinkField = (props: NavigationProps): LinkField => ({
 })
 
 export const Default = (props: NavigationProps): JSX.Element => {
-    // const [isOpenMenu, openMenu] = useState(false)
-    // const { sitecoreContext } = useSitecoreContext()
+    console.log('dsjvzljvnjsdfkvnsdlkvbufisdbvjklsdb', props)
+    const [isOpenMenu, openMenu] = useState(false)
+    const { sitecoreContext } = useSitecoreContext()
     const styles =
         props.params != null
             ? `${props.params.GridParameters ?? ''} ${props?.params?.Styles ?? ''}`.trimEnd()
@@ -68,51 +70,53 @@ export const Default = (props: NavigationProps): JSX.Element => {
         )
     }
 
-    // const handleToggleMenu = (
-    //     event?: React.MouseEvent<HTMLElement>,
-    //     flag?: boolean
-    // ): void => {
-    //     if (event && sitecoreContext?.pageEditing) {
-    //         event.preventDefault()
-    //     }
+    const handleToggleMenu = (
+        event?: React.MouseEvent<HTMLElement>,
+        flag?: boolean
+    ): void => {
+        if (event && sitecoreContext?.pageEditing) {
+            event.preventDefault()
+        }
 
-    //     if (flag !== undefined) {
-    //         return openMenu(flag)
-    //     }
+        if (flag !== undefined) {
+            return openMenu(flag)
+        }
 
-    //     openMenu(!isOpenMenu)
-    // }
+        openMenu(!isOpenMenu)
+    }
 
-    // const list = Object.values(props.fields)
-    //   .filter((element) => element)
-    //   .map((element: Fields, key: number) => (
-    //     <NavigationList
-    //       key={`${key}${element.Id}`}
-    //       fields={element}
-    //       handleClick={(event: React.MouseEvent<HTMLElement>) => handleToggleMenu(event, false)}
-    //       relativeLevel={1}
-    //     />
-    //   ));
+    const list = Object.values(props.fields)
+        .filter((element) => element)
+        .map((element: Fields, key: number) => (
+            <NavigationList
+                key={`${key}${element.Id}`}
+                fields={element}
+                handleClick={(event: React.MouseEvent<HTMLElement>) =>
+                    handleToggleMenu(event, false)
+                }
+                relativeLevel={1}
+            />
+        ))
 
     return (
         <div
             className={`component navigation ${styles}`}
             id={id ? id : undefined}
         >
-            {/* <label className="menu-mobile-navigate-wrapper">
-        <input
-          type="checkbox"
-          className="menu-mobile-navigate"
-          checked={isOpenMenu}
-          onChange={() => handleToggleMenu()}
-        />
-        <div className="menu-humburger" />
-        <div className="component-content">
-          <nav>
-            <ul className="clearfix">{list}</ul>
-          </nav>
-        </div>
-      </label> */}
+            <label className="menu-mobile-navigate-wrapper">
+                {/* <input
+                    type="checkbox"
+                    className="menu-mobile-navigate"
+                    checked={isOpenMenu}
+                    onChange={() => handleToggleMenu()}
+                />
+                <div className="menu-humburger" /> */}
+                <div className="flex">
+                    <nav>
+                        <ul className="clearfix">{list}</ul>
+                    </nav>
+                </div>
+            </label>
         </div>
     )
 }
@@ -139,15 +143,8 @@ const NavigationList = (props: NavigationProps) => {
     }
 
     return (
-        <li
-            className={`${classNameList} ${active ? 'active' : ''}`}
-            key={props.fields.Id}
-            tabIndex={0}
-        >
-            <div
-                className={`navigation-title ${children.length ? 'child' : ''}`}
-                onClick={() => setActive(() => !active)}
-            >
+        <li className="flex gap-x-3 text-base md:text-2xl">
+            <div className={``} onClick={() => setActive(() => !active)}>
                 <Link
                     field={getLinkField(props)}
                     editable={sitecoreContext.pageEditing}

@@ -28,7 +28,6 @@ type HeroBannerProps = ComponentProps & {
 }
 
 export const Default = ({ fields, params }: HeroBannerProps): JSX.Element => {
-    console.log('prams', params.backgroundColor)
     return (
         <div className={`${container()} ${params.backgroundColor} `}>
             <div className="flex min-h-[300px] flex-col items-center justify-center gap-[20px] p-5 md:flex-row">

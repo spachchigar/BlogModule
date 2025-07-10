@@ -1,130 +1,13 @@
 ﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
 ---
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule.yml
-ID: "27641b68-6e32-4c83-a920-2191708679f2"
-Parent: "825b30b4-b40b-422e-9920-23a1b6bda89c"
-Template: "77157d54-90c8-4014-9b9e-540d24e71d03"
-Path: /sitecore/templates/Project/BlogModule
-Signature: 2sQW3z90G+LxAWFBcMLeyYdWlVzVx4CRGtcq601v9C8=
-Modified: 638876460728345110
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Headless Site.yml
-ID: "30382ccb-7887-49d5-a817-5926d7194544"
-Parent: "27641b68-6e32-4c83-a920-2191708679f2"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/BlogModule/Headless Site
-Signature: dxpPE87x8yf6sftD08gf3Pt6EVSp0TrDL7Q1H2C6Sqw=
-Modified: 638876460728345110
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page Design Folder.yml
-ID: "ddf7c61d-09e4-4082-9794-fdaeb7445a60"
-Parent: "27641b68-6e32-4c83-a920-2191708679f2"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/BlogModule/Page Design Folder
-Signature: k1G9E26cs8ZekZL5QMoTf+1KMhrFsJpYef+5Y+9nUEI=
-Modified: 638876460728511960
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page Designs.yml
-ID: "1af84075-69b0-4349-be8e-a39894a633e9"
-Parent: "27641b68-6e32-4c83-a920-2191708679f2"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/BlogModule/Page Designs
-Signature: N5E2pmFuYm6zKvREwIaLQnCMCAnnHHS77VM0wxpzXmc=
-Modified: 638876460728511960
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page.yml
-ID: "c8fae219-690c-4315-852a-2488361fc951"
-Parent: "27641b68-6e32-4c83-a920-2191708679f2"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/BlogModule/Page
-Signature: LE4OqplgV9yGnusOPB+4jU/JKZpuU0/zLxiOA4OmfkM=
-Modified: 638876460728511960
----
-File: |
   C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\JSS Settings.yml
 ID: "92929609-4c13-4c03-83ac-12db4506cad9"
 Parent: "27641b68-6e32-4c83-a920-2191708679f2"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Project/BlogModule/JSS Settings
 Signature: ln8nL8Sx5AExqECXiz6cH8Q9W9SOK23Nr10CqxqVPwg=
-Modified: 638876460728511960
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Partial Design Folder.yml
-ID: "b86a0df1-bac9-4b38-ac59-8eab104cd747"
-Parent: "27641b68-6e32-4c83-a920-2191708679f2"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/BlogModule/Partial Design Folder
-Signature: HBBxumv4wQj8bAiU8jpkjaflh1hN6Rtthkaxy7o6tVI=
-Modified: 638876460728511960
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Partial Designs.yml
-ID: "b3b0bde9-aae7-4cda-aa13-e1b59effba44"
-Parent: "27641b68-6e32-4c83-a920-2191708679f2"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/BlogModule/Partial Designs
-Signature: UjIUI7tLgVORzAlNewc61YwRawOGMU4JUJd9K5bk22c=
-Modified: 638876460728511960
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Headless Site\__Standard Values.yml
-ID: "f2929880-6661-4e76-aff9-3504dc02f4df"
-Parent: "30382ccb-7887-49d5-a817-5926d7194544"
-Template: "30382ccb-7887-49d5-a817-5926d7194544"
-Path: /sitecore/templates/Project/BlogModule/Headless Site/__Standard Values
-Signature: tRYCkBhUC5oShDzrcTMhnLBjSaHefuzQsxUi/Fcqd10=
-Modified: 638876460728702056
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\JSS Settings\__Standard Values.yml
-ID: "7c1a1455-2559-49db-8d51-3f1ff1b27e86"
-Parent: "92929609-4c13-4c03-83ac-12db4506cad9"
-Template: "92929609-4c13-4c03-83ac-12db4506cad9"
-Path: /sitecore/templates/Project/BlogModule/JSS Settings/__Standard Values
-Signature: eJ+jte3l8bCNNLEmVgyqpngcfFg7LOK3LtPSRcEVMrA=
-Modified: 638876460728752054
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page Design Folder\__Standard Values.yml
-ID: "4c42d489-e964-42d3-a6f3-e324015102da"
-Parent: "ddf7c61d-09e4-4082-9794-fdaeb7445a60"
-Template: "ddf7c61d-09e4-4082-9794-fdaeb7445a60"
-Path: /sitecore/templates/Project/BlogModule/Page Design Folder/__Standard Values
-Signature: wx04X8JFtFbkpsCxl0ShrcSysMs11ma1Q6AqB9dLa8A=
-Modified: 638876460728802079
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page\Content.yml
-ID: "e548980c-68d1-439d-9102-43b15f24663b"
-Parent: "c8fae219-690c-4315-852a-2488361fc951"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Project/BlogModule/Page/Content
-Signature: hzIaxhn0JF/lHWduXVszzDMw04zKDBjnq5M9PZshqZ4=
-Modified: 638876460728511960
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page\__Standard Values.yml
-ID: "31b229ce-7db1-4301-928e-aa76d0ee2ed7"
-Parent: "c8fae219-690c-4315-852a-2488361fc951"
-Template: "c8fae219-690c-4315-852a-2488361fc951"
-Path: /sitecore/templates/Project/BlogModule/Page/__Standard Values
-Signature: wriSuZxt6Ka468am4sMQAMgZXj+TCza5LLosRhUd2g8=
-Modified: 638876460728772085
----
-File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page Designs\__Standard Values.yml
-ID: "cacdf6e5-5faa-4096-b79e-3f06f4478c39"
-Parent: "1af84075-69b0-4349-be8e-a39894a633e9"
-Template: "1af84075-69b0-4349-be8e-a39894a633e9"
-Path: /sitecore/templates/Project/BlogModule/Page Designs/__Standard Values
-Signature: oj03DXZKDng/kXsp711u0h4q0AMtQYadoD0PFwJ0wvc=
-Modified: 638876460728821938
+Modified: 638877196494575761
 ---
 File: |
   C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Partial Designs\__Standard Values.yml
@@ -133,16 +16,43 @@ Parent: "b3b0bde9-aae7-4cda-aa13-e1b59effba44"
 Template: "b3b0bde9-aae7-4cda-aa13-e1b59effba44"
 Path: /sitecore/templates/Project/BlogModule/Partial Designs/__Standard Values
 Signature: 0GyyJdi6PrNSehsf0M3UQ4TCyepXDKwtEackVKjK7is=
-Modified: 638876460728881937
+Modified: 638877196496353310
 ---
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page\Content\Title.yml
-ID: "3575001e-8722-4307-b42f-ec27194089aa"
-Parent: "e548980c-68d1-439d-9102-43b15f24663b"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/BlogModule/Page/Content/Title
-Signature: BHVpzAz9/FiOzb+H/P583hBD0Yk0hw8nUCTrcC8E+C8=
-Modified: 638876460728659548
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Partial Designs.yml
+ID: "b3b0bde9-aae7-4cda-aa13-e1b59effba44"
+Parent: "27641b68-6e32-4c83-a920-2191708679f2"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/BlogModule/Partial Designs
+Signature: UjIUI7tLgVORzAlNewc61YwRawOGMU4JUJd9K5bk22c=
+Modified: 638877196494859912
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Rendering Params\Color\color.yml
+ID: "86b321f2-97ec-4efb-94ba-e90eb3454638"
+Parent: "7edacfba-5e9d-4b67-8781-352f2bd3b77b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/BlogModule/Rendering Params/Color/color
+Signature: bWbZLz7ZPC3NVktXxAlyWhPKbJjRHwirsNcUQ6Xf5GM=
+Modified: 638877196495452942
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\JSS Settings\__Standard Values.yml
+ID: "7c1a1455-2559-49db-8d51-3f1ff1b27e86"
+Parent: "92929609-4c13-4c03-83ac-12db4506cad9"
+Template: "92929609-4c13-4c03-83ac-12db4506cad9"
+Path: /sitecore/templates/Project/BlogModule/JSS Settings/__Standard Values
+Signature: eJ+jte3l8bCNNLEmVgyqpngcfFg7LOK3LtPSRcEVMrA=
+Modified: 638877196495986993
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page Designs\__Standard Values.yml
+ID: "cacdf6e5-5faa-4096-b79e-3f06f4478c39"
+Parent: "1af84075-69b0-4349-be8e-a39894a633e9"
+Template: "1af84075-69b0-4349-be8e-a39894a633e9"
+Path: /sitecore/templates/Project/BlogModule/Page Designs/__Standard Values
+Signature: oj03DXZKDng/kXsp711u0h4q0AMtQYadoD0PFwJ0wvc=
+Modified: 638877196496158321
 ---
 File: |
   C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page\Content\Content.yml
@@ -151,7 +61,34 @@ Parent: "e548980c-68d1-439d-9102-43b15f24663b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Project/BlogModule/Page/Content/Content
 Signature: 2pjqlXmEQ8QFreSCObR6HLEL7yr9UU0dnjAqVvPkaPQ=
-Modified: 638876460728669590
+Modified: 638877196495327111
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule.yml
+ID: "27641b68-6e32-4c83-a920-2191708679f2"
+Parent: "825b30b4-b40b-422e-9920-23a1b6bda89c"
+Template: "77157d54-90c8-4014-9b9e-540d24e71d03"
+Path: /sitecore/templates/Project/BlogModule
+Signature: 2sQW3z90G+LxAWFBcMLeyYdWlVzVx4CRGtcq601v9C8=
+Modified: 638877196494306201
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Components.yml
+ID: "fc1b607d-c6a4-41b2-b995-b5d0c8550e15"
+Parent: "27641b68-6e32-4c83-a920-2191708679f2"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/BlogModule/Components
+Signature: dILxF3GAvt17b+frMC2NAEYsy2SHkvnHAlUL0ycbyB0=
+Modified: 638877196494394811
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Headless Site.yml
+ID: "30382ccb-7887-49d5-a817-5926d7194544"
+Parent: "27641b68-6e32-4c83-a920-2191708679f2"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/BlogModule/Headless Site
+Signature: dxpPE87x8yf6sftD08gf3Pt6EVSp0TrDL7Q1H2C6Sqw=
+Modified: 638877196494459791
 ---
 File: |
   C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Headless Tenant.yml
@@ -160,7 +97,70 @@ Parent: "27641b68-6e32-4c83-a920-2191708679f2"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Project/BlogModule/Headless Tenant
 Signature: FxaQXwS6cOzMr7NqqMl2jFkUQ7X4n6AMlxbpwX9FQ3E=
-Modified: 638876460728481150
+Modified: 638877196494515295
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page Design Folder.yml
+ID: "ddf7c61d-09e4-4082-9794-fdaeb7445a60"
+Parent: "27641b68-6e32-4c83-a920-2191708679f2"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/BlogModule/Page Design Folder
+Signature: k1G9E26cs8ZekZL5QMoTf+1KMhrFsJpYef+5Y+9nUEI=
+Modified: 638877196494687459
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page Designs.yml
+ID: "1af84075-69b0-4349-be8e-a39894a633e9"
+Parent: "27641b68-6e32-4c83-a920-2191708679f2"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/BlogModule/Page Designs
+Signature: N5E2pmFuYm6zKvREwIaLQnCMCAnnHHS77VM0wxpzXmc=
+Modified: 638877196494747923
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page.yml
+ID: "c8fae219-690c-4315-852a-2488361fc951"
+Parent: "27641b68-6e32-4c83-a920-2191708679f2"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/BlogModule/Page
+Signature: LE4OqplgV9yGnusOPB+4jU/JKZpuU0/zLxiOA4OmfkM=
+Modified: 638877196494646635
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Partial Design Folder.yml
+ID: "b86a0df1-bac9-4b38-ac59-8eab104cd747"
+Parent: "27641b68-6e32-4c83-a920-2191708679f2"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/BlogModule/Partial Design Folder
+Signature: HBBxumv4wQj8bAiU8jpkjaflh1hN6Rtthkaxy7o6tVI=
+Modified: 638877196494805813
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Rendering Params.yml
+ID: "d40edea6-7425-41fc-8bcb-d6e1c3d17e65"
+Parent: "27641b68-6e32-4c83-a920-2191708679f2"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/BlogModule/Rendering Params
+Signature: TBxIoyCP9lpaT7zMHrPeVjrTXYB9b7D1PPtOUq76Qfw=
+Modified: 638877196494900211
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Headless Site\__Standard Values.yml
+ID: "f2929880-6661-4e76-aff9-3504dc02f4df"
+Parent: "30382ccb-7887-49d5-a817-5926d7194544"
+Template: "30382ccb-7887-49d5-a817-5926d7194544"
+Path: /sitecore/templates/Project/BlogModule/Headless Site/__Standard Values
+Signature: tRYCkBhUC5oShDzrcTMhnLBjSaHefuzQsxUi/Fcqd10=
+Modified: 638877196495838815
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Components\Header.yml
+ID: "81a3a406-40f7-48a0-9ae4-e9487ea5f3f6"
+Parent: "fc1b607d-c6a4-41b2-b995-b5d0c8550e15"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/BlogModule/Components/Header
+Signature: IlGqgILMJnOFur4AKru5bGjqUHxqtCluG8FjsilcvOw=
+Modified: 638877196494961258
 ---
 File: |
   C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Headless Tenant\__Standard Values.yml
@@ -169,7 +169,34 @@ Parent: "137fecf3-d3ed-4212-b57c-82faf828cc91"
 Template: "137fecf3-d3ed-4212-b57c-82faf828cc91"
 Path: /sitecore/templates/Project/BlogModule/Headless Tenant/__Standard Values
 Signature: uTBb5tzypLa6QGF/hxZQtraR/+dKIG5uLxmCzWyHFKo=
-Modified: 638876460728732040
+Modified: 638877196495909377
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page\Content.yml
+ID: "e548980c-68d1-439d-9102-43b15f24663b"
+Parent: "c8fae219-690c-4315-852a-2488361fc951"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/BlogModule/Page/Content
+Signature: hzIaxhn0JF/lHWduXVszzDMw04zKDBjnq5M9PZshqZ4=
+Modified: 638877196495014991
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page Design Folder\__Standard Values.yml
+ID: "4c42d489-e964-42d3-a6f3-e324015102da"
+Parent: "ddf7c61d-09e4-4082-9794-fdaeb7445a60"
+Template: "ddf7c61d-09e4-4082-9794-fdaeb7445a60"
+Path: /sitecore/templates/Project/BlogModule/Page Design Folder/__Standard Values
+Signature: wx04X8JFtFbkpsCxl0ShrcSysMs11ma1Q6AqB9dLa8A=
+Modified: 638877196496077811
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page\__Standard Values.yml
+ID: "31b229ce-7db1-4301-928e-aa76d0ee2ed7"
+Parent: "c8fae219-690c-4315-852a-2488361fc951"
+Template: "c8fae219-690c-4315-852a-2488361fc951"
+Path: /sitecore/templates/Project/BlogModule/Page/__Standard Values
+Signature: wriSuZxt6Ka468am4sMQAMgZXj+TCza5LLosRhUd2g8=
+Modified: 638877196496031784
 ---
 File: |
   C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Partial Design Folder\__Standard Values.yml
@@ -178,4 +205,130 @@ Parent: "b86a0df1-bac9-4b38-ac59-8eab104cd747"
 Template: "b86a0df1-bac9-4b38-ac59-8eab104cd747"
 Path: /sitecore/templates/Project/BlogModule/Partial Design Folder/__Standard Values
 Signature: CeLEj/dUdcoisqvdeHiLN6tuUqdqkOzwv8vfyneDJb4=
-Modified: 638876460728851939
+Modified: 638877196496292407
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Rendering Params\Color.yml
+ID: "7edacfba-5e9d-4b67-8781-352f2bd3b77b"
+Parent: "d40edea6-7425-41fc-8bcb-d6e1c3d17e65"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/BlogModule/Rendering Params/Color
+Signature: tM5/5ajkyD5hjo6lsA65dz2r1EwO5Kg8IJI31YfCxgM=
+Modified: 638877196495135906
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Components\Header\Header.yml
+ID: "b990c9d8-ecfb-4341-831e-dffcfa5e5a43"
+Parent: "81a3a406-40f7-48a0-9ae4-e9487ea5f3f6"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/BlogModule/Components/Header/Header
+Signature: eucwvFjlb8Qn0zfSo/YVEl43/3KoK2bRgpJbcGUCMyY=
+Modified: 638877196495196323
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Rendering Params\ColorParams.yml
+ID: "3022ef6e-2861-45cd-b833-53fc78f87a9f"
+Parent: "d40edea6-7425-41fc-8bcb-d6e1c3d17e65"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/BlogModule/Rendering Params/ColorParams
+Signature: m4hRgkXJMN9hXOyZRrS+3xWdRsxIgKkvsv+TsU+4rSI=
+Modified: 638877196495075446
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Components\Header\HeaderFolder.yml
+ID: "e71ab118-e008-4f6a-8000-1cc8eeee6266"
+Parent: "81a3a406-40f7-48a0-9ae4-e9487ea5f3f6"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/BlogModule/Components/Header/HeaderFolder
+Signature: AQLMlGdIL1GbZyxyRvN1J7miN+mBY7jKlX/pDk9GPC8=
+Modified: 638877196495236564
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Rendering Params\ColorParams\css.yml
+ID: "dabb07af-1a4f-4010-a4e1-820827e10ffd"
+Parent: "3022ef6e-2861-45cd-b833-53fc78f87a9f"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/BlogModule/Rendering Params/ColorParams/css
+Signature: 9q4btSucKTe/X4TVjes4Or4rRknO9oFXTeQZpdsq7Mg=
+Modified: 638877196495387476
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Page\Content\Title.yml
+ID: "3575001e-8722-4307-b42f-ec27194089aa"
+Parent: "e548980c-68d1-439d-9102-43b15f24663b"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/BlogModule/Page/Content/Title
+Signature: BHVpzAz9/FiOzb+H/P583hBD0Yk0hw8nUCTrcC8E+C8=
+Modified: 638877196495286861
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Rendering Params\ColorParams\__Standard Values.yml
+ID: "9b8dd565-e11c-4ba4-b28d-df0084aeeda7"
+Parent: "3022ef6e-2861-45cd-b833-53fc78f87a9f"
+Template: "3022ef6e-2861-45cd-b833-53fc78f87a9f"
+Path: /sitecore/templates/Project/BlogModule/Rendering Params/ColorParams/__Standard Values
+Signature: qi2wQiqxqUWvm7x2uTVdiOQuz3pyxKEpUnL/5k5dOnA=
+Modified: 638877196496404090
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Components\Header\Header\Data.yml
+ID: "bbd539e8-de88-4c64-bc10-bab5b2756eab"
+Parent: "b990c9d8-ecfb-4341-831e-dffcfa5e5a43"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/BlogModule/Components/Header/Header/Data
+Signature: V0m7hCwwJooqzgNPeiNG6cpfZIRTKUKnARdcNewIGb0=
+Modified: 638877196495513429
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Rendering Params\ColorParams\css\textColor.yml
+ID: "8d0c5b20-8e99-4fb3-a365-ffa72c2ae619"
+Parent: "dabb07af-1a4f-4010-a4e1-820827e10ffd"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/BlogModule/Rendering Params/ColorParams/css/textColor
+Signature: i68sUtQGqpK7PSOBkJhtXfkmjE4w1b7u7JugRtc68DI=
+Modified: 638877196495591395
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Components\Header\HeaderFolder\__Standard Values.yml
+ID: "96d9ad72-2b8c-4289-8733-7a575cbabc68"
+Parent: "e71ab118-e008-4f6a-8000-1cc8eeee6266"
+Template: "e71ab118-e008-4f6a-8000-1cc8eeee6266"
+Path: /sitecore/templates/Project/BlogModule/Components/Header/HeaderFolder/__Standard Values
+Signature: CSeFe4rs4iRqnib59Jpk9SJNx/Rz4zJgwlzlmTadbfA=
+Modified: 638877196496459929
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Rendering Params\Color\color\color.yml
+ID: "a904edf3-1b3c-4935-98fc-56c7301347ca"
+Parent: "86b321f2-97ec-4efb-94ba-e90eb3454638"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/BlogModule/Rendering Params/Color/color/color
+Signature: dYlbZC93HQqH8xdrvY4IB1uXpdrWp2s7s/icAwSX4jw=
+Modified: 638877196495651758
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Rendering Params\ColorParams\css\backgroundColor.yml
+ID: "58e154ea-c655-415a-b149-cf2ae0bc10dd"
+Parent: "dabb07af-1a4f-4010-a4e1-820827e10ffd"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/BlogModule/Rendering Params/ColorParams/css/backgroundColor
+Signature: u5s/7mNRV8ZrACsge9tzXR0G0u4V0GX0PuN2gTpG0qc=
+Modified: 638877196495553725
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Components\Header\Header\Data\Logo.yml
+ID: "abc2325b-9e41-48f9-af64-534f54c698f6"
+Parent: "bbd539e8-de88-4c64-bc10-bab5b2756eab"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/BlogModule/Components/Header/Header/Data/Logo
+Signature: hyfSCkzwh3j7P1wjp0XN5WzAIiIjSa6wWAfKy01NF/w=
+Modified: 638877196495712053
+---
+File: |
+  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\BlogModuleProject\BlogModule\Components\Header\Header\Data\Navigation.yml
+ID: "144ce21d-0eeb-4dc0-8a99-059cf37a1ea7"
+Parent: "bbd539e8-de88-4c64-bc10-bab5b2756eab"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/BlogModule/Components/Header/Header/Data/Navigation
+Signature: /hQyIBVlvGH7XBSIyGTuuI2dqOsETIP3CqzuLnDRkUQ=
+Modified: 638877196495749713

@@ -1,4 +1,6 @@
 @import 'tailwindcss';
-body{
-  font-family: "Inter"
+@plugin "@tailwindcss/typography";
+
+body {
+    font-family: 'Inter';
 }
