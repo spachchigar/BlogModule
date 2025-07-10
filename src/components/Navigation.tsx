@@ -124,9 +124,6 @@ export const Default = (props: NavigationProps): JSX.Element => {
 const NavigationList = (props: NavigationProps) => {
     const { sitecoreContext } = useSitecoreContext()
     const [active, setActive] = useState(false)
-    const classNameList = `${props?.fields?.Styles.concat(
-        'rel-level' + props.relativeLevel
-    ).join(' ')}`
 
     let children: JSX.Element[] = []
     if (props.fields.Children && props.fields.Children.length) {

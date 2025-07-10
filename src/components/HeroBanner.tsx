@@ -1,10 +1,5 @@
 import { JSX } from 'react'
-import {
-    Field,
-    Image,
-    ImageField,
-    Text,
-} from '@sitecore-jss/sitecore-jss-nextjs'
+import { Image, Text } from '@sitecore-jss/sitecore-jss-nextjs'
 import { ComponentProps } from 'lib/component-props'
 import { container, heading, subHeading } from '../assets/tailwindcss'
 import { HeroBanner as HeroBannerModel } from 'models/Feature.BlogModule.Model'
@@ -45,11 +40,7 @@ const Content = ({ variant, params, fields }: BannerProps): JSX.Element => {
         </div>
     )
 }
-const ImageComponent = ({
-    variant,
-    params,
-    fields,
-}: BannerProps): JSX.Element => {
+const ImageComponent = ({ fields }: BannerProps): JSX.Element => {
     return (
         <div className="flex h-full min-h-[300px] w-full items-center justify-center overflow-hidden md:w-1/2">
             <Image

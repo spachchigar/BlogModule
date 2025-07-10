@@ -1,17 +1,14 @@
 import { JSX } from 'react'
-import { RichText as JssRichText } from '@sitecore-jss/sitecore-jss-nextjs'
 import { PageContent } from 'models/Feature.JSS Experience Accelerator.Model'
 import { ComponentProps } from 'lib/component-props'
+import { RichText } from '@sitecore-jss/sitecore-jss-nextjs'
 
 export type RichTextProps = ComponentProps & PageContent.Text
 
 export const Default = (props: RichTextProps): JSX.Element => {
-    const text = props.fields ? (
-        <JssRichText field={props.fields.Text} className="prose" />
-    ) : (
-        <span className="is-empty-hint">Rich text</span>
+    return (
+        <>
+            <RichText field={props.fields?.Text} />
+        </>
     )
-    const id = props.params.RenderingIdentifier
-
-    return <></>
 }
