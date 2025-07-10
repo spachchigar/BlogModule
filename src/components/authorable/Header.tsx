@@ -11,14 +11,23 @@ import {
     Text,
     TextField,
 } from '@sitecore-jss/sitecore-jss-nextjs'
+import { tv } from 'tailwind-variants'
 
+const header = tv({
+    slots: {
+        wrapper: 'flex items-center justify-between py-3 text-white md:py-6',
+        navigationMenu: 'hidden gap-x-3 md:flex',
+        navigationItem: 'p-3 hover:bg-green-600',
+    },
+})
 export type HeaderProps = ComponentProps & Components.Header.Header
 
 export const Default = (props: HeaderProps): JSX.Element => {
+    const { wrapper, navigationMenu, navigationItem } = header()
     const navItems = props.fields?.Navigation?.fields.menu as Item[]
     return (
         <div className={`${container()}`}>
-            <div className="flex items-center justify-between py-3 text-white md:py-6">
+            <div className={wrapper()}>
                 <div>
                     <NextImage
                         field={props.fields?.Logo?.value}
@@ -31,14 +40,14 @@ export const Default = (props: HeaderProps): JSX.Element => {
                         priority
                     />
                 </div>
-                <div className="hidden gap-x-3 md:flex">
+                <div className={navigationMenu()}>
                     {navItems?.map((item, ind) => {
                         return (
                             <Link
                                 field={item.fields.link as LinkField}
                                 key={ind}
                             >
-                                <div className="p-3 hover:bg-green-600">
+                                <div className={navigationItem()}>
                                     <Text
                                         field={item.fields.title as TextField}
                                     />

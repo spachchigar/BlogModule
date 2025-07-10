@@ -33,3 +33,4 @@ scjssconfig.json
 .vercel
 
 .sitecore
+src/serialization
