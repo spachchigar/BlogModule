@@ -13,14 +13,5 @@ export const Default = (props: RichTextProps): JSX.Element => {
     )
     const id = props.params.RenderingIdentifier
 
-    return (
-        <div>
-            <div
-                className={`component rich-text mx-auto ${props?.params?.styles.trimEnd()}`}
-                id={id ? id : undefined}
-            >
-                <div>{text}</div>
-            </div>
-        </div>
-    )
+    return <></>
 }

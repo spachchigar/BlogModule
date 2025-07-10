@@ -1,18 +1,23 @@
 ﻿---
-ID: "c5968616-f2ec-4357-979d-b221d846056f"
-Parent: "b6ec5501-913e-480f-89ff-e424cce6fa59"
+ID: "476e0b88-17d6-43dc-990c-5ce83a4168eb"
+Parent: "27641b68-6e32-4c83-a920-2191708679f2"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/BlogModule/HeroBanner/HeroBanner
+Path: /sitecore/templates/Project/BlogModule/Folder
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: wordprocessing/32x32/header.png
+  Value: applicationsv2/32x32/folder.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {E269FBB5-3750-427A-9149-7AA950B49301}
+    {BD73920C-C69A-4494-B731-3A1AD32B3F42}
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{BBECDE97-F3D4-4F2C-A9AF-275AB7B696DD}"
+  Value: "{FA7D1E10-EB63-4D8C-946A-461D82466C48}"
 Languages:
 - Language: en
   Versions:
@@ -20,7 +25,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250707T112947Z
+      Value: 20250707T112150Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +36,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "199c93ea-d3a4-49bb-959f-b68cc78b23c5"
+      Value: "ddd1f89a-bee5-45db-9bdb-5ee731050fef"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250709T051425Z
+      Value: 20250707T112253Z

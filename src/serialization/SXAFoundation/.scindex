@@ -1,1504 +1,3169 @@
 ﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants.yml
 ID: "0fc2e5b2-1a81-4ff1-9656-d55130a6770b"
 Parent: "50937c4f-a531-4cc1-ad92-86bf4163f9c8"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Headless Variants
 Signature: jJqsqtZ0MBLRhbUn8EKj5O1RlsOdt7jB+zcyXoXv7ik=
 Modified: 638877196458524078
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation.yml
 ID: "5d622725-336b-4664-8801-ece949454d76"
 Parent: "50937c4f-a531-4cc1-ad92-86bf4163f9c8"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation
 Signature: 8Rraeg4+LfVJ1A8l8k4E8xfglr1cXtcIBfsHWLN3S/I=
 Modified: 638877196458640206
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\SiteMetadata.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\SiteMetadata.yml
 ID: "a4265aae-cc8d-493f-ba3f-7755d9b689bb"
 Parent: "50937c4f-a531-4cc1-ad92-86bf4163f9c8"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/SiteMetadata
 Signature: GoJ8LFUxl38pUv9plr0Oexu8GSgNi6G5vNcrgmdnFIo=
 Modified: 638877196458723637
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants\HeadlessVariantsGrouping.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants\HeadlessVariantsGrouping.yml
 ID: "da26c636-96e1-45e4-88d6-3fcec70d5699"
 Parent: "0fc2e5b2-1a81-4ff1-9656-d55130a6770b"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Headless Variants/HeadlessVariantsGrouping
 Signature: W3XzcoyKR6bQIIRCMzJkffb/kPaWiiNExDKTIXbL8lk=
 Modified: 638877196458743804
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base.yml
 ID: "8c8f07d5-7ccc-4838-b295-c2eaf199a6c0"
 Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base
 Signature: oI7rFwgYh2EvO2qtdj6H+pR+xStRqEgrG1GAf9pYcu8=
 Modified: 638877196458880450
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Headless Site.yml
-ID: "9ed66404-64c9-4122-90e1-869cb3cea566"
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base.yml
+ID: "8c8f07d5-7ccc-4838-b295-c2eaf199a6c0"
+Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base
+Signature: oI7rFwgYh2EvO2qtdj6H+pR+xStRqEgrG1GAf9pYcu8=
+Modified: 638876520621420036
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\SiteMetadata.yml
+ID: "a4265aae-cc8d-493f-ba3f-7755d9b689bb"
+Parent: "50937c4f-a531-4cc1-ad92-86bf4163f9c8"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/SiteMetadata
+Signature: GoJ8LFUxl38pUv9plr0Oexu8GSgNi6G5vNcrgmdnFIo=
+Modified: 638876520621302137
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants\HeadlessVariants.yml
+ID: "49c111d0-6867-4798-a724-1f103166e6e9"
+Parent: "0fc2e5b2-1a81-4ff1-9656-d55130a6770b"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Headless Variants/HeadlessVariants
+Signature: x+sr8xc4SEEdHkwW6TWA2oO5/mEV5KNrmOuLMRs65ho=
+Modified: 638876520621332947
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Site Grouping.yml
+ID: "8357f958-9aaa-46db-8898-36448a96356f"
 Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Headless Site
 Signature: ndeg9idwuE/JdXJTx/knkVUcJVXp89DgRTKAkyOvn2I=
 Modified: 638877196458998599
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Data.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Data.yml
 ID: "a29d272e-9d48-453c-9e9d-b47585fa7f20"
 Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Data
 Signature: N1Qhxkzv/Vxjfo/0n5UWmJs7iR9scSawkil6PThzutQ=
 Modified: 638877196459175842
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings.yml
 ID: "ec848505-d30c-4bdc-a0aa-7cc9d320085e"
 Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings
 Signature: Z9zLZYii5YOPtPqDTveWGmLrpeqBDDPxbcKGkMMRlG4=
 Modified: 638877196459216063
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Shared Sites Settings.yml
-ID: "c14bf746-030f-4e59-8594-395f6d299e61"
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Folders.yml
+ID: "0051c7b6-fe86-4a87-bb2d-908e3e77fae1"
+Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Folders
+Signature: wXMUTWgPg3AdgsVVe4FmIknJMl9UhRYBCPttUVSD1a4=
+Modified: 638876520621479156
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Headless Site.yml
+ID: "9ed66404-64c9-4122-90e1-869cb3cea566"
 Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Shared Sites Settings
 Signature: cmyI7JBPHeaLX0Yk58GQGizyNeWm42b1YdxKovtWYGg=
 Modified: 638877196459334195
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site.yml
 ID: "e46f3af2-39fa-4866-a157-7017c4b2a40c"
 Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site
 Signature: WnHXR7/6IL8+ZcFJjllAhxTkrcTD+xaHS2mPBNqNghE=
 Modified: 638877196459365942
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders.yml
 ID: "26fe38b4-40fc-4bb5-a68d-09e96cd254be"
 Parent: "5d622725-336b-4664-8801-ece949454d76"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Folders
 Signature: 6tr+O8XXakoJ0rN3YNqX7HQ9bmYmzd9tDZuSm8eQQHk=
 Modified: 638877196462668567
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Page Design.yml
-ID: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site.yml
+ID: "e46f3af2-39fa-4866-a157-7017c4b2a40c"
+Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site
+Signature: WnHXR7/6IL8+ZcFJjllAhxTkrcTD+xaHS2mPBNqNghE=
+Modified: 638876520621778229
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Data.yml
+ID: "a29d272e-9d48-453c-9e9d-b47585fa7f20"
+Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Data
+Signature: UZRiVuT/lwNq/Y5mDFMsG0TqXHBqMz11Mx0ewnc6Kuc=
+Modified: 638876520621596009
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings.yml
+ID: "ec848505-d30c-4bdc-a0aa-7cc9d320085e"
+Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings
+Signature: Z9zLZYii5YOPtPqDTveWGmLrpeqBDDPxbcKGkMMRlG4=
+Modified: 638876520621626251
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Presentation.yml
+ID: "0a70fa73-8923-4a6e-abf3-4134f25f3221"
 Parent: "5d622725-336b-4664-8801-ece949454d76"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Page Design
 Signature: I6qm6fPfPO377cQj4//2uohtXx6F67m+gHHfVQlWpWU=
 Modified: 638877196462729012
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Presentation.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Presentation.yml
 ID: "0a70fa73-8923-4a6e-abf3-4134f25f3221"
 Parent: "5d622725-336b-4664-8801-ece949454d76"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Presentation
 Signature: WEC+RqDPCnu8ltamCnv42gVJ09jC0b4plqq/8ZpWCiE=
 Modified: 638877196462937602
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\SXA JSS Layout.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\SXA JSS Layout.yml
 ID: "e4e11508-04a4-4b0b-a263-5201f811c9cd"
 Parent: "5d622725-336b-4664-8801-ece949454d76"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/SXA JSS Layout
 Signature: ehSr7KeM0gOZL0tRMe3CN6Pw2A81YTWsJ3ygbF/1oQM=
 Modified: 638877196462988146
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base.yml
 ID: "c42cd5f1-74d2-42a0-bb4d-a39bf76b5ad7"
 Parent: "3c8ab938-64b8-419d-b23d-d6fd75ce6ed4"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base
 Signature: qNqL7cdlf/B/1VBijOfc8F6ygEVB4QsPsAGQCzagzJM=
 Modified: 638877196463100912
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\SiteMetadata\Sitemap Settings.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\SiteMetadata\Sitemap Settings.yml
 ID: "c71d8566-35c8-49b7-a84d-9d176e9cbd05"
 Parent: "a4265aae-cc8d-493f-ba3f-7755d9b689bb"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/SiteMetadata/Sitemap Settings
 Signature: 4EQPa4pSg7nKimdcQrBOTm7d+d4Q9wQ9PHDNZv2qVdc=
 Modified: 638877196463265378
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base\_Base JSS Tenant.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base_Base JSS Tenant.yml
 ID: "053e9155-3993-42f3-9182-5854dc5355b3"
 Parent: "8c8f07d5-7ccc-4838-b295-c2eaf199a6c0"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/\_Base JSS Tenant
 Signature: 23H+Rl3MPgIAyq2Sk0MhY6SRZ6aMscz1+DugJ5w0Vrg=
 Modified: 638877196463285543
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings.yml
 ID: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Parent: "ec848505-d30c-4bdc-a0aa-7cc9d320085e"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings
 Signature: i0wxc9IKPUtcyLG8p1A4OPjEnBECEmlPuH3qTNvmloI=
 Modified: 638877196463475487
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base Page\__Standard Values.yml
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Placeholder Settings\Placeholder.yml
+ID: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Parent: "810f08f8-2a58-4a02-a170-5d4aa6955a4e"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Placeholder Settings/Placeholder
+Signature: nI7WuE8fl3SBOf8ScYIXnxWYMaOMxqrWRdbDU3hEPjE=
+Modified: 638876520621843675
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Placeholder Settings\Placeholder Settings Folder.yml
+ID: "52288e39-7830-4694-b62d-32a54c6ef7ba"
+Parent: "810f08f8-2a58-4a02-a170-5d4aa6955a4e"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Placeholder Settings/Placeholder Settings Folder
+Signature: L91up7d5U/FxqQLge8uggp3+xRe+UYP7FP7h/GDTxQs=
+Modified: 638876520621879105
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots.yml
+ID: "e66eea9f-efb9-4416-ab42-9711f094ea2c"
+Parent: "3c8ab938-64b8-419d-b23d-d6fd75ce6ed4"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Roots
+Signature: T0RrHzDi+9/lwe9DZRcA28wW0WmXjw4VR+Y53lJllTk=
+Modified: 638876520622235681
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions.yml
+ID: "4fe598de-32ae-477c-b6c8-10c83230daac"
+Parent: "3c8ab938-64b8-419d-b23d-d6fd75ce6ed4"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions
+Signature: pWOPJj4f/xD4Vg3/qDT3M6gvhjhi0IZt1eoySNx2PHY=
+Modified: 638876520622158176
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Partial Design.yml
+ID: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Parent: "5d622725-336b-4664-8801-ece949454d76"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Partial Design
+Signature: 4BXj1f0nIHWV7fqz7hzJ9NAFYgdJXuvu8xv50XWZfdw=
+Modified: 638876520622061144
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Partial Designs.yml
+ID: "79c9fa01-5f6a-48b2-b459-05bbaa826a9d"
+Parent: "5d622725-336b-4664-8801-ece949454d76"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Partial Designs
+Signature: VLjk3ZypcJ9eEeaOkbFgDW0+wDEoqypiZHu1cAnoOnk=
+Modified: 638876520622081168
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base Page\_\_Standard Values.yml
 ID: "772b8ebc-80ec-415c-8592-872a669bd9c9"
 Parent: "47151711-26ca-434e-8132-d3e0b7d26683"
 Template: "47151711-26ca-434e-8132-d3e0b7d26683"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base Page/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base Page/\_\_Standard Values
 Signature: aEadzaNTFCF7UaZukktxpuI97tkuLu3RfVo1wGfvNOY=
 Modified: 638877196469309382
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\_\_Standard Values.yml
 ID: "db4e113a-caa6-4697-b5ad-b49a74cf43ef"
 Parent: "ec848505-d30c-4bdc-a0aa-7cc9d320085e"
 Template: "ec848505-d30c-4bdc-a0aa-7cc9d320085e"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/\_\_Standard Values
 Signature: h2h+8EdcnTDlRDlTYRHuyFZiCp3iTzYv0Zzu2+/ctZU=
 Modified: 638877196469607059
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Tenant Folder\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Tenant Folder\_\_Standard Values.yml
 ID: "5ce0d6cf-e858-4621-8cd2-33aa8ca686bf"
 Parent: "ca170f6f-5ec2-4e0c-b4bb-c77b7931b168"
 Template: "ca170f6f-5ec2-4e0c-b4bb-c77b7931b168"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Tenant Folder/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Tenant Folder/\_\_Standard Values
 Signature: 6pyeA78l8I5X14BiYawlQRkSwddgpniK9VWxINPwWMk=
 Modified: 638877196469785834
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders\Partial Design Folder.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders\Partial Design Folder.yml
 ID: "25f01f50-5534-44f9-b1ba-bcbb60b2d13d"
 Parent: "26fe38b4-40fc-4bb5-a68d-09e96cd254be"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Folders/Partial Design Folder
 Signature: Pv0cDLV3VwkyDrWkiDDBHqYR+wMX902Sb72/YAdNdQY=
 Modified: 638877196463754934
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings.yml
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\_\_Standard Values.yml
+ID: "db4e113a-caa6-4697-b5ad-b49a74cf43ef"
+Parent: "ec848505-d30c-4bdc-a0aa-7cc9d320085e"
+Template: "ec848505-d30c-4bdc-a0aa-7cc9d320085e"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/\_\_Standard Values
+Signature: h2h+8EdcnTDlRDlTYRHuyFZiCp3iTzYv0Zzu2+/ctZU=
+Modified: 638876520638622123
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants\HeadlessVariants\_\_Standard Values.yml
+ID: "586c14d1-00b1-40fe-baa2-f4d7c054ebcd"
+Parent: "49c111d0-6867-4798-a724-1f103166e6e9"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Headless Variants/HeadlessVariants/\_\_Standard Values
+Signature: bMuMHVsX6b1XsNtz+nUWgJDRVlekuElICE9R0iPNwFI=
+Modified: 638876520638321694
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base_Base JSS Tenant.yml
+ID: "053e9155-3993-42f3-9182-5854dc5355b3"
+Parent: "8c8f07d5-7ccc-4838-b295-c2eaf199a6c0"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/\_Base JSS Tenant
+Signature: 23H+Rl3MPgIAyq2Sk0MhY6SRZ6aMscz1+DugJ5w0Vrg=
+Modified: 638876520622320836
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings.yml
 ID: "07983406-2144-4597-a256-82ed7a0f429c"
 Parent: "e46f3af2-39fa-4866-a157-7017c4b2a40c"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings
 Signature: j7uYIobzUBy5xFjBOXM1+FtsGC99aszARWso3Sz2DBk=
 Modified: 638877196463515891
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Page Design\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Page Design\_\_Standard Values.yml
 ID: "ac556490-cb16-410d-91b2-0a9800d3701e"
 Parent: "1105b8f8-1e00-426b-bf1f-c840742d827b"
 Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Page Design/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Page Design/\_\_Standard Values
 Signature: HiO8wGVHbhPcvcpy2IyC9UDmv2SLOcjL0WYproDvs4Y=
 Modified: 638877196470023225
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Partial Designs\__Standard Values.yml
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders\Page Design Folder.yml
+ID: "023f5d48-979d-4381-bc5e-149e36abd3bd"
+Parent: "26fe38b4-40fc-4bb5-a68d-09e96cd254be"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Folders/Page Design Folder
+Signature: Xw4PiuLDQoJzgdyRJNjgHFrEFpXhhS4C2wbmBtgslW8=
+Modified: 638876520622475557
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Data\_\_Standard Values.yml
+ID: "3b8db616-daeb-4c24-ac8b-bb05223390bd"
+Parent: "a29d272e-9d48-453c-9e9d-b47585fa7f20"
+Template: "a29d272e-9d48-453c-9e9d-b47585fa7f20"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Data/\_\_Standard Values
+Signature: YhiCG/CsdUXTs8hMp5Ztn+QmZ8x0N6FzrQbxWzSEC1A=
+Modified: 638876520638490977
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Folders\Rendering Folder.yml
+ID: "840d4a46-5503-49ec-bf9d-bd090946c63d"
+Parent: "0051c7b6-fe86-4a87-bb2d-908e3e77fae1"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Folders/Rendering Folder
+Signature: AEqNFgVOktHRihRguqlPXpx4NZK6k4mukVgQP6BGo0s=
+Modified: 638876520622360808
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\_\_Standard Values.yml
+ID: "7d824646-2564-45a9-a87f-5572be9b70d3"
+Parent: "e46f3af2-39fa-4866-a157-7017c4b2a40c"
+Template: "e46f3af2-39fa-4866-a157-7017c4b2a40c"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/\_\_Standard Values
+Signature: nv8hGLfDAsRBQKrgnuZuj0p3m4A07WXFZ1y1XLOSZdo=
+Modified: 638876520638791545
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders\Partial Design Folder.yml
+ID: "25f01f50-5534-44f9-b1ba-bcbb60b2d13d"
+Parent: "26fe38b4-40fc-4bb5-a68d-09e96cd254be"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Folders/Partial Design Folder
+Signature: Pv0cDLV3VwkyDrWkiDDBHqYR+wMX902Sb72/YAdNdQY=
+Modified: 638876520622504970
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings.yml
+ID: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Parent: "ec848505-d30c-4bdc-a0aa-7cc9d320085e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings
+Signature: i0wxc9IKPUtcyLG8p1A4OPjEnBECEmlPuH3qTNvmloI=
+Modified: 638876520622380808
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Headless Solution Template Folder\_\_Standard Values.yml
+ID: "e4617dba-bd2c-4f1b-94e9-6e5f13d365f9"
+Parent: "a5705af7-25df-4b3a-b220-2ec026ab2099"
+Template: "a5705af7-25df-4b3a-b220-2ec026ab2099"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Headless Solution Template Folder/\_\_Standard Values
+Signature: kdeebuvcjyeEmiQh8WwRiGrmwQe/Ro9aofVHuyjAYo4=
+Modified: 638876520638396845
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site.yml
+ID: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
+Parent: "4fe598de-32ae-477c-b6c8-10c83230daac"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site
+Signature: NdPlUv0xnowFWubA02D5sNFB6375zwoS9AYQgzYFfqQ=
+Modified: 638876520622525049
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots\HeadlessSiteSetupRoot.yml
+ID: "bed31d6f-d968-45a9-b54e-12d7f977d861"
+Parent: "e66eea9f-efb9-4416-ab42-9711f094ea2c"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Roots/HeadlessSiteSetupRoot
+Signature: UQRtqAXNiMaPOhjERoDdNdBdqdXnrZTht6lZ8U4UTho=
+Modified: 638876520622612781
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Partial Design\_\_Standard Values.yml
+ID: "224c373b-233e-4849-bfc9-a251ef600fb1"
+Parent: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Partial Design/\_\_Standard Values
+Signature: mYQ837JpT+g9n6/KWp9F/qZIXOkJwQeU5crsW61/ghY=
+Modified: 638876520638892018
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Placeholder Settings\Placeholder Settings Folder\_\_Standard Values.yml
+ID: "3fbc350d-a9b1-4569-a392-ca3a82470ade"
+Parent: "52288e39-7830-4694-b62d-32a54c6ef7ba"
+Template: "52288e39-7830-4694-b62d-32a54c6ef7ba"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Placeholder Settings/Placeholder Settings Folder/\_\_Standard Values
+Signature: UU/zslLytf3kEMnExQQnqo6XUMqT37fAuwkyppzZeSo=
+Modified: 638876520638816811
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant.yml
+ID: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
+Parent: "4fe598de-32ae-477c-b6c8-10c83230daac"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant
+Signature: cSn5Wa1hfIRfbWpTWSRfW+ZtFnftTC93ldQ+2YLk0Ms=
+Modified: 638876520622546449
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots\HeadlessTenantSetupRoot.yml
+ID: "f036b5e0-37fb-4537-9d36-ef84e5bd41b7"
+Parent: "e66eea9f-efb9-4416-ab42-9711f094ea2c"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Roots/HeadlessTenantSetupRoot
+Signature: qjjPfDoILFCki8bYo+5QO6J4GcGy03ABuqxWcjr2m1w=
+Modified: 638876520622632802
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Partial Designs\_\_Standard Values.yml
 ID: "d12a74ab-d25c-47ea-8de1-de978f171dab"
 Parent: "79c9fa01-5f6a-48b2-b459-05bbaa826a9d"
 Template: "79c9fa01-5f6a-48b2-b459-05bbaa826a9d"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Partial Designs/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Partial Designs/\_\_Standard Values
 Signature: me7WZAZvjcs1Cj42ORI3lfag0h+TVUTJ3tpN/jcdiRY=
 Modified: 638877196475126607
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\RenderingHost\Data.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\RenderingHost\Data.yml
 ID: "dacdec40-a81a-4ed6-8ccd-393676127d04"
 Parent: "bc71d442-3e4f-46ba-887c-746e54f9bb83"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/RenderingHost/Data
 Signature: KwmRA71CcDCZbrJM5wOHlm68pAQ1F/S+QUoyeJivl8A=
 Modified: 638877196463972055
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Rendering Parameters\BaseRenderingParameters.yml
-ID: "4247aad4-ebde-4994-998f-e067a51b1fe4"
-Parent: "628fd414-ec4d-4eae-8f2f-cf427af95c6c"
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Available Renderings\Available Renderings Folder.yml
+ID: "26ec1d18-11b2-4dd9-8326-f6115f4fd7eb"
+Parent: "9781ae30-c18e-41eb-a6ea-0710c1ccf545"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Rendering Parameters/BaseRenderingParameters
 Signature: NQfKHRxf/TbXXrIN4Sd9oS2pi81Zqk0WRjKXcc19Ovc=
 Modified: 638877196463589516
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots\HeadlessSiteSetupRoot.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots\HeadlessSiteSetupRoot.yml
 ID: "bed31d6f-d968-45a9-b54e-12d7f977d861"
 Parent: "e66eea9f-efb9-4416-ab42-9711f094ea2c"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Roots/HeadlessSiteSetupRoot
 Signature: UQRtqAXNiMaPOhjERoDdNdBdqdXnrZTht6lZ8U4UTho=
 Modified: 638877196464050456
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\_\_Standard Values.yml
 ID: "ef925659-661a-40b9-8511-c86f6527621a"
 Parent: "1b2dfd3b-f2f2-4f40-a75c-f6c2490919c4"
 Template: "1b2dfd3b-f2f2-4f40-a75c-f6c2490919c4"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Solution template/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Solution template/\_\_Standard Values
 Signature: eiUDfee1SXnQjy2Ga6IVZSrbaly8yKOso9tzn5/FElw=
 Modified: 638877196475258220
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\AppTemplate.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\AppTemplate.yml
 ID: "32ce6bbe-4217-46e5-9335-42793884cbe3"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/AppTemplate
 Signature: A1hxCoUAdNBoHOymSpcceJMFPZkFe/9ou4FILd2XHrE=
 Modified: 638877196465269078
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\SiteMetadata\Sitemap Settings\Media items.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\SiteMetadata\Sitemap Settings\Media items.yml
 ID: "19c23e3f-ee9b-4d62-863b-6145dcaf74ba"
 Parent: "c71d8566-35c8-49b7-a84d-9d176e9cbd05"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/SiteMetadata/Sitemap Settings/Media items
 Signature: 5rcElCuHYygmm/hr+b4kLiyMlVHBskKSxdiNRr2CHMI=
 Modified: 638877196464202860
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DatasourceStrategy.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DatasourceStrategy.yml
 ID: "f7c6acfb-63f0-4aca-9e44-3133b2b94a5b"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/DatasourceStrategy
 Signature: PxuV3tMy92QwBB6FPeeXymF4UV3CWpsbQLPUEnTOjAM=
 Modified: 638877196465787877
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DebugSecurity.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DebugSecurity.yml
 ID: "a5c4b74e-993a-40d6-aeab-23bb12abcf0a"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/DebugSecurity
 Signature: QFoovbRnUs1JJq4xfZ+VFvOCHmdl9W70tZKAjzUTUdA=
 Modified: 638877196465918735
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\FolderTemplate.yml
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template.yml
+ID: "61dd9805-0b3f-49e5-9371-ecb4215fb5d6"
+Parent: "c42cd5f1-74d2-42a0-bb4d-a39bf76b5ad7"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template
+Signature: xWn039KiGivDKmLD66nCj/E00MlPtL9fk0boldrtgT8=
+Modified: 638876520622556236
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DebugSecurity.yml
+ID: "a5c4b74e-993a-40d6-aeab-23bb12abcf0a"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/DebugSecurity
+Signature: QFoovbRnUs1JJq4xfZ+VFvOCHmdl9W70tZKAjzUTUdA=
+Modified: 638876520623498249
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\FolderTemplate.yml
 ID: "bde120a5-4cc2-4340-9b63-562a139bf197"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/FolderTemplate
 Signature: 0gm271QHbtz55sOVVJFXb9vRu54blVQ/68jvyxkBHSg=
 Modified: 638877196465340369
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DefaultWorkflow.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DefaultWorkflow.yml
 ID: "3af0e329-6d5e-4d8f-9f82-f48265658a3e"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/DefaultWorkflow
 Signature: /47D08JII75tMY4LMiVsSVW3e7a2MuSjdI6UIWX4BG4=
 Modified: 638877196465096056
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\GraphQLEndpoint.yml
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DeploymentSecret.yml
+ID: "797d2f63-d5c4-4c4c-b21f-d3e250e2ab12"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/DeploymentSecret
+Signature: lH54CeHS+sT1sMfO3yIjczTbNWnRbKKJ0LN9f1lqb3Q=
+Modified: 638876520623700520
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\RenderingHost\Data.yml
+ID: "dacdec40-a81a-4ed6-8ccd-393676127d04"
+Parent: "bc71d442-3e4f-46ba-887c-746e54f9bb83"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/RenderingHost/Data
+Signature: KwmRA71CcDCZbrJM5wOHlm68pAQ1F/S+QUoyeJivl8A=
+Modified: 638876520622582479
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\GraphQLEndpoint.yml
 ID: "30e0a829-637e-478c-a136-66adb568398d"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/GraphQLEndpoint
 Signature: zc76Ro70Nbqsh4T7jcdV93OjTG0MbE//GkCZMdhUo/c=
 Modified: 638877196464397343
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ImportDatabase.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ImportDatabase.yml
 ID: "df376030-46e9-4c77-bc05-debefc86e3d5"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ImportDatabase
 Signature: NU6ebmIdOG4I8PRMLUuunRNS/BLBF1P6xrPJqUn8zEY=
 Modified: 638877196464623188
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\LayoutFolderTemplate.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\LayoutFolderTemplate.yml
 ID: "466902a9-6b16-41b1-9d33-7c55094a2713"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/LayoutFolderTemplate
 Signature: z8IgWbiFx+gDI/rZHECrKjWek8reiqtBed1bGemaq18=
 Modified: 638877196465488471
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ImportDevice.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ImportDevice.yml
 ID: "1f14aa04-2868-481f-9247-30dc5c65672c"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ImportDevice
 Signature: ClSCj/VdMgIkmX9y4pGa7oNLk0XOOAljhjjy1ZnFaQk=
 Modified: 638877196464681651
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\LayoutPath.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\LayoutPath.yml
 ID: "c8d002f9-9518-4c5e-9baa-6617e13f0797"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/LayoutPath
 Signature: wCcfOyol4THqVioLiYrInwRlpsuCCAsGwVAeIH5EdgI=
 Modified: 638877196464780775
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\MediaLibraryFolderTemplate.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\MediaLibraryFolderTemplate.yml
 ID: "1cc82067-2b48-442a-a352-453d56a49d93"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/MediaLibraryFolderTemplate
 Signature: tGDhgqL2oavg03YM9keZXJquS3P29jibdN277TLGoBU=
 Modified: 638877196465595664
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RenderingsFolderTemplate.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RenderingsFolderTemplate.yml
 ID: "f5821c4c-226e-4953-8213-c0243826f85f"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/RenderingsFolderTemplate
 Signature: NCIfVvlgNeowApamofzHcKFcqZW4AAxJlcB3Fw/++tc=
 Modified: 638877196465439651
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\Name.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\Name.yml
 ID: "3e4f559f-8e59-4405-b50d-619811371f6c"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/Name
 Signature: uEXMJKc6y8ohf8ui2i8SKm0NF2TW5StRcg4OynsNtyM=
 Modified: 638877196464346942
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RenderingsPath.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RenderingsPath.yml
 ID: "f29428d5-1285-48b8-a884-44057965829a"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/RenderingsPath
 Signature: 3g3sLrJum3QMZO0LdqsCwa4kIJdKI0m1PCgbxgTbaDM=
 Modified: 638877196464733059
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RouteTemplateName.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RouteTemplateName.yml
 ID: "300fb7a0-b27f-44dd-9af0-b37a19723e0e"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/RouteTemplateName
 Signature: YYY8kJHdXdLIVRSq3tVEydsz+jleLOlpuohE8UfAVi4=
 Modified: 638877196465208617
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders\Partial Design Folder\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders\Partial Design Folder\_\_Standard Values.yml
 ID: "347f77ac-98c0-45d2-bb0b-e51d139a613a"
 Parent: "25f01f50-5534-44f9-b1ba-bcbb60b2d13d"
 Template: "25f01f50-5534-44f9-b1ba-bcbb60b2d13d"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Folders/Partial Design Folder/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Folders/Partial Design Folder/\_\_Standard Values
 Signature: yGhzIPhPbtughf8552Ral2Cn18ckiu0bhh5J6hZy0QY=
 Modified: 638877196475489480
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerBundle.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerBundle.yml
 ID: "4a3eeba3-a250-44f4-bd97-6e863cc6f0d5"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerBundle
 Signature: KMSt3h6k82U1/m1T2ZibpPvD4uCbTE1QBXEa1RNfTw4=
 Modified: 638877196464488244
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Rendering Parameters\BaseRenderingParameters\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Rendering Parameters\BaseRenderingParameters\_\_Standard Values.yml
 ID: "896b7b2e-e375-4919-a741-a5c58e090619"
 Parent: "4247aad4-ebde-4994-998f-e067a51b1fe4"
 Template: "4247aad4-ebde-4994-998f-e067a51b1fe4"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Rendering Parameters/BaseRenderingParameters/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Rendering Parameters/BaseRenderingParameters/\_\_Standard Values
 Signature: zPHA+dMdcuIibmOtByaEHkjPLtytsJg96IasQSykUas=
 Modified: 638877196475386814
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\Project.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\Project.yml
 ID: "36cda943-5589-4405-90bd-b0cf1c0b8450"
 Parent: "07983406-2144-4597-a256-82ed7a0f429c"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/Project
 Signature: zU0oC9Y75fbWbGF3mjp6/sp4I5NXnASnXqYfhaPsZiU=
 Modified: 638877196466758378
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\PreDeleteStep.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\PreDeleteStep.yml
 ID: "52510f54-9ec5-464c-b075-ef44b5c2f96b"
 Parent: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/PreDeleteStep
 Signature: r5NAQeLNvh/qg5PbXeO/3CFhgxnK4wTc+z1jII2lYv0=
 Modified: 638877196467133432
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\RenderingHost.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\RenderingHost.yml
 ID: "f57099a3-526a-49f2-aebd-635453e48875"
 Parent: "07983406-2144-4597-a256-82ed7a0f429c"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/RenderingHost
 Signature: UI7huT4XXlVNHVyzp+LQgaAv0B5qnDaasXJm7OoH6n4=
 Modified: 638877196466525152
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\PreDeleteValidationStep.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\PreDeleteValidationStep.yml
 ID: "408fd8ab-1667-440b-a605-1370ddf0a51f"
 Parent: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/PreDeleteValidationStep
 Signature: UjimAVMOcEKo0rSPIhKOxBBMZlPJme7FlDS40QMgSOM=
 Modified: 638877196467185694
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\ThumbnailsRootPath.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\ThumbnailsRootPath.yml
 ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
 Parent: "07983406-2144-4597-a256-82ed7a0f429c"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/ThumbnailsRootPath
 Signature: Sv8q5GpI5RcE08r9oSY5/8ND5+1lar6e9yp6cSV3OoM=
 Modified: 638877196466684201
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\AddItem.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\AddItem.yml
 ID: "1e1b739e-c378-4909-941d-171aca7362e5"
 Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/AddItem
 Signature: V5w9d6+qkiaZ4i6FfOSeNeTd2stK8E2iAKhUTulMVj4=
 Modified: 638877196467258861
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders\Page Design Folder\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders\Page Design Folder\_\_Standard Values.yml
 ID: "83f33785-adb1-4731-8e6c-c864f6ed3ff5"
 Parent: "023f5d48-979d-4381-bc5e-149e36abd3bd"
 Template: "023f5d48-979d-4381-bc5e-149e36abd3bd"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Folders/Page Design Folder/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Folders/Page Design Folder/\_\_Standard Values
 Signature: gSDOYB23sol1LdXH7BWsQDT+iXlU8oU23OqnKyLqC+g=
 Modified: 638877196475449048
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\EditTenantTemplate.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\EditTenantTemplate.yml
 ID: "88752f77-9109-424c-b1d8-af91e6369a2e"
 Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/EditTenantTemplate
 Signature: 9JvIpHF2On700GXup8nAHJOathxrBLO1y/0W1XczIZg=
 Modified: 638877196467303555
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\PostDeleteStep.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\PostDeleteStep.yml
 ID: "78d6ec9b-66e3-4763-9870-03cf314ee37a"
 Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/PostDeleteStep
 Signature: 1owj+/HYP78mINPzwl+RlHgUaYu0QHJtjOSRwPvvCSw=
 Modified: 638877196467450849
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\Template data\Site Modules.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\Template data\Site Modules.yml
 ID: "c262443b-653d-461d-96c8-7cfaa0ef2b2d"
 Parent: "4414432d-b63c-44b9-b8a4-925375b5d70b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Solution template/Template data/Site Modules
 Signature: QzDdLG3gGVeB68RsLgiCOSZ/qTv6wY9JxpsqtlXG0WA=
 Modified: 638877196468050971
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\PostSetupStep.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\PostSetupStep.yml
 ID: "0c602893-2be9-4020-912d-56af21deff73"
 Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/PostSetupStep
 Signature: fyBxBZzMPuvZvjE9lQ2CttvuVsc6J3KbV4TSl3g71y4=
 Modified: 638877196467500201
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\Template data\Tenant Modules.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\Template data\Tenant Modules.yml
 ID: "41ac536a-923a-43f9-ac87-f3993f638125"
 Parent: "4414432d-b63c-44b9-b8a4-925375b5d70b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Solution template/Template data/Tenant Modules
 Signature: xGOwTSJUauRSEEav1JdK+uDV4xn71HBEKSPRS3HB3jQ=
 Modified: 638877196468005568
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\PreDeleteStep.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\PreDeleteStep.yml
 ID: "adb13651-2eb9-494f-ada0-0dfda0b2ebbf"
 Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/PreDeleteStep
 Signature: Ax1vIXopMVuJVk0Qwv4AqUDOc23odfO4hnk3eot/k1k=
 Modified: 638877196467540401
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\SiteMetadata\Sitemap Settings\Media items\GenerateSitemapMediaItems.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\SiteMetadata\Sitemap Settings\Media items\GenerateSitemapMediaItems.yml
 ID: "7f070bc5-5cd4-474f-aa2f-ab2a0a128f00"
 Parent: "19c23e3f-ee9b-4d62-863b-6145dcaf74ba"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/SiteMetadata/Sitemap Settings/Media items/GenerateSitemapMediaItems
 Signature: 7ewpqsqGupRCN5TP3qBvfjddyqcmeaMsg/TQsKLmsEg=
 Modified: 638877196468121550
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\PreDeleteValidationStep.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\PreDeleteValidationStep.yml
 ID: "edf1fa42-06c4-4703-ab1a-f23495bc6d8f"
 Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/PreDeleteValidationStep
 Signature: Uwwa2MCmUkWeBAVSerPurlVwV95VlQLKSNE+LUcWPto=
 Modified: 638877196467587805
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base\_Base JSS Tenant\Configuration\PlaceholderSettingsFolder.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base_Base JSS Tenant\Configuration\PlaceholderSettingsFolder.yml
 ID: "102b58da-2a86-4953-b3cd-c9f91256b657"
 Parent: "eb867775-c3cb-4f62-9a3e-19a7a58356df"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant/Configuration/PlaceholderSettingsFolder
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/\_Base JSS Tenant/Configuration/PlaceholderSettingsFolder
 Signature: zTXKlf28W6HZ1YNNzqI1dglY0SbYHRmOE68BNQYh7sI=
 Modified: 638877196468260461
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base\_Base JSS Tenant\Configuration\RenderingsFolder.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base_Base JSS Tenant\Configuration\RenderingsFolder.yml
 ID: "853b245f-53e4-4ebe-bab5-299f9de314b6"
 Parent: "eb867775-c3cb-4f62-9a3e-19a7a58356df"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant/Configuration/RenderingsFolder
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/\_Base JSS Tenant/Configuration/RenderingsFolder
 Signature: U9focy3+MzJ7GR0zhEAG3xov/TTWP8i4r9OcPC6kfMw=
 Modified: 638877196468202558
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\AddItem\Action.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\AddItem\Action.yml
 ID: "96974196-9f70-4727-8b02-dcfbd25f838f"
 Parent: "3aea335c-d06d-45b1-841a-cbc8d2d1ce40"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/AddItem/Action
 Signature: N5+x3rcET5uhcaxMa31eIEpn29cO92M+OXHT98WWFDs=
 Modified: 638877196468320970
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\EditSiteItem\Action.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\EditSiteItem\Action.yml
 ID: "f86d524f-f421-47af-a4ca-4b1077e51127"
 Parent: "f040db03-87fe-4e10-ae40-53c63175e31b"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/EditSiteItem/Action
 Signature: uNzcDWwRIzUtzXiNCJitNOo6vwWcG1ZFrFoa+WqU8OM=
 Modified: 638877196468361290
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\ExecuteScript\Action.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\ExecuteScript\Action.yml
 ID: "9e152bc0-6b12-477a-856b-7e6b81ee8608"
 Parent: "bc9bb684-36df-4285-888b-d8b4d87b10de"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/ExecuteScript/Action
 Signature: DRyG2G350r4rsbnD3QsR6VwR97JpLrb0WxmqR404kas=
 Modified: 638877196468437779
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite.yml
 ID: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Parent: "50937c4f-a531-4cc1-ad92-86bf4163f9c8"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite
 Signature: DSQppIhhpAi2n+SD5pAMMQvralOeyFnX0yMhzuLfj5o=
 Modified: 638877196458524078
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants\HeadlessVariants.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants\HeadlessVariants.yml
 ID: "49c111d0-6867-4798-a724-1f103166e6e9"
 Parent: "0fc2e5b2-1a81-4ff1-9656-d55130a6770b"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Headless Variants/HeadlessVariants
 Signature: x+sr8xc4SEEdHkwW6TWA2oO5/mEV5KNrmOuLMRs65ho=
 Modified: 638877196458743804
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Folders.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Folders.yml
 ID: "0051c7b6-fe86-4a87-bb2d-908e3e77fae1"
 Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Folders
 Signature: wXMUTWgPg3AdgsVVe4FmIknJMl9UhRYBCPttUVSD1a4=
 Modified: 638877196458961603
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Site Folder.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Site Folder.yml
 ID: "ce91fbd6-4d89-42c9-b5bc-2a670439e1ff"
 Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Site Folder
 Signature: XznIXA2V/LWPdy1BHT4WcWcKa914YMj5HgmL+A0rqZ8=
 Modified: 638877196459256293
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Placeholder Settings\Placeholder Settings Folder.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Placeholder Settings\Placeholder Settings Folder.yml
 ID: "52288e39-7830-4694-b62d-32a54c6ef7ba"
 Parent: "810f08f8-2a58-4a02-a170-5d4aa6955a4e"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Placeholder Settings/Placeholder Settings Folder
 Signature: L91up7d5U/FxqQLge8uggp3+xRe+UYP7FP7h/GDTxQs=
 Modified: 638877196459473770
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Page Designs.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Page Designs.yml
 ID: "daaf41fd-96db-4892-be99-f62f16d036c4"
 Parent: "5d622725-336b-4664-8801-ece949454d76"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Page Designs
 Signature: xbMskg6tZg6YvlF13KXmpTHnlgUpqA+Gdov3S+hG5OA=
 Modified: 638877196462777518
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Rendering Parameters.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Rendering Parameters.yml
 ID: "628fd414-ec4d-4eae-8f2f-cf427af95c6c"
 Parent: "5d622725-336b-4664-8801-ece949454d76"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Rendering Parameters
 Signature: sVod6Njx0qiMIfxqfGziFdEc1vq7HKEPGJj7N86bLnU=
 Modified: 638877196459473770
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\RenderingHost.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\RenderingHost.yml
 ID: "bc71d442-3e4f-46ba-887c-746e54f9bb83"
 Parent: "3c8ab938-64b8-419d-b23d-d6fd75ce6ed4"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/RenderingHost
 Signature: KJYgX6GhPVwXFqY+xPZ+te2FSB+zhajbBTPKGMnZYlc=
 Modified: 638877196463141152
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants\HeadlessVariants\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants\HeadlessVariants\_\_Standard Values.yml
 ID: "586c14d1-00b1-40fe-baa2-f4d7c054ebcd"
 Parent: "49c111d0-6867-4798-a724-1f103166e6e9"
 Template: "49c111d0-6867-4798-a724-1f103166e6e9"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Headless Variants/HeadlessVariants/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Headless Variants/HeadlessVariants/\_\_Standard Values
 Signature: bMuMHVsX6b1XsNtz+nUWgJDRVlekuElICE9R0iPNwFI=
 Modified: 638877196469188461
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants\HeadlessVariantsGrouping\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants\HeadlessVariantsGrouping\_\_Standard Values.yml
 ID: "4aa654c8-b800-459b-be7a-3185f6b61998"
 Parent: "da26c636-96e1-45e4-88d6-3fcec70d5699"
 Template: "da26c636-96e1-45e4-88d6-3fcec70d5699"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Headless Variants/HeadlessVariantsGrouping/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Headless Variants/HeadlessVariantsGrouping/\_\_Standard Values
 Signature: gB2EpTLqFX8nS6F5VroNooarH1nngJASIQnfdM3B8Jg=
 Modified: 638877196469248930
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Site Folder\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Site Folder\_\_Standard Values.yml
 ID: "2852f8f7-d8a4-40c5-89dc-cc21009f197d"
 Parent: "ce91fbd6-4d89-42c9-b5bc-2a670439e1ff"
 Template: "ce91fbd6-4d89-42c9-b5bc-2a670439e1ff"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Site Folder/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Site Folder/\_\_Standard Values
 Signature: SD2+WkRAIPJwj7IW7Nh3Px+1R0ef7rdX++AUX4oeZ1M=
 Modified: 638877196469705306
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Site Grouping\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Site Grouping\_\_Standard Values.yml
 ID: "bc2ad5a5-42b4-428c-99e4-a5b39150ddd3"
 Parent: "8357f958-9aaa-46db-8898-36448a96356f"
 Template: "8357f958-9aaa-46db-8898-36448a96356f"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Site Grouping/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Site Grouping/\_\_Standard Values
 Signature: mZlzB6wIgQ0ctc5DHmytITdD1hPGDUZtpv23CF8Vcc0=
 Modified: 638877196469853213
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Page Designs\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Page Designs\_\_Standard Values.yml
 ID: "be7efe96-b36b-42cf-b0d5-9c5fb19bff91"
 Parent: "daaf41fd-96db-4892-be99-f62f16d036c4"
 Template: "daaf41fd-96db-4892-be99-f62f16d036c4"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Page Designs/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Page Designs/\_\_Standard Values
 Signature: YXSQVdcVTN10IA6XoiMScvgh49r8iCsg9HcFL7hPsMc=
 Modified: 638877196474982659
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Partial Design\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Partial Design\_\_Standard Values.yml
 ID: "224c373b-233e-4849-bfc9-a251ef600fb1"
 Parent: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
 Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Partial Design/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Partial Design/\_\_Standard Values
 Signature: mYQ837JpT+g9n6/KWp9F/qZIXOkJwQeU5crsW61/ghY=
 Modified: 638877196475063256
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots\HeadlessTenantSetupRoot.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots\HeadlessTenantSetupRoot.yml
 ID: "f036b5e0-37fb-4537-9d36-ef84e5bd41b7"
 Parent: "e66eea9f-efb9-4416-ab42-9711f094ea2c"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Roots/HeadlessTenantSetupRoot
 Signature: qjjPfDoILFCki8bYo+5QO6J4GcGy03ABuqxWcjr2m1w=
 Modified: 638877196464090886
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\Template data.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\Template data.yml
 ID: "4414432d-b63c-44b9-b8a4-925375b5d70b"
 Parent: "1b2dfd3b-f2f2-4f40-a75c-f6c2490919c4"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Solution template/Template data
 Signature: RbHoFgQle5gUkvhu2FCm5MrJ+sA668I1nD3A9Am36kE=
 Modified: 638877196464169002
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\PlaceholdersPath.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\PlaceholdersPath.yml
 ID: "5ca117eb-8782-4a4f-9f2f-30de31fc2e34"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/PlaceholdersPath
 Signature: bo3YL8KObVbXNMiNUlhANf748CBr37/OaaqRis5M8Gk=
 Modified: 638877196464843804
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ProtectDeveloperItems.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ProtectDeveloperItems.yml
 ID: "b0711df7-724a-4c6c-8d4d-be846de6124c"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ProtectDeveloperItems
 Signature: RdBjsGYip7h3VTt6nUl9Y+jH7AFWRg7xw3nVvzj2eHo=
 Modified: 638877196465678567
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingEngineEditOnly.yml
-ID: "557d5f36-6f2d-4eb6-a8ce-25f30f7b9397"
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\MediaLibraryFolderTemplate.yml
+ID: "1cc82067-2b48-442a-a352-453d56a49d93"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerSideRenderingEngineEditOnly
 Signature: AjEBK8Zpz0Gg+neupBv9hTCyDBzUFAIibl8eHZuDgTE=
 Modified: 638877196466404135
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingEngineEndpointUrl.yml
-ID: "89849738-34ee-46bc-b525-825f1153189e"
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RenderingsFolderTemplate.yml
+ID: "f5821c4c-226e-4953-8213-c0243826f85f"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerSideRenderingEngineEndpointUrl
 Signature: bYtyMnTzzGJF6Qi4VXXEGVudJYh+XxQNGlOIS2xWmQM=
 Modified: 638877196466295626
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\AddItem.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\AddItem.yml
 ID: "3aea335c-d06d-45b1-841a-cbc8d2d1ce40"
 Parent: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/AddItem
 Signature: FwkJpKEnVC0FdNIiCialAA1Asg+Toy5yfKZwQC1XkV4=
 Modified: 638877196466822103
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\EditSiteItem.yml
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DictionaryDomain.yml
+ID: "0129da3f-8c86-4591-ae32-6ec923413923"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/DictionaryDomain
+Signature: 4yDrIZ/JrIQtDoJh48VdbrvKMc3uOrW2EzMQWWyaoJM=
+Modified: 638876520623012921
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RouteBaseTemplate.yml
+ID: "396af2f6-fe48-4fd4-a7e2-3da13ef977eb"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/RouteBaseTemplate
+Signature: Zx0e2L3xx5fjJvWx5OZ1JGRXK76UYw/Uiyd0tffU9u8=
+Modified: 638876520623082229
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\TemplateFolderTemplate.yml
+ID: "218760c0-8001-4c2d-a8b0-61c128276f96"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/TemplateFolderTemplate
+Signature: GerITmUvP/iabKl/GAHa6+Vtojuq9PFBcxT/tYq7Xok=
+Modified: 638876520623275511
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\Project.yml
+ID: "36cda943-5589-4405-90bd-b0cf1c0b8450"
+Parent: "07983406-2144-4597-a256-82ed7a0f429c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/Project
+Signature: zU0oC9Y75fbWbGF3mjp6/sp4I5NXnASnXqYfhaPsZiU=
+Modified: 638876520623799471
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DictionaryPath.yml
+ID: "a7bbad73-b933-49ff-95c8-1c269cb35e7c"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/DictionaryPath
+Signature: Zn7qSXoq9M5rV/YGdxJStBLgc1V3niaLXKH47MqSzbk=
+Modified: 638876520622991861
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingEngineEndpointUrl.yml
+ID: "89849738-34ee-46bc-b525-825f1153189e"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerSideRenderingEngineEndpointUrl
+Signature: bYtyMnTzzGJF6Qi4VXXEGVudJYh+XxQNGlOIS2xWmQM=
+Modified: 638876520623614189
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\EditSiteItem.yml
 ID: "f040db03-87fe-4e10-ae40-53c63175e31b"
 Parent: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/EditSiteItem
 Signature: lIHSzOuzeRVu/CtxZILGuPP9pBTY5uVS5lmXLUHPZNs=
 Modified: 638877196466867660
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\ExecuteScript.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\ExecuteScript.yml
 ID: "3a385b25-df9b-47ac-9f6b-39c8534e81f1"
 Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/ExecuteScript
 Signature: iRZam9OV5/imlYxRCVze6wqA4hRhdqxxhZoDytPt/xo=
 Modified: 638877196467357926
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\InputValidationStep.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\InputValidationStep.yml
 ID: "d028fef2-babf-4ad1-bbe7-4d62a977992f"
 Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/InputValidationStep
 Signature: 0IdsctzVEIeRZ5SRs3IBjVxck3UZmFjcjdJCECzWGbw=
 Modified: 638877196467403274
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template\_SolutionTemplateDescription.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template_SolutionTemplateDescription.yml
 ID: "77b1399f-5f30-4643-a054-59bbb1c7c62c"
 Parent: "61dd9805-0b3f-49e5-9371-ecb4215fb5d6"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/_SolutionTemplateDescription
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/\_SolutionTemplateDescription
 Signature: tDQaHKvCdh8KqjQHst/xa7sDkXaKjuLLf0wEPZ+0Ass=
 Modified: 638877196467648360
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template\_SolutionTemplateName.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template_SolutionTemplateName.yml
 ID: "ee5bec5a-609f-4c64-8960-18d6cae7f890"
 Parent: "61dd9805-0b3f-49e5-9371-ecb4215fb5d6"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/_SolutionTemplateName
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/\_SolutionTemplateName
 Signature: tDQaHKvCdh8KqjQHst/xa7sDkXaKjuLLf0wEPZ+0Ass=
 Modified: 638877196467715457
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\RenderingHost\Data\AppName.yml
-ID: "3121c257-53cf-464a-b736-98b418876057"
-Parent: "dacdec40-a81a-4ed6-8ccd-393676127d04"
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\LayoutServiceConfiguration.yml
+ID: "e3259313-387a-41f0-b113-962f14b1aa2b"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/RenderingHost/Data/AppName
 Signature: UCHS/d7FAAj7avNrgA/nkPTV75FMGiG6ldV1Pci83zk=
 Modified: 638877196467887030
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\RenderingHost\Data\ServerSideRenderingEngineApplicationUrl.yml
-ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
-Parent: "dacdec40-a81a-4ed6-8ccd-393676127d04"
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\RenderingHost.yml
+ID: "f57099a3-526a-49f2-aebd-635453e48875"
+Parent: "07983406-2144-4597-a256-82ed7a0f429c"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/RenderingHost/Data/ServerSideRenderingEngineApplicationUrl
 Signature: yxDb3J/xadrNIPY0jWNDeH+zu0um6ajld21zrSIAcUQ=
 Modified: 638877196467826521
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\AddItem\Action.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\AddItem\Action.yml
 ID: "eea7c63b-5b83-478a-ae63-751d8895851a"
 Parent: "1e1b739e-c378-4909-941d-171aca7362e5"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/AddItem/Action
 Signature: h/Yxq0EC+qKxlCUzKy5j1uZmTeQoGwFqcdzVtYZ3cmE=
 Modified: 638877196468499902
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\EditTenantTemplate\Action.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\EditTenantTemplate\Action.yml
 ID: "4d59353c-f668-4677-ba33-fd19788e4347"
 Parent: "88752f77-9109-424c-b1d8-af91e6369a2e"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/EditTenantTemplate/Action
 Signature: t2NRqY5go8m/zWeyKNACU4rQXFe3ICuqPdKy7x5VxGU=
 Modified: 638877196468571315
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\ExecuteScript\Action.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\ExecuteScript\Action.yml
 ID: "73995c1c-9c5d-416e-857b-2bacf79538d2"
 Parent: "3a385b25-df9b-47ac-9f6b-39c8534e81f1"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/ExecuteScript/Action
 Signature: EMbk/sppP0poIGAavqYxMEUGSUitKnK1TblEQ8jI4h0=
 Modified: 638877196468628043
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template\_SolutionTemplateDescription\Template data.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template_SolutionTemplateDescription\Template data.yml
 ID: "de65368b-2bce-4f2c-89f8-f7e8bdc0da32"
 Parent: "77b1399f-5f30-4643-a054-59bbb1c7c62c"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/_SolutionTemplateDescription/Template data
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/\_SolutionTemplateDescription/Template data
 Signature: d0HUseQN3rkOgsEXTrwuLl3ocyjh9I6ZLPu1yWH/Q5M=
 Modified: 638877196468688495
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator.yml
 ID: "50937c4f-a531-4cc1-ad92-86bf4163f9c8"
 Parent: "b26bd035-8d0a-4df3-8f67-2de3c7fdd74a"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator
 Signature: cICBNv414ZzN+C8IeW+kvJmvf3G0vokwS9c0MI2pRRc=
 Modified: 638877196458365508
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding.yml
 ID: "3c8ab938-64b8-419d-b23d-d6fd75ce6ed4"
 Parent: "50937c4f-a531-4cc1-ad92-86bf4163f9c8"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding
 Signature: /+T17T8RGJCbxu/lCjgLz7QsL5yeD13pAVxGIpw1CyU=
 Modified: 638877196458683330
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base Page.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base Page.yml
 ID: "47151711-26ca-434e-8132-d3e0b7d26683"
 Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base Page
 Signature: lCzrzzplD+jUlSZC/mZrTrUSELt55sufw16a4UM5vUg=
 Modified: 638877196458961603
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Headless Tenant.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Headless Tenant.yml
 ID: "b91811f1-fa8b-47f8-b131-bd2c6d5ec805"
 Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Headless Tenant
 Signature: UH2joV93x0T2Qwb1Y0Ac6yNsnQHqP1whB1OPZG70N1U=
 Modified: 638877196459095038
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Tenant Folder.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Tenant Folder.yml
 ID: "ca170f6f-5ec2-4e0c-b4bb-c77b7931b168"
 Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Tenant Folder
 Signature: uzMom5Sk0qpyhI7JAiTO7o9ID6HP7x/4LDixzl9tMRo=
 Modified: 638877196459296492
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Available Renderings.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Available Renderings.yml
 ID: "9781ae30-c18e-41eb-a6ea-0710c1ccf545"
 Parent: "5d622725-336b-4664-8801-ece949454d76"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Available Renderings
 Signature: +mDX+DwcmMvqVNLYSeDsXOhxNCv7rz2aljwnkBonPa0=
 Modified: 638877196462597132
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Partial Designs.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Partial Designs.yml
 ID: "79c9fa01-5f6a-48b2-b459-05bbaa826a9d"
 Parent: "5d622725-336b-4664-8801-ece949454d76"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Partial Designs
 Signature: VLjk3ZypcJ9eEeaOkbFgDW0+wDEoqypiZHu1cAnoOnk=
 Modified: 638877196462881131
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots.yml
 ID: "e66eea9f-efb9-4416-ab42-9711f094ea2c"
 Parent: "3c8ab938-64b8-419d-b23d-d6fd75ce6ed4"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Roots
 Signature: T0RrHzDi+9/lwe9DZRcA28wW0WmXjw4VR+Y53lJllTk=
 Modified: 638877196463164853
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Folders\Placeholder Settings Folder.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Folders\Placeholder Settings Folder.yml
 ID: "3d281bf8-5336-4686-9dd6-ab4ab5b3fd5d"
 Parent: "0051c7b6-fe86-4a87-bb2d-908e3e77fae1"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Folders/Placeholder Settings Folder
 Signature: nBytwAkRhjex+E6MU5g54g2ptv8WHhGF3OxTshju3FE=
 Modified: 638877196463394433
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Folders\Rendering Folder.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Folders\Rendering Folder.yml
 ID: "840d4a46-5503-49ec-bf9d-bd090946c63d"
 Parent: "0051c7b6-fe86-4a87-bb2d-908e3e77fae1"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Folders/Rendering Folder
 Signature: AEqNFgVOktHRihRguqlPXpx4NZK6k4mukVgQP6BGo0s=
 Modified: 638877196463435015
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\_\_Standard Values.yml
 ID: "7d824646-2564-45a9-a87f-5572be9b70d3"
 Parent: "e46f3af2-39fa-4866-a157-7017c4b2a40c"
 Template: "e46f3af2-39fa-4866-a157-7017c4b2a40c"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/\_\_Standard Values
 Signature: nv8hGLfDAsRBQKrgnuZuj0p3m4A07WXFZ1y1XLOSZdo=
 Modified: 638877196469898487
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Placeholder Settings\Placeholder Settings Folder\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Placeholder Settings\Placeholder Settings Folder\_\_Standard Values.yml
 ID: "3fbc350d-a9b1-4569-a392-ca3a82470ade"
 Parent: "52288e39-7830-4694-b62d-32a54c6ef7ba"
 Template: "52288e39-7830-4694-b62d-32a54c6ef7ba"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Placeholder Settings/Placeholder Settings Folder/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Placeholder Settings/Placeholder Settings Folder/\_\_Standard Values
 Signature: UU/zslLytf3kEMnExQQnqo6XUMqT37fAuwkyppzZeSo=
 Modified: 638877196469958896
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\SXA JSS Layout\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\SXA JSS Layout\_\_Standard Values.yml
 ID: "170159d5-5f5e-499a-9ba2-7db9f58a37dd"
 Parent: "e4e11508-04a4-4b0b-a263-5201f811c9cd"
 Template: "e4e11508-04a4-4b0b-a263-5201f811c9cd"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/SXA JSS Layout/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/SXA JSS Layout/\_\_Standard Values
 Signature: iyS1ZFnAucxQuk2lt5wJ+iiHEEAxT1euULJnN5M+b2c=
 Modified: 638877196475187126
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site.yml
 ID: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
 Parent: "4fe598de-32ae-477c-b6c8-10c83230daac"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site
 Signature: NdPlUv0xnowFWubA02D5sNFB6375zwoS9AYQgzYFfqQ=
 Modified: 638877196463830920
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\SiteMetadata\Sitemap Settings\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\SiteMetadata\Sitemap Settings\_\_Standard Values.yml
 ID: "e66ec406-ef54-40be-9a86-d32593a7818c"
 Parent: "c71d8566-35c8-49b7-a84d-9d176e9cbd05"
 Template: "c71d8566-35c8-49b7-a84d-9d176e9cbd05"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/SiteMetadata/Sitemap Settings/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/SiteMetadata/Sitemap Settings/\_\_Standard Values
 Signature: x5wL1g+UkuQEcp9akHe9fYvSyyuaemCEDfiPZuAnVkM=
 Modified: 638877196475319666
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base\_Base JSS Tenant\Configuration.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base_Base JSS Tenant\Configuration.yml
 ID: "eb867775-c3cb-4f62-9a3e-19a7a58356df"
 Parent: "053e9155-3993-42f3-9182-5854dc5355b3"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant/Configuration
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/\_Base JSS Tenant/Configuration
 Signature: uurdO6w3mmLPwcJz0ecz5NFIyua+Iu/zw9qOYs0a/tE=
 Modified: 638877196464289264
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DeploymentSecret.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DeploymentSecret.yml
 ID: "797d2f63-d5c4-4c4c-b21f-d3e250e2ab12"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/DeploymentSecret
 Signature: lH54CeHS+sT1sMfO3yIjczTbNWnRbKKJ0LN9f1lqb3Q=
 Modified: 638877196466464640
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DictionaryDomain.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DictionaryDomain.yml
 ID: "0129da3f-8c86-4591-ae32-6ec923413923"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/DictionaryDomain
 Signature: 4yDrIZ/JrIQtDoJh48VdbrvKMc3uOrW2EzMQWWyaoJM=
 Modified: 638877196464983206
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ImportLanguage.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ImportLanguage.yml
 ID: "04e6b1f3-ae47-4d95-a154-2271075869a9"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ImportLanguage
 Signature: CJ5eKBQ2LVdtPFZKrai8vKs6waEy7j4WLvDZpAu9e7o=
 Modified: 638877196464582917
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ImportUser.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ImportUser.yml
 ID: "f87f0d81-c32c-4c1d-8caf-67856c3ab06e"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ImportUser
 Signature: oNqZhO++Ostb/JcVTKgCmEwGgNgQVlBIHs8Jn50ghPE=
 Modified: 638877196464532998
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\OptimizeImportIndexing.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\OptimizeImportIndexing.yml
 ID: "4088f63e-09e5-43fa-ae99-829bd9bdc114"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/OptimizeImportIndexing
 Signature: eyH611FDmAZlFbeVVyxiuEcHf46sGx15aZn8ztCCnL4=
 Modified: 638877196465740475
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\PlaceholderSettingsFolderTemplate.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\PlaceholderSettingsFolderTemplate.yml
 ID: "f5594251-f757-429e-a9bd-07f65f6875b9"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/PlaceholderSettingsFolderTemplate
 Signature: Ph8QYl+9YTDBC/WSElbOgjpzv2cfSub3VtPJBJC5m7g=
 Modified: 638877196465380615
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingEngine.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingEngine.yml
 ID: "9016141c-ff51-40f2-9135-40f5161b9784"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerSideRenderingEngine
 Signature: S9E4ZplJxG3S5wYEFOb6XDqGsJou2MEEOyvM6K3rRKE=
 Modified: 638877196466235073
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingEngineApplicationUrl.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingEngineApplicationUrl.yml
 ID: "5e8ed724-126a-4bb7-8106-85c2d1042c9e"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerSideRenderingEngineApplicationUrl
 Signature: HL7D/rqBmCIBxL5005ieWeY7ulDXczOYXpgA6r16IbM=
 Modified: 638877196466353599
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\TemplateFolderTemplate.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\TemplateFolderTemplate.yml
 ID: "218760c0-8001-4c2d-a8b0-61c128276f96"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/TemplateFolderTemplate
 Signature: GerITmUvP/iabKl/GAHa6+Vtojuq9PFBcxT/tYq7Xok=
 Modified: 638877196465528676
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\UseLanguageSpecificLayout.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\UseLanguageSpecificLayout.yml
 ID: "1864e99d-c29a-40bf-96e0-b3e7896a013b"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/UseLanguageSpecificLayout
 Signature: +6VgjOgISpck1bIb2LIrZR1m14sOpsPna10sNLs1EXc=
 Modified: 638877196465638094
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\GenerateThumbnails.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\GenerateThumbnails.yml
 ID: "8700cd8f-83cc-42ba-aa78-65bccab44fc7"
 Parent: "07983406-2144-4597-a256-82ed7a0f429c"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/GenerateThumbnails
 Signature: oQrg8qOkOgMvRuG15tXUnIhkeMgPTjDTGV4qdrwUy7s=
 Modified: 638877196466626250
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\POS.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\POS.yml
 ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
 Parent: "07983406-2144-4597-a256-82ed7a0f429c"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/POS
 Signature: xom+uw709oQjpW+5JbdoVVkBG/09yHmLRZagj7Ib+1o=
 Modified: 638877196466585865
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\ExecuteScript.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\ExecuteScript.yml
 ID: "bc9bb684-36df-4285-888b-d8b4d87b10de"
 Parent: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/ExecuteScript
 Signature: OR98zO+N4vN30qrZg2BT694i4l/Bbo8eC0Gy+FJqMtU=
 Modified: 638877196466928323
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\InputValidationStep.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\InputValidationStep.yml
 ID: "9eded2f7-f847-4893-8a0b-f69e7fcf3593"
 Parent: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/InputValidationStep
 Signature: Xze6WrMr7XHlsOHhBRSrIVZL2Fl67qT53CBvv4XokFs=
 Modified: 638877196466981894
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\PostDeleteStep.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\PostDeleteStep.yml
 ID: "b2085789-5385-4138-83f0-96f3767cb156"
 Parent: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/PostDeleteStep
 Signature: YMN5Ll+fCs6gn2IXvWNUbPeeNfI+pDuuTY7EZO9ljoM=
 Modified: 638877196467029878
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\PostSetupStep.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\PostSetupStep.yml
 ID: "8ff2febf-f6d2-461d-9ed3-8b0cb5d9d86f"
 Parent: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/PostSetupStep
 Signature: VaYGju2K9EJP/0yA6rQolEb4vB4/o8/B4gyJbg059+Y=
 Modified: 638877196467076949
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\RenderingHost\Data\ServerSideRenderingEngineEndpointUrl.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\RenderingHost\Data\ServerSideRenderingEngineEndpointUrl.yml
 ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
 Parent: "dacdec40-a81a-4ed6-8ccd-393676127d04"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/RenderingHost/Data/ServerSideRenderingEngineEndpointUrl
 Signature: gARlLT2/rIqqW+BeheFcFfL3PVX1lKgpIPDRic2btNY=
 Modified: 638877196467765987
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots\HeadlessSiteSetupRoot\__Standard Values.yml
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots\HeadlessSiteSetupRoot\_\_Standard Values.yml
 ID: "34da4137-522b-47b2-8b1d-86168d044d83"
 Parent: "bed31d6f-d968-45a9-b54e-12d7f977d861"
 Template: "bed31d6f-d968-45a9-b54e-12d7f977d861"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Roots/HeadlessSiteSetupRoot/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Roots/HeadlessSiteSetupRoot/\_\_Standard Values
 Signature: 5uRJw4jwjZl8xXd0D33l9PF4/EXdl4v4nq8OsmsK4Hw=
 Modified: 638877196475550320
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots\HeadlessTenantSetupRoot\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots\HeadlessTenantSetupRoot\_\_Standard Values.yml
 ID: "2e78bd6f-234e-41cc-bf6b-8d79b13250b9"
 Parent: "f036b5e0-37fb-4537-9d36-ef84e5bd41b7"
 Template: "f036b5e0-37fb-4537-9d36-ef84e5bd41b7"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Roots/HeadlessTenantSetupRoot/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Roots/HeadlessTenantSetupRoot/\_\_Standard Values
 Signature: IL5eMGPrPK/CoqnQSTx6TYIHNm9o4zGwopi0B9krbxw=
 Modified: 638877196475633894
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\Template data\Enabled.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\Template data\Enabled.yml
 ID: "0d21f818-1938-4cd8-b0a8-a44f73d69367"
 Parent: "4414432d-b63c-44b9-b8a4-925375b5d70b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Solution template/Template data/Enabled
 Signature: GVyea0rdUi/eKZXcmNhWCp0ywtldvQ+Cy5jptcmd9p8=
 Modified: 638877196467944975
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template\_SolutionTemplateName\Template data.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template_SolutionTemplateName\Template data.yml
 ID: "c1b4f0bb-d969-49cb-8a36-303cc3aa2c78"
 Parent: "ee5bec5a-609f-4c64-8960-18d6cae7f890"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/_SolutionTemplateName/Template data
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/\_SolutionTemplateName/Template data
 Signature: d0HUseQN3rkOgsEXTrwuLl3ocyjh9I6ZLPu1yWH/Q5M=
 Modified: 638877196468759293
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\AddItem\Action\Location.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\AddItem\Action\Location.yml
 ID: "52c91c75-6698-4701-a8a2-242ace59a8d6"
 Parent: "96974196-9f70-4727-8b02-dcfbd25f838f"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/AddItem/Action/Location
 Signature: lNQSV4U5VioJVM6sk0fC5+RiLQ52fzd0L+sBWzDAO+c=
 Modified: 638877196468812936
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\EditSiteItem\Action\Template.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\EditSiteItem\Action\Template.yml
 ID: "0916832d-459e-463c-852b-c538476a422d"
 Parent: "f86d524f-f421-47af-a4ca-4b1077e51127"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/EditSiteItem/Action/Template
 Signature: GvZKN5MlNG+7YkatqU89sH2TFLBJgU0JoDTgfnRi1j0=
 Modified: 638877196468873618
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\AddItem\Action\Location.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\AddItem\Action\Location.yml
 ID: "49ed6c70-37bd-4a23-af04-209806605b7f"
 Parent: "eea7c63b-5b83-478a-ae63-751d8895851a"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/AddItem/Action/Location
 Signature: bCy7pVqkTNOfX1YLBFN5pJ5U4uZnFqULY2IOnq35od8=
 Modified: 638877196468954426
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Placeholder Settings.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Placeholder Settings.yml
 ID: "810f08f8-2a58-4a02-a170-5d4aa6955a4e"
 Parent: "50937c4f-a531-4cc1-ad92-86bf4163f9c8"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Placeholder Settings
 Signature: k5DLwne2co1QcKwQFdB0TsQu7znDqYv6UxJ0fXnkcQ4=
 Modified: 638877196458524078
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants\Variant Definition.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants\Variant Definition.yml
 ID: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
 Parent: "0fc2e5b2-1a81-4ff1-9656-d55130a6770b"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Headless Variants/Variant Definition
 Signature: vGaHgGa2GYW5aAxJAQTO7wQ/B+h5sOLuecrYz9s8dvY=
 Modified: 638877196458850990
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Headless Solution Template Folder.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Headless Solution Template Folder.yml
 ID: "a5705af7-25df-4b3a-b220-2ec026ab2099"
 Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Headless Solution Template Folder
 Signature: 8PF0qnU9kUzx/eBbEAjb0bom+Jc9py8eBZUEisZLT6Q=
 Modified: 638877196459095038
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Site Grouping.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Site Grouping.yml
 ID: "8357f958-9aaa-46db-8898-36448a96356f"
 Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Site Grouping
 Signature: 1/GUNz9cHdy5+0qEsKDDiV72quGqUF1jBd6OcyTiQto=
 Modified: 638877196459365942
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Placeholder Settings\Placeholder.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Placeholder Settings\Placeholder.yml
 ID: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
 Parent: "810f08f8-2a58-4a02-a170-5d4aa6955a4e"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Placeholder Settings/Placeholder
 Signature: nI7WuE8fl3SBOf8ScYIXnxWYMaOMxqrWRdbDU3hEPjE=
 Modified: 638877196459473770
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Partial Design.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Partial Design.yml
 ID: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
 Parent: "5d622725-336b-4664-8801-ece949454d76"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Partial Design
 Signature: 4BXj1f0nIHWV7fqz7hzJ9NAFYgdJXuvu8xv50XWZfdw=
 Modified: 638877196462828745
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions.yml
 ID: "4fe598de-32ae-477c-b6c8-10c83230daac"
 Parent: "3c8ab938-64b8-419d-b23d-d6fd75ce6ed4"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions
 Signature: pWOPJj4f/xD4Vg3/qDT3M6gvhjhi0IZt1eoySNx2PHY=
 Modified: 638877196463060717
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template.yml
 ID: "1b2dfd3b-f2f2-4f40-a75c-f6c2490919c4"
 Parent: "3c8ab938-64b8-419d-b23d-d6fd75ce6ed4"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Solution template
 Signature: g8rQdK5GOdNsGDMBIFQvvPkQE1hZvTBfmMAgdrs3BOU=
 Modified: 638877196463225161
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Headless Solution Template Folder\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Headless Solution Template Folder\_\_Standard Values.yml
 ID: "e4617dba-bd2c-4f1b-94e9-6e5f13d365f9"
 Parent: "a5705af7-25df-4b3a-b220-2ec026ab2099"
 Template: "a5705af7-25df-4b3a-b220-2ec026ab2099"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Headless Solution Template Folder/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Headless Solution Template Folder/\_\_Standard Values
 Signature: kdeebuvcjyeEmiQh8WwRiGrmwQe/Ro9aofVHuyjAYo4=
 Modified: 638877196469367345
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Headless Tenant\__Standard Values.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Headless Tenant\_\_Standard Values.yml
 ID: "52910af4-5d9a-4afa-bfcb-d0b89f62bc7c"
 Parent: "b91811f1-fa8b-47f8-b131-bd2c6d5ec805"
 Template: "b91811f1-fa8b-47f8-b131-bd2c6d5ec805"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Headless Tenant/__Standard Values
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Headless Tenant/\_\_Standard Values
 Signature: 73cXFIQVHkeYBhdhD3YzxfPBmNpDcXP4utQJZwlSim4=
 Modified: 638877196469427917
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Available Renderings\Available Renderings Folder.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Available Renderings\Available Renderings Folder.yml
 ID: "26ec1d18-11b2-4dd9-8326-f6115f4fd7eb"
 Parent: "9781ae30-c18e-41eb-a6ea-0710c1ccf545"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Available Renderings/Available Renderings Folder
 Signature: 1R6BBpoGMs1Gs8c2LO4Ar+sRRhLw+9DbRgvZNEy+hgo=
 Modified: 638877196463629971
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders\Page Design Folder.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders\Page Design Folder.yml
 ID: "023f5d48-979d-4381-bc5e-149e36abd3bd"
 Parent: "26fe38b4-40fc-4bb5-a68d-09e96cd254be"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Folders/Page Design Folder
 Signature: Xw4PiuLDQoJzgdyRJNjgHFrEFpXhhS4C2wbmBtgslW8=
 Modified: 638877196463706571
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant.yml
 ID: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
 Parent: "4fe598de-32ae-477c-b6c8-10c83230daac"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant
 Signature: cSn5Wa1hfIRfbWpTWSRfW+ZtFnftTC93ldQ+2YLk0Ms=
 Modified: 638877196463871181
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template.yml
 ID: "61dd9805-0b3f-49e5-9371-ecb4215fb5d6"
 Parent: "c42cd5f1-74d2-42a0-bb4d-a39bf76b5ad7"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template
 Signature: xWn039KiGivDKmLD66nCj/E00MlPtL9fk0boldrtgT8=
 Modified: 638877196463931624
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\AnalyzeAllowedControls.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\AnalyzeAllowedControls.yml
 ID: "812dedeb-c5bd-471c-9f48-b1ce75d0d4a9"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/AnalyzeAllowedControls
 Signature: DcJi8CX4ZwzcSMuIHrFaA0ez0R/6HeKm3hWhiU9dHEs=
 Modified: 638877196465787877
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\AppDatasourcesPath.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\AppDatasourcesPath.yml
 ID: "5764d2d4-724d-4313-a81b-9246c911faff"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/AppDatasourcesPath
 Signature: TI90oQnacz/VKn50Ja2GEza+d9veAHvUM2YMnvKtunQ=
 Modified: 638877196464898459
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DictionaryPath.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\DictionaryPath.yml
 ID: "a7bbad73-b933-49ff-95c8-1c269cb35e7c"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/DictionaryPath
 Signature: Zn7qSXoq9M5rV/YGdxJStBLgc1V3niaLXKH47MqSzbk=
 Modified: 638877196464946996
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\FilesystemPath.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\FilesystemPath.yml
 ID: "72e83c8d-3578-4e50-b4c0-93a78a1729f2"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/FilesystemPath
 Signature: abrr2DhODdhNrnMVmPpgz4eePm40nWNVNisFCiud2Ao=
 Modified: 638877196464437657
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\LayoutServiceConfiguration.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\LayoutServiceConfiguration.yml
 ID: "e3259313-387a-41f0-b113-962f14b1aa2b"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/LayoutServiceConfiguration
 Signature: xQZIXHlcJVozZcumm3kRV6Hw8oYXd9zpxiDIrOHLuPI=
 Modified: 638877196465860798
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\LayoutTemplate.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\LayoutTemplate.yml
 ID: "e13c1a83-9d60-4530-b318-3a5effcc6338"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/LayoutTemplate
 Signature: aMqYOrAh9qr5bzNwiJ2Dx3VLdpLBctM8TlAlc8j+zbk=
 Modified: 638877196465269078
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RouteBaseTemplate.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RouteBaseTemplate.yml
 ID: "396af2f6-fe48-4fd4-a7e2-3da13ef977eb"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/RouteBaseTemplate
 Signature: Zx0e2L3xx5fjJvWx5OZ1JGRXK76UYw/Uiyd0tffU9u8=
 Modified: 638877196465156582
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RouteDatasourcesPath.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RouteDatasourcesPath.yml
 ID: "414f61dd-02c2-47d1-ba83-dcfbc3071e52"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/RouteDatasourcesPath
 Signature: 6BkHKx0PIkiWGyUrAL/BF7LMGsEIqzfk4a8Ob5GAKok=
 Modified: 638877196465045303
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingFunctionName.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingFunctionName.yml
 ID: "7975673a-aafd-4c5b-96a5-cbcaac500a44"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerSideRenderingFunctionName
 Signature: 9ZBGCJVG//gCRQq5Z76umymO39xskjaBJTS0XbJvSHo=
 Modified: 638877196466070178
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingWorkerProcesses.yml
+C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingWorkerProcesses.yml
 ID: "6224a1ce-d964-4ee8-8e09-ad2f81e0a2b6"
 Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerSideRenderingWorkerProcesses
 Signature: dE3574myEygypVpSTPe751Al0o/O+M4l3+xFTTbF210=
 Modified: 638877196466194787
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\EditTenantTemplate\Action\Template.yml
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RouteDatasourcesPath.yml
+ID: "414f61dd-02c2-47d1-ba83-dcfbc3071e52"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/RouteDatasourcesPath
+Signature: 6BkHKx0PIkiWGyUrAL/BF7LMGsEIqzfk4a8Ob5GAKok=
+Modified: 638876520623042785
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\ThumbnailsRootPath.yml
+ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
+Parent: "07983406-2144-4597-a256-82ed7a0f429c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/ThumbnailsRootPath
+Signature: Sv8q5GpI5RcE08r9oSY5/8ND5+1lar6e9yp6cSV3OoM=
+Modified: 638876520623778708
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template_SolutionTemplateDescription.yml
+ID: "77b1399f-5f30-4643-a054-59bbb1c7c62c"
+Parent: "61dd9805-0b3f-49e5-9371-ecb4215fb5d6"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/\_SolutionTemplateDescription
+Signature: tDQaHKvCdh8KqjQHst/xa7sDkXaKjuLLf0wEPZ+0Ass=
+Modified: 638876520637523114
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Roots\HeadlessTenantSetupRoot\_\_Standard Values.yml
+ID: "2e78bd6f-234e-41cc-bf6b-8d79b13250b9"
+Parent: "f036b5e0-37fb-4537-9d36-ef84e5bd41b7"
+Template: "f036b5e0-37fb-4537-9d36-ef84e5bd41b7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Roots/HeadlessTenantSetupRoot/\_\_Standard Values
+Signature: IL5eMGPrPK/CoqnQSTx6TYIHNm9o4zGwopi0B9krbxw=
+Modified: 638876520639076680
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\RouteTemplateName.yml
+ID: "300fb7a0-b27f-44dd-9af0-b37a19723e0e"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/RouteTemplateName
+Signature: YYY8kJHdXdLIVRSq3tVEydsz+jleLOlpuohE8UfAVi4=
+Modified: 638876520623101636
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\InputValidationStep.yml
+ID: "9eded2f7-f847-4893-8a0b-f69e7fcf3593"
+Parent: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/InputValidationStep
+Signature: Xze6WrMr7XHlsOHhBRSrIVZL2Fl67qT53CBvv4XokFs=
+Modified: 638876520637211165
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\Template data\Enabled.yml
+ID: "0d21f818-1938-4cd8-b0a8-a44f73d69367"
+Parent: "4414432d-b63c-44b9-b8a4-925375b5d70b"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Solution template/Template data/Enabled
+Signature: GVyea0rdUi/eKZXcmNhWCp0ywtldvQ+Cy5jptcmd9p8=
+Modified: 638876520637726241
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\AddItem\Action\Location.yml
+ID: "52c91c75-6698-4701-a8a2-242ace59a8d6"
+Parent: "96974196-9f70-4727-8b02-dcfbd25f838f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/AddItem/Action/Location
+Signature: lNQSV4U5VioJVM6sk0fC5+RiLQ52fzd0L+sBWzDAO+c=
+Modified: 638876520638154518
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\UseLanguageSpecificLayout.yml
+ID: "1864e99d-c29a-40bf-96e0-b3e7896a013b"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/UseLanguageSpecificLayout
+Signature: +6VgjOgISpck1bIb2LIrZR1m14sOpsPna10sNLs1EXc=
+Modified: 638876520623325521
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\PostDeleteStep.yml
+ID: "b2085789-5385-4138-83f0-96f3767cb156"
+Parent: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/PostDeleteStep
+Signature: YMN5Ll+fCs6gn2IXvWNUbPeeNfI+pDuuTY7EZO9ljoM=
+Modified: 638876520637235569
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\Template data\Site Modules.yml
+ID: "c262443b-653d-461d-96c8-7cfaa0ef2b2d"
+Parent: "4414432d-b63c-44b9-b8a4-925375b5d70b"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Solution template/Template data/Site Modules
+Signature: QzDdLG3gGVeB68RsLgiCOSZ/qTv6wY9JxpsqtlXG0WA=
+Modified: 638876520637766248
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\EditSiteItem\Action\Template.yml
+ID: "0916832d-459e-463c-852b-c538476a422d"
+Parent: "f86d524f-f421-47af-a4ca-4b1077e51127"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/EditSiteItem/Action/Template
+Signature: GvZKN5MlNG+7YkatqU89sH2TFLBJgU0JoDTgfnRi1j0=
+Modified: 638876520638189602
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Site\Settings\GenerateThumbnails.yml
+ID: "8700cd8f-83cc-42ba-aa78-65bccab44fc7"
+Parent: "07983406-2144-4597-a256-82ed7a0f429c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/GenerateThumbnails
+Signature: oQrg8qOkOgMvRuG15tXUnIhkeMgPTjDTGV4qdrwUy7s=
+Modified: 638876520623760618
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template_SolutionTemplateName.yml
+ID: "ee5bec5a-609f-4c64-8960-18d6cae7f890"
+Parent: "61dd9805-0b3f-49e5-9371-ecb4215fb5d6"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/\_SolutionTemplateName
+Signature: tDQaHKvCdh8KqjQHst/xa7sDkXaKjuLLf0wEPZ+0Ass=
+Modified: 638876520637573851
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\AddItem\Action.yml
+ID: "96974196-9f70-4727-8b02-dcfbd25f838f"
+Parent: "3aea335c-d06d-45b1-841a-cbc8d2d1ce40"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/AddItem/Action
+Signature: N5+x3rcET5uhcaxMa31eIEpn29cO92M+OXHT98WWFDs=
+Modified: 638876520637895647
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\PreDeleteValidationStep.yml
+ID: "408fd8ab-1667-440b-a605-1370ddf0a51f"
+Parent: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/PreDeleteValidationStep
+Signature: UjimAVMOcEKo0rSPIhKOxBBMZlPJme7FlDS40QMgSOM=
+Modified: 638876520637292369
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\RenderingHost\Data\AppName.yml
+ID: "3121c257-53cf-464a-b736-98b418876057"
+Parent: "dacdec40-a81a-4ed6-8ccd-393676127d04"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/RenderingHost/Data/AppName
+Signature: UCHS/d7FAAj7avNrgA/nkPTV75FMGiG6ldV1Pci83zk=
+Modified: 638876520637691036
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\EditSiteItem\Action.yml
+ID: "f86d524f-f421-47af-a4ca-4b1077e51127"
+Parent: "f040db03-87fe-4e10-ae40-53c63175e31b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/EditSiteItem/Action
+Signature: uNzcDWwRIzUtzXiNCJitNOo6vwWcG1ZFrFoa+WqU8OM=
+Modified: 638876520637925831
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\AddItem.yml
+ID: "1e1b739e-c378-4909-941d-171aca7362e5"
+Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/AddItem
+Signature: V5w9d6+qkiaZ4i6FfOSeNeTd2stK8E2iAKhUTulMVj4=
+Modified: 638876520637322528
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\RenderingHost\Data\ServerSideRenderingEngineApplicationUrl.yml
+ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
+Parent: "dacdec40-a81a-4ed6-8ccd-393676127d04"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/RenderingHost/Data/ServerSideRenderingEngineApplicationUrl
+Signature: yxDb3J/xadrNIPY0jWNDeH+zu0um6ajld21zrSIAcUQ=
+Modified: 638876520637656169
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\ExecuteScript\Action.yml
+ID: "9e152bc0-6b12-477a-856b-7e6b81ee8608"
+Parent: "bc9bb684-36df-4285-888b-d8b4d87b10de"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/ExecuteScript/Action
+Signature: DRyG2G350r4rsbnD3QsR6VwR97JpLrb0WxmqR404kas=
+Modified: 638876520637962733
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\EditTenantTemplate.yml
+ID: "88752f77-9109-424c-b1d8-af91e6369a2e"
+Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/EditTenantTemplate
+Signature: 9JvIpHF2On700GXup8nAHJOathxrBLO1y/0W1XczIZg=
+Modified: 638876520637342517
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\RenderingHost\Data\ServerSideRenderingEngineEndpointUrl.yml
+ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
+Parent: "dacdec40-a81a-4ed6-8ccd-393676127d04"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/RenderingHost/Data/ServerSideRenderingEngineEndpointUrl
+Signature: gARlLT2/rIqqW+BeheFcFfL3PVX1lKgpIPDRic2btNY=
+Modified: 638876520637613296
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\AddItem\Action.yml
+ID: "eea7c63b-5b83-478a-ae63-751d8895851a"
+Parent: "1e1b739e-c378-4909-941d-171aca7362e5"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/AddItem/Action
+Signature: h/Yxq0EC+qKxlCUzKy5j1uZmTeQoGwFqcdzVtYZ3cmE=
+Modified: 638876520637982821
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\ExecuteScript.yml
+ID: "3a385b25-df9b-47ac-9f6b-39c8534e81f1"
+Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/ExecuteScript
+Signature: iRZam9OV5/imlYxRCVze6wqA4hRhdqxxhZoDytPt/xo=
+Modified: 638876520637363757
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\Template data\Tenant Modules.yml
+ID: "41ac536a-923a-43f9-ac87-f3993f638125"
+Parent: "4414432d-b63c-44b9-b8a4-925375b5d70b"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Solution template/Template data/Tenant Modules
+Signature: xGOwTSJUauRSEEav1JdK+uDV4xn71HBEKSPRS3HB3jQ=
+Modified: 638876520637746222
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\SiteMetadata\Sitemap Settings\Media items\GenerateSitemapMediaItems.yml
+ID: "7f070bc5-5cd4-474f-aa2f-ab2a0a128f00"
+Parent: "19c23e3f-ee9b-4d62-863b-6145dcaf74ba"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/SiteMetadata/Sitemap Settings/Media items/GenerateSitemapMediaItems
+Signature: 7ewpqsqGupRCN5TP3qBvfjddyqcmeaMsg/TQsKLmsEg=
+Modified: 638876520637814710
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base_Base JSS Tenant\Configuration\PlaceholderSettingsFolder.yml
+ID: "102b58da-2a86-4953-b3cd-c9f91256b657"
+Parent: "eb867775-c3cb-4f62-9a3e-19a7a58356df"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/\_Base JSS Tenant/Configuration/PlaceholderSettingsFolder
+Signature: zTXKlf28W6HZ1YNNzqI1dglY0SbYHRmOE68BNQYh7sI=
+Modified: 638876520637865400
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base_Base JSS Tenant\Configuration\RenderingsFolder.yml
+ID: "853b245f-53e4-4ebe-bab5-299f9de314b6"
+Parent: "eb867775-c3cb-4f62-9a3e-19a7a58356df"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/\_Base JSS Tenant/Configuration/RenderingsFolder
+Signature: U9focy3+MzJ7GR0zhEAG3xov/TTWP8i4r9OcPC6kfMw=
+Modified: 638876520637845290
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants.yml
+ID: "0fc2e5b2-1a81-4ff1-9656-d55130a6770b"
+Parent: "50937c4f-a531-4cc1-ad92-86bf4163f9c8"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Headless Variants
+Signature: jJqsqtZ0MBLRhbUn8EKj5O1RlsOdt7jB+zcyXoXv7ik=
+Modified: 638876520621178259
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base Page.yml
+ID: "47151711-26ca-434e-8132-d3e0b7d26683"
+Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base Page
+Signature: lCzrzzplD+jUlSZC/mZrTrUSELt55sufw16a4UM5vUg=
+Modified: 638876520621460169
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Headless Tenant.yml
+ID: "b91811f1-fa8b-47f8-b131-bd2c6d5ec805"
+Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Headless Tenant
+Signature: UH2joV93x0T2Qwb1Y0Ac6yNsnQHqP1whB1OPZG70N1U=
+Modified: 638876520621550909
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Shared Sites Settings.yml
+ID: "c14bf746-030f-4e59-8594-395f6d299e61"
+Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Shared Sites Settings
+Signature: cmyI7JBPHeaLX0Yk58GQGizyNeWm42b1YdxKovtWYGg=
+Modified: 638876520621733233
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Page Design.yml
+ID: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Parent: "5d622725-336b-4664-8801-ece949454d76"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Page Design
+Signature: I6qm6fPfPO377cQj4//2uohtXx6F67m+gHHfVQlWpWU=
+Modified: 638876520622021164
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\SXA JSS Layout.yml
+ID: "e4e11508-04a4-4b0b-a263-5201f811c9cd"
+Parent: "5d622725-336b-4664-8801-ece949454d76"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/SXA JSS Layout
+Signature: ehSr7KeM0gOZL0tRMe3CN6Pw2A81YTWsJ3ygbF/1oQM=
+Modified: 638876520622135644
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\SiteMetadata\Sitemap Settings.yml
+ID: "c71d8566-35c8-49b7-a84d-9d176e9cbd05"
+Parent: "a4265aae-cc8d-493f-ba3f-7755d9b689bb"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/SiteMetadata/Sitemap Settings
+Signature: 4EQPa4pSg7nKimdcQrBOTm7d+d4Q9wQ9PHDNZv2qVdc=
+Modified: 638876520622290737
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Site Folder\_\_Standard Values.yml
+ID: "2852f8f7-d8a4-40c5-89dc-cc21009f197d"
+Parent: "ce91fbd6-4d89-42c9-b5bc-2a670439e1ff"
+Template: "ce91fbd6-4d89-42c9-b5bc-2a670439e1ff"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Site Folder/\_\_Standard Values
+Signature: SD2+WkRAIPJwj7IW7Nh3Px+1R0ef7rdX++AUX4oeZ1M=
+Modified: 638876520638690641
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Page Design\_\_Standard Values.yml
+ID: "ac556490-cb16-410d-91b2-0a9800d3701e"
+Parent: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Page Design/\_\_Standard Values
+Signature: HiO8wGVHbhPcvcpy2IyC9UDmv2SLOcjL0WYproDvs4Y=
+Modified: 638876520638847017
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Page Designs\_\_Standard Values.yml
+ID: "be7efe96-b36b-42cf-b0d5-9c5fb19bff91"
+Parent: "daaf41fd-96db-4892-be99-f62f16d036c4"
+Template: "daaf41fd-96db-4892-be99-f62f16d036c4"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Page Designs/\_\_Standard Values
+Signature: YXSQVdcVTN10IA6XoiMScvgh49r8iCsg9HcFL7hPsMc=
+Modified: 638876520638871864
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\Template data.yml
+ID: "4414432d-b63c-44b9-b8a4-925375b5d70b"
+Parent: "1b2dfd3b-f2f2-4f40-a75c-f6c2490919c4"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Solution template/Template data
+Signature: RbHoFgQle5gUkvhu2FCm5MrJ+sA668I1nD3A9Am36kE=
+Modified: 638876520622652590
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template\_\_Standard Values.yml
+ID: "ef925659-661a-40b9-8511-c86f6527621a"
+Parent: "1b2dfd3b-f2f2-4f40-a75c-f6c2490919c4"
+Template: "1b2dfd3b-f2f2-4f40-a75c-f6c2490919c4"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Solution template/\_\_Standard Values
+Signature: eiUDfee1SXnQjy2Ga6IVZSrbaly8yKOso9tzn5/FElw=
+Modified: 638876520638954344
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\AppDatasourcesPath.yml
+ID: "5764d2d4-724d-4313-a81b-9246c911faff"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/AppDatasourcesPath
+Signature: TI90oQnacz/VKn50Ja2GEza+d9veAHvUM2YMnvKtunQ=
+Modified: 638876520622976794
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\AppTemplate.yml
+ID: "32ce6bbe-4217-46e5-9335-42793884cbe3"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/AppTemplate
+Signature: A1hxCoUAdNBoHOymSpcceJMFPZkFe/9ou4FILd2XHrE=
+Modified: 638876520623121704
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ImportDevice.yml
+ID: "1f14aa04-2868-481f-9247-30dc5c65672c"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ImportDevice
+Signature: ClSCj/VdMgIkmX9y4pGa7oNLk0XOOAljhjjy1ZnFaQk=
+Modified: 638876520622890568
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ImportLanguage.yml
+ID: "04e6b1f3-ae47-4d95-a154-2271075869a9"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ImportLanguage
+Signature: CJ5eKBQ2LVdtPFZKrai8vKs6waEy7j4WLvDZpAu9e7o=
+Modified: 638876520622850423
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\Name.yml
+ID: "3e4f559f-8e59-4405-b50d-619811371f6c"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/Name
+Signature: uEXMJKc6y8ohf8ui2i8SKm0NF2TW5StRcg4OynsNtyM=
+Modified: 638876520622730085
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\OptimizeImportIndexing.yml
+ID: "4088f63e-09e5-43fa-ae99-829bd9bdc114"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/OptimizeImportIndexing
+Signature: eyH611FDmAZlFbeVVyxiuEcHf46sGx15aZn8ztCCnL4=
+Modified: 638876520623380709
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingEngineApplicationUrl.yml
+ID: "5e8ed724-126a-4bb7-8106-85c2d1042c9e"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerSideRenderingEngineApplicationUrl
+Signature: HL7D/rqBmCIBxL5005ieWeY7ulDXczOYXpgA6r16IbM=
+Modified: 638876520623644312
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingEngineEditOnly.yml
+ID: "557d5f36-6f2d-4eb6-a8ce-25f30f7b9397"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerSideRenderingEngineEditOnly
+Signature: AjEBK8Zpz0Gg+neupBv9hTCyDBzUFAIibl8eHZuDgTE=
+Modified: 638876520623675174
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Rendering Parameters\BaseRenderingParameters\_\_Standard Values.yml
+ID: "896b7b2e-e375-4919-a741-a5c58e090619"
+Parent: "4247aad4-ebde-4994-998f-e067a51b1fe4"
+Template: "4247aad4-ebde-4994-998f-e067a51b1fe4"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Rendering Parameters/BaseRenderingParameters/\_\_Standard Values
+Signature: zPHA+dMdcuIibmOtByaEHkjPLtytsJg96IasQSykUas=
+Modified: 638876520639002194
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Site\AddItem.yml
+ID: "3aea335c-d06d-45b1-841a-cbc8d2d1ce40"
+Parent: "e103fd2f-6e6a-4db5-8603-73f177146c5e"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Site/AddItem
+Signature: FwkJpKEnVC0FdNIiCialAA1Asg+Toy5yfKZwQC1XkV4=
+Modified: 638876520623838268
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\PostSetupStep.yml
+ID: "0c602893-2be9-4020-912d-56af21deff73"
+Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/PostSetupStep
+Signature: fyBxBZzMPuvZvjE9lQ2CttvuVsc6J3KbV4TSl3g71y4=
+Modified: 638876520637445581
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\PreDeleteStep.yml
+ID: "adb13651-2eb9-494f-ada0-0dfda0b2ebbf"
+Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/PreDeleteStep
+Signature: Ax1vIXopMVuJVk0Qwv4AqUDOc23odfO4hnk3eot/k1k=
+Modified: 638876520637472082
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\EditTenantTemplate\Action.yml
+ID: "4d59353c-f668-4677-ba33-fd19788e4347"
+Parent: "88752f77-9109-424c-b1d8-af91e6369a2e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/EditTenantTemplate/Action
+Signature: t2NRqY5go8m/zWeyKNACU4rQXFe3ICuqPdKy7x5VxGU=
+Modified: 638876520638018059
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\ExecuteScript\Action.yml
+ID: "73995c1c-9c5d-416e-857b-2bacf79538d2"
+Parent: "3a385b25-df9b-47ac-9f6b-39c8534e81f1"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/ExecuteScript/Action
+Signature: EMbk/sppP0poIGAavqYxMEUGSUitKnK1TblEQ8jI4h0=
+Modified: 638876520638038068
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template_SolutionTemplateDescription\Template data.yml
+ID: "de65368b-2bce-4f2c-89f8-f7e8bdc0da32"
+Parent: "77b1399f-5f30-4643-a054-59bbb1c7c62c"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/\_SolutionTemplateDescription/Template data
+Signature: d0HUseQN3rkOgsEXTrwuLl3ocyjh9I6ZLPu1yWH/Q5M=
+Modified: 638876520638077186
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template_SolutionTemplateName\Template data.yml
+ID: "c1b4f0bb-d969-49cb-8a36-303cc3aa2c78"
+Parent: "ee5bec5a-609f-4c64-8960-18d6cae7f890"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/\_SolutionTemplateName/Template data
+Signature: d0HUseQN3rkOgsEXTrwuLl3ocyjh9I6ZLPu1yWH/Q5M=
+Modified: 638876520638124505
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Placeholder Settings.yml
+ID: "810f08f8-2a58-4a02-a170-5d4aa6955a4e"
+Parent: "50937c4f-a531-4cc1-ad92-86bf4163f9c8"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Placeholder Settings
+Signature: k5DLwne2co1QcKwQFdB0TsQu7znDqYv6UxJ0fXnkcQ4=
+Modified: 638876520621243478
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Headless Variants\Variant Definition.yml
+ID: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Parent: "0fc2e5b2-1a81-4ff1-9656-d55130a6770b"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Headless Variants/Variant Definition
+Signature: vGaHgGa2GYW5aAxJAQTO7wQ/B+h5sOLuecrYz9s8dvY=
+Modified: 638876520621372999
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Headless Solution Template Folder.yml
+ID: "a5705af7-25df-4b3a-b220-2ec026ab2099"
+Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Headless Solution Template Folder
+Signature: 8PF0qnU9kUzx/eBbEAjb0bom+Jc9py8eBZUEisZLT6Q=
+Modified: 638876520621540899
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Tenant Folder.yml
+ID: "ca170f6f-5ec2-4e0c-b4bb-c77b7931b168"
+Parent: "b9bd3171-61e3-4824-9c00-7af4c4c8aac9"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Tenant Folder
+Signature: uzMom5Sk0qpyhI7JAiTO7o9ID6HP7x/4LDixzl9tMRo=
+Modified: 638876520621693153
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders.yml
+ID: "26fe38b4-40fc-4bb5-a68d-09e96cd254be"
+Parent: "5d622725-336b-4664-8801-ece949454d76"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Folders
+Signature: 6tr+O8XXakoJ0rN3YNqX7HQ9bmYmzd9tDZuSm8eQQHk=
+Modified: 638876520621975384
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Rendering Parameters.yml
+ID: "628fd414-ec4d-4eae-8f2f-cf427af95c6c"
+Parent: "5d622725-336b-4664-8801-ece949454d76"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Rendering Parameters
+Signature: sVod6Njx0qiMIfxqfGziFdEc1vq7HKEPGJj7N86bLnU=
+Modified: 638876520621914413
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Solution template.yml
+ID: "1b2dfd3b-f2f2-4f40-a75c-f6c2490919c4"
+Parent: "3c8ab938-64b8-419d-b23d-d6fd75ce6ed4"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Solution template
+Signature: g8rQdK5GOdNsGDMBIFQvvPkQE1hZvTBfmMAgdrs3BOU=
+Modified: 638876520622265663
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Folders\Placeholder Settings Folder.yml
+ID: "3d281bf8-5336-4686-9dd6-ab4ab5b3fd5d"
+Parent: "0051c7b6-fe86-4a87-bb2d-908e3e77fae1"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Folders/Placeholder Settings Folder
+Signature: nBytwAkRhjex+E6MU5g54g2ptv8WHhGF3OxTshju3FE=
+Modified: 638876520622340826
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Site Grouping\_\_Standard Values.yml
+ID: "bc2ad5a5-42b4-428c-99e4-a5b39150ddd3"
+Parent: "8357f958-9aaa-46db-8898-36448a96356f"
+Template: "8357f958-9aaa-46db-8898-36448a96356f"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Site Grouping/\_\_Standard Values
+Signature: mZlzB6wIgQ0ctc5DHmytITdD1hPGDUZtpv23CF8Vcc0=
+Modified: 638876520638745972
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Tenant Folder\_\_Standard Values.yml
+ID: "5ce0d6cf-e858-4621-8cd2-33aa8ca686bf"
+Parent: "ca170f6f-5ec2-4e0c-b4bb-c77b7931b168"
+Template: "ca170f6f-5ec2-4e0c-b4bb-c77b7931b168"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Tenant Folder/\_\_Standard Values
+Signature: 6pyeA78l8I5X14BiYawlQRkSwddgpniK9VWxINPwWMk=
+Modified: 638876520638721657
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Rendering Parameters\BaseRenderingParameters.yml
+ID: "4247aad4-ebde-4994-998f-e067a51b1fe4"
+Parent: "628fd414-ec4d-4eae-8f2f-cf427af95c6c"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Rendering Parameters/BaseRenderingParameters
+Signature: NQfKHRxf/TbXXrIN4Sd9oS2pi81Zqk0WRjKXcc19Ovc=
+Modified: 638876520622424945
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\SXA JSS Layout\_\_Standard Values.yml
+ID: "170159d5-5f5e-499a-9ba2-7db9f58a37dd"
+Parent: "e4e11508-04a4-4b0b-a263-5201f811c9cd"
+Template: "e4e11508-04a4-4b0b-a263-5201f811c9cd"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/SXA JSS Layout/\_\_Standard Values
+Signature: iyS1ZFnAucxQuk2lt5wJ+iiHEEAxT1euULJnN5M+b2c=
+Modified: 638876520638934345
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\Base_Base JSS Tenant\Configuration.yml
+ID: "eb867775-c3cb-4f62-9a3e-19a7a58356df"
+Parent: "053e9155-3993-42f3-9182-5854dc5355b3"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/\_Base JSS Tenant/Configuration
+Signature: uurdO6w3mmLPwcJz0ecz5NFIyua+Iu/zw9qOYs0a/tE=
+Modified: 638876520622700091
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\AnalyzeAllowedControls.yml
+ID: "812dedeb-c5bd-471c-9f48-b1ce75d0d4a9"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/AnalyzeAllowedControls
+Signature: DcJi8CX4ZwzcSMuIHrFaA0ez0R/6HeKm3hWhiU9dHEs=
+Modified: 638876520623432290
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ImportUser.yml
+ID: "f87f0d81-c32c-4c1d-8caf-67856c3ab06e"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ImportUser
+Signature: oNqZhO++Ostb/JcVTKgCmEwGgNgQVlBIHs8Jn50ghPE=
+Modified: 638876520622825395
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\LayoutFolderTemplate.yml
+ID: "466902a9-6b16-41b1-9d33-7c55094a2713"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/LayoutFolderTemplate
+Signature: z8IgWbiFx+gDI/rZHECrKjWek8reiqtBed1bGemaq18=
+Modified: 638876520623263886
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\PlaceholderSettingsFolderTemplate.yml
+ID: "f5594251-f757-429e-a9bd-07f65f6875b9"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/PlaceholderSettingsFolderTemplate
+Signature: Ph8QYl+9YTDBC/WSElbOgjpzv2cfSub3VtPJBJC5m7g=
+Modified: 638876520623204389
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\PlaceholdersPath.yml
+ID: "5ca117eb-8782-4a4f-9f2f-30de31fc2e34"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/PlaceholdersPath
+Signature: bo3YL8KObVbXNMiNUlhANf748CBr37/OaaqRis5M8Gk=
+Modified: 638876520622946708
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerBundle.yml
+ID: "4a3eeba3-a250-44f4-bd97-6e863cc6f0d5"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerBundle
+Signature: KMSt3h6k82U1/m1T2ZibpPvD4uCbTE1QBXEa1RNfTw4=
+Modified: 638876520622795196
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Multisite\JSS Settings\App Settings\ServerSideRenderingEngine.yml
+ID: "9016141c-ff51-40f2-9135-40f5161b9784"
+Parent: "c09dd0b3-5952-4068-98ed-8e4f032f08e1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerSideRenderingEngine
+Signature: S9E4ZplJxG3S5wYEFOb6XDqGsJou2MEEOyvM6K3rRKE=
+Modified: 638876520623589230
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders\Page Design Folder\_\_Standard Values.yml
+ID: "83f33785-adb1-4731-8e6c-c864f6ed3ff5"
+Parent: "023f5d48-979d-4381-bc5e-149e36abd3bd"
+Template: "023f5d48-979d-4381-bc5e-149e36abd3bd"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Folders/Page Design Folder/\_\_Standard Values
+Signature: gSDOYB23sol1LdXH7BWsQDT+iXlU8oU23OqnKyLqC+g=
+Modified: 638876520639022271
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Presentation\Folders\Partial Design Folder\_\_Standard Values.yml
+ID: "347f77ac-98c0-45d2-bb0b-e51d139a613a"
+Parent: "25f01f50-5534-44f9-b1ba-bcbb60b2d13d"
+Template: "25f01f50-5534-44f9-b1ba-bcbb60b2d13d"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Presentation/Folders/Partial Design Folder/\_\_Standard Values
+Signature: yGhzIPhPbtughf8552Ral2Cn18ckiu0bhh5J6hZy0QY=
+Modified: 638876520639042284
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\InputValidationStep.yml
+ID: "d028fef2-babf-4ad1-bbe7-4d62a977992f"
+Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/InputValidationStep
+Signature: 0IdsctzVEIeRZ5SRs3IBjVxck3UZmFjcjdJCECzWGbw=
+Modified: 638876520637390793
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\PostDeleteStep.yml
+ID: "78d6ec9b-66e3-4763-9870-03cf314ee37a"
+Parent: "728f9c4e-c180-427c-bb3c-1df69b6f8839"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/PostDeleteStep
+Signature: 1owj+/HYP78mINPzwl+RlHgUaYu0QHJtjOSRwPvvCSw=
+Modified: 638876520637420876
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\AddItem\Action\Location.yml
+ID: "49ed6c70-37bd-4a23-af04-209806605b7f"
+Parent: "eea7c63b-5b83-478a-ae63-751d8895851a"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/AddItem/Action/Location
+Signature: bCy7pVqkTNOfX1YLBFN5pJ5U4uZnFqULY2IOnq35od8=
+Modified: 638876520638209702
+
+---
+
+File: |
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Actions\Tenant\EditTenantTemplate\Action\Template.yml
 ID: "67b6641e-309d-4c1e-8e97-63965c7e2c5f"
 Parent: "4d59353c-f668-4677-ba33-fd19788e4347"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Actions/Tenant/EditTenantTemplate/Action/Template
 Signature: JBEMl8CLmfgeB57NLf9McmeatVR5T0O0/U34t1xNc0M=
 Modified: 638877196469006658
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template\_SolutionTemplateDescription\Template data\Description.yml
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template_SolutionTemplateDescription\Template data\Description.yml
 ID: "9f437e68-a84d-48ae-8ce1-a3e26c0b5e64"
 Parent: "de65368b-2bce-4f2c-89f8-f7e8bdc0da32"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/_SolutionTemplateDescription/Template data/Description
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/\_SolutionTemplateDescription/Template data/Description
 Signature: LxKOsPoOzrxZ8OHRjP7IwH+84yVtzxP2AJB0Y5Ef7V8=
 Modified: 638877196469071483
+
 ---
+
 File: |
-  C:\Users\spachchigar\Desktop\BlogModule\blogsite\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template\_SolutionTemplateName\Template data\Name.yml
+C:\Users\rodedara\Desktop\BlogModule\src\serialization\SXAFoundation\JSS Experience Accelerator\Scaffolding\Base\Solution template_SolutionTemplateName\Template data\Name.yml
 ID: "82e64b52-0b8a-4a38-8c78-530c5493814e"
 Parent: "c1b4f0bb-d969-49cb-8a36-303cc3aa2c78"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/_SolutionTemplateName/Template data/Name
+Path: /sitecore/templates/Foundation/JSS Experience Accelerator/Scaffolding/Base/Solution template/\_SolutionTemplateName/Template data/Name
 Signature: px7ZU5S/N48/sS7wtesVX6Sy0CmjOctBb7w4BcmeOvQ=
 Modified: 638877196469132013
