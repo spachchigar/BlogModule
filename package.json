@@ -31,6 +31,7 @@
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
     "@sitecore-jss/sitecore-jss-nextjs": "~22.8.0",
+    "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.21",
     "axios": "^1.10.0",
     "class-variance-authority": "^0.7.1",

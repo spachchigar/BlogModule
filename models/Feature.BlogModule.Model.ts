@@ -291,6 +291,11 @@ export namespace Navigation {
             * Represents the link field (66df7b09-78ad-4369-ab41-a6f145f84339).
             */
             link?: LinkField;
+
+            /**
+            * Represents the title field (1dd71d4c-be0b-4a2d-abf3-74931b489db0).
+            */
+            title?: Field<string>;
         }
 
     }
@@ -305,6 +310,13 @@ export namespace Navigation {
             */
             link?: {
                 jsonValue: LinkField
+            };
+
+            /**
+            * Represents the title field (1dd71d4c-be0b-4a2d-abf3-74931b489db0).
+            */
+            title?: {
+                jsonValue: Field<string>
             };
 
 

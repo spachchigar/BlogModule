@@ -1,17 +1,12 @@
 import { JSX } from 'react'
-import {
-  Field,
-  Image,
-  ImageField,
-  Text,
-} from '@sitecore-jss/sitecore-jss-nextjs'
+import { Image, Text } from '@sitecore-jss/sitecore-jss-nextjs'
 import { ComponentProps } from 'lib/component-props'
 import { container, heading, subHeading } from '../assets/tailwindcss'
 import { HeroBanner as HeroBannerModel } from 'models/Feature.BlogModule.Model'
 import clsx from 'clsx'
 type HeroBannerProps = ComponentProps & HeroBannerModel.HeroBanner
 type BannerProps = HeroBannerProps & {
-  variant: string
+    variant: string
 }
 const Content = ({ variant, params, fields }: BannerProps): JSX.Element => {
   console.log("Variant", variant)
@@ -36,18 +31,17 @@ const Content = ({ variant, params, fields }: BannerProps): JSX.Element => {
     </div >
   )
 }
-const ImageComponent = ({ variant, params, fields }: BannerProps): JSX.Element => {
-  return (
-    < div className="w-full md:w-1/2 h-full min-h-[300px] flex justify-center items-center overflow-hidden" >
-      <Image
-        field={fields?.image}
-        editable={false}
-        imageParams={{ mw: 800, mh: 300 }}
-        className="w-full h-full min-h-[300px] object-cover object-center"
-      />
-    </div >
-  )
-
+const ImageComponent = ({ fields }: BannerProps): JSX.Element => {
+    return (
+        <div className="flex h-full min-h-[300px] w-full items-center justify-center overflow-hidden md:w-1/2">
+            <Image
+                field={fields?.image}
+                editable={false}
+                imageParams={{ mw: 800, mh: 300 }}
+                className="h-full min-h-[300px] w-full object-cover object-center"
+            />
+        </div>
+    )
 }
 const Banner = (props: BannerProps): JSX.Element => {
   const variant = props?.variant
@@ -67,14 +61,13 @@ const Banner = (props: BannerProps): JSX.Element => {
   )
 }
 
-
 export const Default = (props: HeroBannerProps): JSX.Element => {
   return (
     <div className={` w-full mt-5`}>
       <div className={`${container()}`}>
         {/* Main wrapper with fixed height to ensure both sides match */}
         <div className="flex justify-center items-center">
-          <Banner {...props} variant='Default' />
+          <Banner {...props} variant='Default'  />
         </div>
       </div>
     </div>
@@ -87,7 +80,7 @@ export const LeftImage = (props: HeroBannerProps): JSX.Element => {
       <div className={`${container()}`}>
         {/* Main wrapper with fixed height to ensure both sides match */}
         <div className="flex justify-center items-center">
-          <Banner {...props} variant='LeftImage' />
+          <Banner {...props} variant='LeftImage'  />
         </div>
       </div>
     </div>
@@ -95,14 +88,14 @@ export const LeftImage = (props: HeroBannerProps): JSX.Element => {
 }
 
 export const WithoutImage = (props: HeroBannerProps): JSX.Element => {
-  return (
-    <div className={` w-full mt-5`}>
-      <div className={`${container()}`}>
-        {/* Main wrapper with fixed height to ensure both sides match */}
-        <div className="flex justify-center items-center">
-          <Banner {...props} variant='WithoutImage' />
+    return (
+        <div className={`mt-5 w-full`}>
+            <div className={`${container()}`}>
+                {/* Main wrapper with fixed height to ensure both sides match */}
+                <div className="flex items-center justify-center">
+                    <Banner {...props} variant="WithoutImage" />
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  )
+    )
 }
