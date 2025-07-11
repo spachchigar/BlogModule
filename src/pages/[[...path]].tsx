@@ -69,11 +69,12 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
   };
 };
 export const getStaticProps: GetStaticProps = async (context) => {
+  console.log("get GetStaticProps called", context)
   const props = await sitecorePagePropsFactory.create(context);
 
   return {
     props,
-    
+
     revalidate: 5, // In seconds
     notFound: props.notFound, // Returns custom 404 page with a status code of 404 when true
   };

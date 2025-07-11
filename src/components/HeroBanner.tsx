@@ -16,8 +16,6 @@ type BannerProps = HeroBannerProps & {
 const Content = ({ variant, params, fields }: BannerProps): JSX.Element => {
   console.log("Variant", variant)
   return (
-    // <div className={`w-full ${(variant === 'Default' || variant === 'LeftImage') ? 'md:w-1/2' : ''} h-full min-h-[300px] flex items-center justify-center px-4 py-6 rounded-t-2xl md:rounded-t-none  md:rounded-l-2xl  ${params.backgroundColor}`
-    // }>
     <div className={clsx(
       'w-full h-full min-h-[300px] flex items-center justify-center px-4 py-6 rounded-t-2xl md:rounded-t-none md:rounded-l-2xl',
       params.backgroundColor,
@@ -30,7 +28,7 @@ const Content = ({ variant, params, fields }: BannerProps): JSX.Element => {
           <Text field={fields?.title} />
         </h1>
         {fields?.description && (
-          <p className={`${subHeading()} text-center md:text-left`}>
+          <p className={`${subHeading()} text-center ${clsx({ "md:text-start": variant === 'Default' || variant === 'LeftImage' })}`}>
             <Text field={fields?.description} />
           </p>
         )}
@@ -52,24 +50,17 @@ const ImageComponent = ({ variant, params, fields }: BannerProps): JSX.Element =
 
 }
 const Banner = (props: BannerProps): JSX.Element => {
-  const variant=props?.variant
+  const variant = props?.variant
   return (
-    <div className="flex flex-col md:flex-row w-full h-[300px]">
+    <div className={`flex flex-col w-full h-[300px]  ${clsx({
+      "md:flex-row ": variant === "Default",
+      "md:flex-row-reverse": variant === "LeftImage"
+    })}`}>
+
+      <Content {...props} />
       {
-        (variant === "Default" || variant === "LeftImage") ? (
-          variant === "Default" ? (
-            <>
-              <Content {...props} />
-              <ImageComponent {...props} />
-            </>
-          ) : (
-            <>
-              <ImageComponent {...props} />
-              <Content {...props} />
-            </>
-          )
-        ) : (
-          <Content {...props} />
+        (variant === "Default" || variant === "LeftImage") && (
+          <ImageComponent {...props} />
         )
       }
     </div>
@@ -83,7 +74,7 @@ export const Default = (props: HeroBannerProps): JSX.Element => {
       <div className={`${container()}`}>
         {/* Main wrapper with fixed height to ensure both sides match */}
         <div className="flex justify-center items-center">
-          <Banner {...props} variant='Default'  />
+          <Banner {...props} variant='Default' />
         </div>
       </div>
     </div>
@@ -96,7 +87,7 @@ export const LeftImage = (props: HeroBannerProps): JSX.Element => {
       <div className={`${container()}`}>
         {/* Main wrapper with fixed height to ensure both sides match */}
         <div className="flex justify-center items-center">
-          <Banner {...props} variant='LeftImage'  />
+          <Banner {...props} variant='LeftImage' />
         </div>
       </div>
     </div>
