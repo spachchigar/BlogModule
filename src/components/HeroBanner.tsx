@@ -10,8 +10,6 @@ type BannerProps = HeroBannerProps & {
 }
 const Content = ({ variant, params, fields }: BannerProps): JSX.Element => {
     return (
-        // <div className={`w-full ${(variant === 'Default' || variant === 'LeftImage') ? 'md:w-1/2' : ''} h-full min-h-[300px] flex items-center justify-center px-4 py-6 rounded-t-2xl md:rounded-t-none  md:rounded-l-2xl  ${params.backgroundColor}`
-        // }>
         <div
             className={clsx(
                 'flex h-full min-h-[300px] w-full items-center justify-center rounded-t-2xl px-4 py-6 md:rounded-t-none md:rounded-l-2xl',
@@ -31,7 +29,9 @@ const Content = ({ variant, params, fields }: BannerProps): JSX.Element => {
                     <Text field={fields?.title} />
                 </h1>
                 {fields?.description && (
-                    <p className={`${subHeading()} text-center md:text-left`}>
+                    <p
+                        className={`${subHeading()} text-center ${clsx({ 'md:text-start': variant === 'Default' || variant === 'LeftImage' })}`}
+                    >
                         <Text field={fields?.description} />
                     </p>
                 )}
@@ -54,21 +54,15 @@ const ImageComponent = ({ fields }: BannerProps): JSX.Element => {
 const Banner = (props: BannerProps): JSX.Element => {
     const variant = props?.variant
     return (
-        <div className="flex h-[300px] w-full flex-col md:flex-row">
-            {variant === 'Default' || variant === 'LeftImage' ? (
-                variant === 'Default' ? (
-                    <>
-                        <Content {...props} />
-                        <ImageComponent {...props} />
-                    </>
-                ) : (
-                    <>
-                        <ImageComponent {...props} />
-                        <Content {...props} />
-                    </>
-                )
-            ) : (
-                <Content {...props} />
+        <div
+            className={`flex w-full flex-col-reverse ${clsx({
+                'md:flex-row': variant === 'Default',
+                'md:flex-row-reverse': variant === 'LeftImage',
+            })}`}
+        >
+            <Content {...props} />
+            {(variant === 'Default' || variant === 'LeftImage') && (
+                <ImageComponent {...props} />
             )}
         </div>
     )

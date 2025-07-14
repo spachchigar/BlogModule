@@ -34,3 +34,5 @@ scjssconfig.json
 
 .sitecore
 src/serialization
+
+package-lock.json

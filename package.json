@@ -1,94 +1,97 @@
 {
-  "name": "blogsite",
-  "description": "Application utilizing Sitecore JavaScript Services and Next.js",
-  "version": "0.1.0",
-  "private": true,
-  "config": {
-    "appName": "blogsite",
-    "rootPlaceholders": [
-      "jss-main"
-    ],
-    "sitecoreConfigPath": "/App_Config/Include/zzz",
-    "graphQLEndpointPath": "/sitecore/api/graph/edge",
-    "language": "en",
-    "templates": [
-      "nextjs",
-      "nextjs-sxa"
-    ]
-  },
-  "author": {
-    "name": "Sitecore Corporation",
-    "url": "https://jss.sitecore.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sitecore/jss.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sitecore/jss/issues"
-  },
-  "license": "Apache-2.0",
-  "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
-    "@mui/material": "^7.2.0",
-    "@radix-ui/react-dialog": "^1.1.14",
-    "@sitecore-jss/sitecore-jss-nextjs": "~22.8.0",
-    "@tailwindcss/typography": "^0.5.16",
-    "autoprefixer": "^10.4.21",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "font-awesome": "^4.7.0",
-    "lucide-react": "^0.525.0",
-    "next": "^15.3.1",
-    "next-localization": "^0.12.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "sharp": "0.32.6",
-    "tailwind-merge": "^3.3.1",
-    "tailwind-variants": "^1.0.0",
-    "vaul": "^1.1.2"
-  },
-  "devDependencies": {
-    "@sitecore-jss/sitecore-jss-cli": "~22.8.0",
-    "@sitecore-jss/sitecore-jss-dev-tools": "~22.8.0",
-    "@tailwindcss/postcss": "^4.1.11",
-    "@types/node": "^22.9.0",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.3",
-    "@typescript-eslint/eslint-plugin": "^8.14.0",
-    "@typescript-eslint/parser": "^8.14.0",
-    "chalk": "~4.1.2",
-    "chokidar": "~3.5.3",
-    "constant-case": "^3.0.4",
-    "cross-env": "~7.0.3",
-    "dotenv-flow": "^4.1.0",
-    "eslint": "^8.56.0",
-    "eslint-config-next": "^13.1.5",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-yaml": "^0.5.0",
-    "npm-run-all": "~4.1.5",
-    "postcss": "^8.5.6",
-    "prettier": "^3.6.2",
-    "prettier-plugin-tailwindcss": "^0.6.13",
-    "tailwindcss": "^4.1.11",
-    "ts-node": "^10.9.1",
-    "tsconfig-paths": "^4.1.2",
-    "tw-animate-css": "^1.3.5",
-    "typescript": "~5.4.0"
-  },
-  "scripts": {
-    "bootstrap": "ts-node --require dotenv-flow/config --project tsconfig.scripts.json scripts/bootstrap.ts",
-    "build": "cross-env NODE_ENV=production npm-run-all --serial bootstrap next:build",
-    "install-pre-push-hook": "ts-node --project tsconfig.scripts.json ./scripts/install-pre-push-hook.ts",
-    "jss": "jss",
-    "lint": "eslint ./src/**/*.tsx ./src/**/*.ts ./scripts/**/*.ts",
-    "next:build": "next build",
-    "next:dev": "cross-env NODE_OPTIONS='--inspect' next dev",
-    "next:start": "next start",
-    "scaffold": "ts-node --project tsconfig.scripts.json scripts/scaffold-component/index.ts",
-    "start:connected": "cross-env NODE_ENV=development npm-run-all --serial bootstrap --parallel next:dev start:watch-components",
-    "start:production": "cross-env-shell NODE_ENV=production npm-run-all --serial bootstrap next:build next:start",
-    "start:watch-components": "ts-node --project tsconfig.scripts.json scripts/generate-component-builder/index.ts --watch"
-  }
+    "name": "blogsite",
+    "description": "Application utilizing Sitecore JavaScript Services and Next.js",
+    "version": "0.1.0",
+    "private": true,
+    "config": {
+        "appName": "blogsite",
+        "rootPlaceholders": [
+            "jss-main"
+        ],
+        "sitecoreConfigPath": "/App_Config/Include/zzz",
+        "graphQLEndpointPath": "/sitecore/api/graph/edge",
+        "language": "en",
+        "templates": [
+            "nextjs",
+            "nextjs-sxa"
+        ]
+    },
+    "author": {
+        "name": "Sitecore Corporation",
+        "url": "https://jss.sitecore.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sitecore/jss.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sitecore/jss/issues"
+    },
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.1",
+        "@mui/material": "^7.2.0",
+        "@radix-ui/react-dialog": "^1.1.14",
+        "@radix-ui/react-slot": "^1.2.3",
+        "@sitecore-jss/sitecore-jss-nextjs": "~22.8.0",
+        "@tailwindcss/typography": "^0.5.16",
+        "autoprefixer": "^10.4.21",
+        "axios": "^1.10.0",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "date-fns": "^4.1.0",
+        "font-awesome": "^4.7.0",
+        "lucide-react": "^0.525.0",
+        "next": "^15.3.1",
+        "next-localization": "^0.12.0",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0",
+        "sharp": "0.32.6",
+        "tailwind-merge": "^3.3.1",
+        "tailwind-variants": "^1.0.0",
+        "vaul": "^1.1.2"
+    },
+    "devDependencies": {
+        "@sitecore-jss/sitecore-jss-cli": "~22.8.0",
+        "@sitecore-jss/sitecore-jss-dev-tools": "~22.8.0",
+        "@tailwindcss/postcss": "^4.1.11",
+        "@types/node": "^22.9.0",
+        "@types/react": "^19.1.2",
+        "@types/react-dom": "^19.1.3",
+        "@typescript-eslint/eslint-plugin": "^8.14.0",
+        "@typescript-eslint/parser": "^8.14.0",
+        "chalk": "~4.1.2",
+        "chokidar": "~3.5.3",
+        "constant-case": "^3.0.4",
+        "cross-env": "~7.0.3",
+        "dotenv-flow": "^4.1.0",
+        "eslint": "^8.56.0",
+        "eslint-config-next": "^13.1.5",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-yaml": "^0.5.0",
+        "npm-run-all": "~4.1.5",
+        "postcss": "^8.5.6",
+        "prettier": "^3.6.2",
+        "prettier-plugin-tailwindcss": "^0.6.13",
+        "tailwindcss": "^4.1.11",
+        "ts-node": "^10.9.1",
+        "tsconfig-paths": "^4.1.2",
+        "tw-animate-css": "^1.3.5",
+        "typescript": "~5.4.0"
+    },
+    "scripts": {
+        "bootstrap": "ts-node --require dotenv-flow/config --project tsconfig.scripts.json scripts/bootstrap.ts",
+        "build": "cross-env NODE_ENV=production npm-run-all --serial bootstrap next:build",
+        "install-pre-push-hook": "ts-node --project tsconfig.scripts.json ./scripts/install-pre-push-hook.ts",
+        "jss": "jss",
+        "lint": "eslint ./src/**/*.tsx ./src/**/*.ts ./scripts/**/*.ts",
+        "next:build": "next build",
+        "next:dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+        "next:start": "next start",
+        "scaffold": "ts-node --project tsconfig.scripts.json scripts/scaffold-component/index.ts",
+        "start:connected": "cross-env NODE_ENV=development npm-run-all --serial bootstrap --parallel next:dev start:watch-components",
+        "start:production": "cross-env-shell NODE_ENV=production npm-run-all --serial bootstrap next:build next:start",
+        "start:watch-components": "ts-node --project tsconfig.scripts.json scripts/generate-component-builder/index.ts --watch"
+    }
 }
