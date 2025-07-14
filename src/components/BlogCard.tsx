@@ -2,14 +2,19 @@
 
 import React, { JSX } from 'react';
 import { Text, Image } from '@sitecore-jss/sitecore-jss-nextjs';
-import { BlogItem } from "./BlogList"; 
+import { BlogItem } from "./BlogList";
+
+function fixSitecoreDate(dateString: string): string {
+    const year = dateString.slice(0, 4);
+    const month = dateString.slice(4, 6);
+    const day = dateString.slice(6, 8);
+    const time = dateString.slice(9, 15); // HHMMSS
+    return `${year}-${month}-${day}T${time.slice(0, 2)}:${time.slice(2, 4)}:${time.slice(4, 6)}Z`;
+}
 
 const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
     const blogLink = data?.goToBlog?.url || '#';
-
-    
     const imageField = data.image ? { value: { src: data.image.src, alt: data.image.alt } } : null;
-
     return (
         <article className="flex flex-col bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <a href={blogLink} className="block">
@@ -36,7 +41,7 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
                         </a>
                     </h2>
                     <div className="text-sm text-gray-500">
-                        {data?.author?.value || 'Unknown Author'} • {new Date(data?.publishDate?.value).toDateString()}
+                        {data?.author?.value || 'Unknown Author'} • {new Date(fixSitecoreDate(data?.publishDate?.value)).toDateString()}
                     </div>
                 </header>
                 <p className="text-gray-700 text-sm flex-grow mb-4">

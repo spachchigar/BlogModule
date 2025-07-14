@@ -6,8 +6,6 @@ import { container } from '../assets/tailwindcss';
 import { FieldValue, Link, Image } from 'src/utils/blogListType';
 import { graphQLClient } from 'src/utils/graphqlClient';
 import { BLOGS_QUERY } from 'src/utils/graphqlQuery';
-import PaginationComponent from './PaginationUtil';
-import { useSearchParams } from 'next/navigation';
 type BlogListProps = ComponentProps & BlogListModel.BlogList;
 
 export interface BlogItem {
@@ -104,7 +102,7 @@ export const Default = (props: BlogListProps): JSX.Element => {
   }
 
   return (
-    <div className={container()}>
+    <div className={`${container()} my-5`}>
       <h1 className="text-3xl font-bold mb-6">Latest Blog</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

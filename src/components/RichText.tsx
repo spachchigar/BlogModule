@@ -8,7 +8,6 @@ export type RichTextProps = ComponentProps & PageContent.Text
 export const Default = (props: RichTextProps): JSX.Element => {
     return (
         <>
-            <RichText field={props.fields?.Text} />
         </>
     )
 }

@@ -18,7 +18,7 @@ module.exports = {
             colors: {
                 'br-color': '#001623', // custom color name
                 'btn-text-color': '#001623',
-                primary: '#F6F7F7',
+                "primary": '#F6F7F7',
             },
         },
         plugins: [require('@tailwindcss/typography')],
