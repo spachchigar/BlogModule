@@ -50,7 +50,7 @@ export const BLOGS_QUERY = gql`
             text
           }
         }
-        image:field(name:"cardImage"){
+        cardImage:field(name:"cardImage"){
           ... on ImageField{
             alt
             description
@@ -63,3 +63,94 @@ export const BLOGS_QUERY = gql`
   }
 
 `;
+
+
+export const BLOGS_SORT=gql`
+query BlogSearch($sortOrder:OrderByDirection,$blogFolderPath: String!,$first:Int,$after:String) {
+  search(
+    where: {
+      AND: [
+        {
+          name: "_path"
+          value: $blogFolderPath
+        },
+        {
+          name: "_templates"
+          value: "{3CBF3CF6-40AB-4070-9610-84E9B8460FD1}"
+          operator: EQ
+        }
+      ]
+    }
+    orderBy: {
+      name: "publishDate"
+      direction: $sortOrder
+    }
+    first:$first,
+    after:$after
+  ) {
+    total
+    pageInfo{
+      endCursor
+      hasNext
+    }
+    results {   
+      displayName
+      bannerImage: field(name: "bannerImage") {
+        ... on ImageField {
+          src
+          alt
+        }
+      }
+
+      title: field(name: "title") {
+        ... on TextField {
+          value
+        }
+      }
+
+      content: field(name: "content") {
+        ... on TextField {
+          value
+        }
+      }
+
+      publishDate: field(name: "publishDate") {
+        ... on DateField {
+          value
+        }
+      }
+
+      isFeatured: field(name: "isFeatured") {
+        ... on CheckboxField {
+          value
+        }
+      }
+
+      isArchived: field(name: "isArchived") {
+        ... on CheckboxField {
+          value
+        }
+      }
+
+      goToBlog: field(name: "goToBlog") {
+        ... on LinkField {
+          url
+          anchor
+          target
+          text
+        }
+      }
+
+      cardImage: field(name: "cardImage") {
+        ... on ImageField {
+          alt
+          description
+          src
+        }
+      }
+    }
+  }
+}
+
+
+`

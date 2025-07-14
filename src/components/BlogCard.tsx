@@ -1,8 +1,9 @@
 
 
 import React, { JSX } from 'react';
-import { Text, Image } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Text, Image, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
 import { BlogItem } from "./BlogList";
+import { Link } from 'lucide-react';
 
 function fixSitecoreDate(dateString: string): string {
     const year = dateString.slice(0, 4);
@@ -14,7 +15,7 @@ function fixSitecoreDate(dateString: string): string {
 
 const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
     const blogLink = data?.goToBlog?.url || '#';
-    const imageField = data.image ? { value: { src: data.image.src, alt: data.image.alt } } : null;
+    const imageField = data.cardImage ? data.cardImage?.value ? data.cardImage : { value: { src: data?.cardImage?.src, alt: data?.cardImage?.alt } } : null;
     return (
         <article className="flex flex-col bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <a href={blogLink} className="block">
@@ -22,7 +23,7 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
                 <div className="relative w-full aspect-video bg-gray-100 flex items-center justify-center rounded-t-lg overflow-hidden">
                     {imageField?.value?.src ? (
                         <Image
-                            field={imageField}
+                            field={imageField as ImageField}
                             className="absolute inset-0 w-full h-full object-cover"
                         />
                     ) : (
