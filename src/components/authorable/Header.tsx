@@ -1,4 +1,4 @@
-import { JSX } from 'react'
+import { JSX, useState } from 'react'
 import { ComponentProps } from 'lib/component-props'
 import { Components } from 'models/Project.BlogModule.Model'
 import { container } from 'assets/tailwindcss'
@@ -12,6 +12,12 @@ import {
     TextField,
 } from '@sitecore-jss/sitecore-jss-nextjs'
 import { tv } from 'tailwind-variants'
+import Box from '@mui/material/Box'
+import Drawer from '@mui/material/Drawer'
+import List from '@mui/material/List'
+import ListItem from '@mui/material/ListItem'
+import ListItemButton from '@mui/material/ListItemButton'
+import ListItemText from '@mui/material/ListItemText'
 
 const header = tv({
     slots: {
@@ -23,8 +29,44 @@ const header = tv({
 export type HeaderProps = ComponentProps & Components.Header.Header
 
 export const Default = (props: HeaderProps): JSX.Element => {
+    const [open, setOpen] = useState(false)
     const { wrapper, navigationMenu, navigationItem } = header()
     const navItems = props.fields?.Navigation?.fields.menu as Item[]
+
+    const toggleDrawer = (newOpen: boolean) => () => {
+        setOpen(newOpen)
+    }
+
+    const DrawerList = (
+        <Box
+            sx={{ width: 250, backgroundColor: 'black', height: '100vh' }}
+            role="presentation"
+            onClick={toggleDrawer(false)}
+        >
+            <List sx={{ paddingTop: '40px' }}>
+                {navItems.map((item, key) => (
+                    <ListItem key={key} disablePadding>
+                        <ListItemButton sx={{ padding: 0 }}>
+                            <ListItemText sx={{ color: 'white' }}>
+                                <Link
+                                    field={item.fields.link as LinkField}
+                                    key={key}
+                                >
+                                    <div className={navigationItem()}>
+                                        <Text
+                                            field={
+                                                item.fields.title as TextField
+                                            }
+                                        />
+                                    </div>
+                                </Link>
+                            </ListItemText>
+                        </ListItemButton>
+                    </ListItem>
+                ))}
+            </List>
+        </Box>
+    )
     return (
         <div className={`${container()}`}>
             <div className={wrapper()}>
@@ -56,7 +98,10 @@ export const Default = (props: HeaderProps): JSX.Element => {
                         )
                     })}
                 </div>
-                <div className="flex cursor-pointer md:hidden">
+                <div
+                    className="flex cursor-pointer md:hidden"
+                    onClick={toggleDrawer(true)}
+                >
                     <NextImage
                         field={
                             props.fields?.Navigation?.fields
@@ -64,6 +109,9 @@ export const Default = (props: HeaderProps): JSX.Element => {
                         }
                     />
                 </div>
+                <Drawer open={open} onClose={toggleDrawer(false)}>
+                    {DrawerList}
+                </Drawer>
             </div>
         </div>
     )

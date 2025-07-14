@@ -9,7 +9,6 @@ type BannerProps = HeroBannerProps & {
     variant: string
 }
 const Content = ({ variant, params, fields }: BannerProps): JSX.Element => {
-    console.log('Variant', variant)
     return (
         // <div className={`w-full ${(variant === 'Default' || variant === 'LeftImage') ? 'md:w-1/2' : ''} h-full min-h-[300px] flex items-center justify-center px-4 py-6 rounded-t-2xl md:rounded-t-none  md:rounded-l-2xl  ${params.backgroundColor}`
         // }>

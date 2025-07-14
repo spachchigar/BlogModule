@@ -10,6 +10,8 @@
 // @ts-ignore 
 import { Field, ImageField, FileField, LinkField, Item } from '@sitecore-jss/sitecore-jss-nextjs';
 // @ts-ignore 
+import { Authors as SampleFeatureAuthors } from "./Sample.Feature.model"
+// @ts-ignore 
 import { BlogCompponent as SampleFeatureBlogCompponent } from "./Sample.Feature.model"
 // @ts-ignore 
 import { Cards as SampleFoundationCards } from "./Sample.Foundation.model"
@@ -22,6 +24,64 @@ import { Navigation as SampleFeatureNavigation } from "./Sample.Feature.model"
 // @ts-ignore 
 import { SocialLinks as SampleFeatureSocialLinks } from "./Sample.Feature.model"
 
+export namespace Authors {
+
+    /**
+    * Represents the template /sitecore/templates/Feature/BlogModule/Authors/Author Folder
+    */
+    export type AuthorFolder =  {
+        fields?: {         }
+
+    }
+
+    /**
+    * Represents the GraphQL template /sitecore/templates/Feature/BlogModule/Authors/Author Folder
+    */
+    export type AuthorFolderJson =  {
+        
+
+    }
+
+    /**
+    * Represents the template /sitecore/templates/Feature/BlogModule/Authors/Authors
+    */
+    export type Authors =  {
+        fields?: { 
+            /**
+            * Represents the age field (d3d39fa3-7510-47ce-9fb9-0fa895fde249).
+            */
+            age?: Field<number>;
+
+            /**
+            * Represents the fullName field (dd254de7-3249-4b1c-8b43-3ada1bd35152).
+            */
+            fullName?: Field<string>;
+        }
+
+    }
+
+    /**
+    * Represents the GraphQL template /sitecore/templates/Feature/BlogModule/Authors/Authors
+    */
+    export type AuthorsJson =  {
+        
+            /**
+            * Represents the age field (d3d39fa3-7510-47ce-9fb9-0fa895fde249).
+            */
+            age?: {
+                jsonValue: Field<number>
+            };
+
+            /**
+            * Represents the fullName field (dd254de7-3249-4b1c-8b43-3ada1bd35152).
+            */
+            fullName?: {
+                jsonValue: Field<string>
+            };
+
+
+    }
+}
 export namespace BlogCompponent {
 
     /**
@@ -45,6 +105,11 @@ export namespace BlogCompponent {
             cardImage?: ImageField;
 
             /**
+            * Represents the description field (4d2ea5c8-bb20-4d31-90a8-a99847643aa5).
+            */
+            description?: Field<string>;
+
+            /**
             * Represents the Go to Blog CTALink field (686f9e5b-1171-43ad-a2e4-58c530d00d16).
             */
             goToBlog?: Field<string>;
@@ -58,11 +123,6 @@ export namespace BlogCompponent {
             * Represents the Is Featured field (3f6dd9a3-d1f3-4763-b28a-441fb8a826ee).
             */
             isFeatured?: Field<boolean>;
-
-            /**
-            * Represents the Publish Image field (29da1d9a-bce0-4858-88a9-b3a6144d7d7c).
-            */
-            publishDate?: Field<string>;
 
             /**
             * Represents the Related Blog field (511e2b64-dccc-4d46-affa-6624c0d78610).
@@ -99,6 +159,13 @@ export namespace BlogCompponent {
             };
 
             /**
+            * Represents the description field (4d2ea5c8-bb20-4d31-90a8-a99847643aa5).
+            */
+            description?: {
+                jsonValue: Field<string>
+            };
+
+            /**
             * Represents the Go to Blog CTALink field (686f9e5b-1171-43ad-a2e4-58c530d00d16).
             */
             goToBlog?: {
@@ -117,13 +184,6 @@ export namespace BlogCompponent {
             */
             isFeatured?: {
                 jsonValue: Field<boolean>
-            };
-
-            /**
-            * Represents the Publish Image field (29da1d9a-bce0-4858-88a9-b3a6144d7d7c).
-            */
-            publishDate?: {
-                jsonValue: Field<string>
             };
 
             /**
@@ -328,6 +388,11 @@ export namespace Navigation {
     export type NavMenu =  {
         fields?: { 
             /**
+            * Represents the DrawerLogo field (c352a8c0-7e86-4111-a82a-4ed216896bc1).
+            */
+            DrawerLogo?: ImageField;
+
+            /**
             * Represents the menu field (8b477309-39cb-4958-bd50-104f42cbbb8c).
             */
             menu?: Item[];
@@ -340,6 +405,13 @@ export namespace Navigation {
     */
     export type NavMenuJson =  {
         
+            /**
+            * Represents the DrawerLogo field (c352a8c0-7e86-4111-a82a-4ed216896bc1).
+            */
+            DrawerLogo?: {
+                jsonValue: ImageField
+            };
+
             /**
             * Represents the menu field (8b477309-39cb-4958-bd50-104f42cbbb8c).
             */
