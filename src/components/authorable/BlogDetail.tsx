@@ -16,6 +16,7 @@ import { BlogItem } from 'components/BlogList'
 import { BlogCompponent } from 'models/Feature.BlogModule.Model'
 import { container } from 'assets/tailwindcss'
 import { format, parse } from 'date-fns'
+import BlogCard from 'components/BlogCard'
 
 interface BlogDetailProps {
     rendering: ComponentRendering & { params: ComponentParams }
@@ -39,7 +40,6 @@ export const Default = (props: BlogDetailProps): JSX.Element => {
 
     useEffect(() => {
         const fetchBlog = async () => {
-            console.log(itemId)
             try {
                 const result = await graphQLClient.request<DetailQueryResponse>(
                     BLOG_DETAIL_QUERY,
@@ -47,7 +47,6 @@ export const Default = (props: BlogDetailProps): JSX.Element => {
                         itemId: itemId,
                     }
                 )
-                console.log(result)
                 setBlog(result)
             } catch (err) {
                 console.log('Graphql Error', err)
@@ -88,7 +87,6 @@ export const Default = (props: BlogDetailProps): JSX.Element => {
     const formattedDateField = {
         value: parsedDate.toISOString(), // Now safe to use
     }
-
     return (
         <div className={`${container()}`}>
             <div className="py-6">
@@ -111,7 +109,7 @@ export const Default = (props: BlogDetailProps): JSX.Element => {
                         <span className="font-bold text-black">
                             <Text
                                 field={
-                                    blog.item.author.jsonValue.fields
+                                    blog.item.author.jsonValue?.fields
                                         .fullName as TextField
                                 }
                             />
@@ -131,6 +129,12 @@ export const Default = (props: BlogDetailProps): JSX.Element => {
                 </div>
                 <div className="my-6">
                     <RichText field={blog.item.description} />
+                </div>
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    {blog.item.relatedBlog?.jsonValue?.map((blogItem, key) => {
+                        console.log(blogItem)
+                        return <BlogCard key={key} data={blogItem.fields} />
+                    })}
                 </div>
             </div>
         </div>

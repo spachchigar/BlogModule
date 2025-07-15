@@ -2,14 +2,13 @@ import React, { JSX } from 'react'
 import {
     Text,
     Image,
-    Link,
-    LinkField,
-    LinkFieldValue,
+    ImageField,
+    TextField,
 } from '@sitecore-jss/sitecore-jss-nextjs'
 import { BlogItem } from './BlogList'
+import { Link } from 'lucide-react'
 
 function fixSitecoreDate(dateString: string): string {
-    console.log(dateString)
     const year = dateString.slice(0, 4)
     const month = dateString.slice(4, 6)
     const day = dateString.slice(6, 8)
@@ -19,10 +18,17 @@ function fixSitecoreDate(dateString: string): string {
 
 const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
     const blogLink = data?.goToBlog?.url || '#'
-    const imageField = data.image
-        ? { value: { src: data.image.src, alt: data.image.alt } }
+    console.log(data, 'hdsuibdhbs')
+    const imageField = data.cardImage
+        ? data.cardImage?.value
+            ? data.cardImage
+            : {
+                  value: {
+                      src: data?.cardImage?.src,
+                      alt: data?.cardImage?.alt,
+                  },
+              }
         : null
-    console.log(data, 'mfskdfmsk')
     return (
         <article className="flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-shadow hover:shadow-md">
             <a href={blogLink} className="block">
@@ -30,7 +36,7 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
                 <div className="relative flex aspect-video w-full items-center justify-center overflow-hidden rounded-t-lg bg-gray-100">
                     {imageField?.value?.src ? (
                         <Image
-                            field={imageField}
+                            field={imageField as ImageField}
                             className="absolute inset-0 h-full w-full object-cover"
                         />
                     ) : (
@@ -49,7 +55,17 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
                         </a>
                     </h2>
                     <div className="text-sm text-gray-500">
-                        {data?.author?.value || 'Unknown Author'} •{' '}
+                        {data.author.jsonValue ? (
+                            <Text
+                                field={
+                                    data.author.jsonValue.fields
+                                        .fullName as TextField
+                                }
+                            />
+                        ) : (
+                            <Text field={data.author.fields?.fullName} />
+                        )}
+                        •
                         {new Date(
                             fixSitecoreDate(data?.publishDate?.value)
                         ).toDateString()}

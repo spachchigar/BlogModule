@@ -50,6 +50,33 @@ export const BLOGS_QUERY = gql`
                 }
             }
         }
+         isArchived:field(name:"isArchived"){
+          ... on CheckboxField{
+            value
+          }
+        }
+          author: field(name: "author") {
+                ... on ItemField {
+                    jsonValue
+                }
+            }
+         goToBlog:field(name:"goToBlog"){
+          ... on LinkField{
+            url
+            anchor
+            target
+            text
+          }
+        }
+        cardImage:field(name:"cardImage"){
+          ... on ImageField{
+            alt
+            description
+            src
+          }
+        }
+        }
+      }
     }
 `
 
@@ -105,6 +132,91 @@ export const BLOG_DETAIL_QUERY = gql`
                     alt
                     description
                     src
+                }
+            }
+        }
+    }
+`
+
+export const BLOGS_SORT = gql`
+    query BlogSearch(
+        $sortOrder: OrderByDirection
+        $blogFolderPath: String!
+        $first: Int
+        $after: String
+    ) {
+        search(
+            where: {
+                AND: [
+                    { name: "_path", value: $blogFolderPath }
+                    {
+                        name: "_templates"
+                        value: "{3CBF3CF6-40AB-4070-9610-84E9B8460FD1}"
+                        operator: EQ
+                    }
+                ]
+            }
+            orderBy: { name: "publishDate", direction: $sortOrder }
+            first: $first
+            after: $after
+        ) {
+            total
+            pageInfo {
+                endCursor
+                hasNext
+            }
+            results {
+                displayName
+                bannerImage: field(name: "bannerImage") {
+                    ... on ImageField {
+                        jsonValue
+                    }
+                }
+
+                title: field(name: "title") {
+                    ... on TextField {
+                        jsonValue
+                    }
+                }
+
+                content: field(name: "content") {
+                    ... on TextField {
+                        jsonValue
+                    }
+                }
+
+                publishDate: field(name: "publishDate") {
+                    ... on DateField {
+                        jsonValue
+                    }
+                }
+
+                isFeatured: field(name: "isFeatured") {
+                    ... on CheckboxField {
+                        jsonValue
+                    }
+                }
+
+                isArchived: field(name: "isArchived") {
+                    ... on CheckboxField {
+                        jsonValue
+                    }
+                }
+
+                goToBlog: field(name: "goToBlog") {
+                    ... on LinkField {
+                        jsonValue
+                    }
+                }
+                author: field(name: "author") {
+                    ... on ItemField {
+                        jsonValue
+                    }
+                }
+                cardImage: field(name: "cardImage") {
+                    ... on ImageField {
+                        jsonValue
+                    }
                 }
             }
         }
