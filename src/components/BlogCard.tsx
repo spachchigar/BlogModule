@@ -6,7 +6,6 @@ import {
     TextField,
 } from '@sitecore-jss/sitecore-jss-nextjs'
 import { BlogItem } from './BlogList'
-import { Link } from 'lucide-react'
 
 function fixSitecoreDate(dateString: string): string {
     const year = dateString.slice(0, 4)

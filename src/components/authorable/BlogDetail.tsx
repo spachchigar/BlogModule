@@ -1,11 +1,7 @@
 import { JSX, useEffect, useState } from 'react'
 import {
-    ComponentParams,
-    ComponentRendering,
     DateField,
     Image,
-    ImageField,
-    ImageFieldValue,
     RichText,
     Text,
     TextField,
@@ -13,20 +9,14 @@ import {
 import { graphQLClient } from 'src/utils/graphqlClient'
 import { BLOG_DETAIL_QUERY } from 'src/utils/graphqlQuery'
 import { BlogItem } from 'components/BlogList'
-import { BlogCompponent } from 'models/Feature.BlogModule.Model'
 import { container } from 'assets/tailwindcss'
 import { format, parse } from 'date-fns'
 import BlogCard from 'components/BlogCard'
 
-interface BlogDetailProps {
-    rendering: ComponentRendering & { params: ComponentParams }
-    params: ComponentParams
-}
-
 interface DetailQueryResponse {
     item: BlogItem
 }
-export const Default = (props: BlogDetailProps): JSX.Element => {
+export const Default = (): JSX.Element => {
     const [itemId, setItemId] = useState<string>('')
     const [blog, setBlog] = useState<DetailQueryResponse | null>(null)
     const [loading, setLoading] = useState<boolean>(true)

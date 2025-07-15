@@ -1,14 +1,11 @@
 import { JSX, useEffect, useState } from 'react'
-import { BlogList as BlogListModel } from 'models/Feature.BlogModule.Model'
-import { ComponentProps } from 'lib/component-props'
 import BlogCard from './BlogCard'
 import { container } from '../assets/tailwindcss'
 import { FieldValue, Link, Image } from 'src/utils/blogListType'
 import { graphQLClient } from 'src/utils/graphqlClient'
-import { BLOGS_QUERY, BLOGS_SORT } from 'src/utils/graphqlQuery'
+import { BLOGS_SORT } from 'src/utils/graphqlQuery'
 import { Button } from './components/ui/button'
 import { Item } from '@sitecore-jss/sitecore-jss-nextjs'
-type BlogListProps = ComponentProps & BlogListModel.BlogList
 
 export interface BlogItem {
     // displayName: string;
@@ -65,7 +62,7 @@ interface SortOptions {
     sortOrder: 'ASC' | 'DESC'
     // Add other sort-related properties here if needed in the future
 }
-export const Default = (props: BlogListProps): JSX.Element => {
+export const Default = (): JSX.Element => {
     /** ➊ Allow null and start with it */
 
     const ITEMS_PER_PAGE = 3
