@@ -9,6 +9,7 @@ import { Item } from '@sitecore-jss/sitecore-jss-nextjs'
 
 export interface BlogItem {
     // displayName: string;
+    id: string
     bannerImage: Image
     cardImage?: Image
     title: FieldValue<string>
@@ -22,10 +23,8 @@ export interface BlogItem {
             fullName: FieldValue<string>
         }
     }
-    relatedBlog?: {
-        jsonValue: {
-            fields: BlogItem
-        }[]
+    relatedBlogs?: {
+        targetItems: BlogItem[]
     }
 }
 
@@ -64,7 +63,6 @@ interface SortOptions {
 }
 export const Default = (): JSX.Element => {
     /** ➊ Allow null and start with it */
-
     const ITEMS_PER_PAGE = 3
 
     const [blogs, setBlogs] = useState<SortResponse | null>(null)
@@ -129,24 +127,27 @@ export const Default = (): JSX.Element => {
     return (
         <div className={`${container()} my-5`}>
             <h1 className="mb-6 text-3xl font-bold">Latest Blog</h1>
-            <Button
-                variant={currentSortOrder == 'ASC' ? 'default' : 'secondary'}
-                onClick={() => {
-                    handleSortChange('ASC')
-                }}
-                className="border-2 px-3 py-2 font-semibold"
-            >
-                ascending
-            </Button>
-            <Button
-                variant={currentSortOrder == 'DESC' ? 'default' : 'secondary'}
-                onClick={() => {
-                    handleSortChange('DESC')
-                }}
-                className="border-2 px-3 py-2 font-semibold"
-            >
-                descending
-            </Button>
+            <div className="my-5 flex gap-2">
+                <Button
+                    variant={
+                        currentSortOrder === 'ASC' ? 'default' : 'secondary'
+                    }
+                    onClick={() => handleSortChange('ASC')}
+                    className={`rounded-xl border-2 px-4 py-2 font-semibold transition-colors ${currentSortOrder === 'ASC' ? 'border-blue-600 bg-blue-600 text-white hover:bg-blue-700' : 'border-gray-300 bg-white text-gray-700 hover:bg-gray-100'} `}
+                >
+                    Oldest Blogs
+                </Button>
+                <Button
+                    variant={
+                        currentSortOrder === 'DESC' ? 'default' : 'secondary'
+                    }
+                    onClick={() => handleSortChange('DESC')}
+                    className={`rounded-xl border-2 px-4 py-2 font-semibold transition-colors ${currentSortOrder === 'DESC' ? 'border-blue-600 bg-blue-600 text-white hover:bg-blue-700' : 'border-gray-300 bg-white text-gray-700 hover:bg-gray-100'} `}
+                >
+                    Newest Blogs
+                </Button>
+            </div>
+
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {/* ➍ Need an explicit return when using braces */}
                 {blogs?.search.results.map((blog, index) => (

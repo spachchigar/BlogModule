@@ -10,16 +10,94 @@
 // @ts-ignore 
 import { Field, ImageField, FileField, LinkField, Item } from '@sitecore-jss/sitecore-jss-nextjs';
 // @ts-ignore 
-import { RenderingParams as SampleProjectRenderingParams } from "./Sample.Project.model"
-// @ts-ignore 
 import { Sample as SampleProjectSample } from "./Sample.Project.model"
 // @ts-ignore 
+import { RenderingParams as SampleProjectRenderingParams } from "./Sample.Project.model"
+// @ts-ignore 
 import { Components as SampleProjectComponents } from "./Sample.Project.model"
-// @ts-ignore 
-import { Multisite as SampleFoundationMultisite } from "./Sample.Foundation.model"
-// @ts-ignore 
-import { Presentation as SampleFoundationPresentation } from "./Sample.Foundation.model"
 
+export namespace Sample.Project.BlogModule {
+
+    /**
+    * Represents the template /sitecore/templates/Project/BlogModule/Blog Detail Page
+    */
+    export type BlogDetailPage =  {
+        fields?: { 
+            /**
+            * Represents the Content field (454a5b81-822c-4a51-b70f-5f05d260268f).
+            */
+            Content?: Field<string>;
+
+            /**
+            * Represents the Title field (24b7fc00-4509-474a-aa89-fe68ccade2a1).
+            */
+            Title?: Field<string>;
+        }
+
+    }
+
+    /**
+    * Represents the GraphQL template /sitecore/templates/Project/BlogModule/Blog Detail Page
+    */
+    export type BlogDetailPageJson =  {
+        
+            /**
+            * Represents the Content field (454a5b81-822c-4a51-b70f-5f05d260268f).
+            */
+            Content?: {
+                jsonValue: Field<string>
+            };
+
+            /**
+            * Represents the Title field (24b7fc00-4509-474a-aa89-fe68ccade2a1).
+            */
+            Title?: {
+                jsonValue: Field<string>
+            };
+
+
+    }
+
+    /**
+    * Represents the template /sitecore/templates/Project/BlogModule/Blogs Page
+    */
+    export type BlogsPage =  {
+        fields?: { 
+            /**
+            * Represents the Content field (b78ed2bb-bcb1-467c-b847-c3aa16633687).
+            */
+            Content?: Field<string>;
+
+            /**
+            * Represents the Title field (a734ed77-5d16-4461-a063-2916e4045c21).
+            */
+            Title?: Field<string>;
+        }
+
+    }
+
+    /**
+    * Represents the GraphQL template /sitecore/templates/Project/BlogModule/Blogs Page
+    */
+    export type BlogsPageJson =  {
+        
+            /**
+            * Represents the Content field (b78ed2bb-bcb1-467c-b847-c3aa16633687).
+            */
+            Content?: {
+                jsonValue: Field<string>
+            };
+
+            /**
+            * Represents the Title field (a734ed77-5d16-4461-a063-2916e4045c21).
+            */
+            Title?: {
+                jsonValue: Field<string>
+            };
+
+
+    }
+}
 export namespace RenderingParams {
 
     /**
@@ -171,7 +249,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the template /sitecore/templates/Project/BlogModule/Headless Site
     */
-    export type HeadlessSite = SampleFoundationMultisite.HeadlessSite &  {
+    export type HeadlessSite =  {
         fields?: {         }
 
     }
@@ -179,7 +257,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the GraphQL template /sitecore/templates/Project/BlogModule/Headless Site
     */
-    export type HeadlessSiteJson = SampleFoundationMultisite.HeadlessSiteJson &  {
+    export type HeadlessSiteJson =  {
         
 
     }
@@ -187,7 +265,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the template /sitecore/templates/Project/BlogModule/Headless Tenant
     */
-    export type HeadlessTenant = SampleFoundationMultisite.HeadlessTenant &  {
+    export type HeadlessTenant =  {
         fields?: {         }
 
     }
@@ -195,7 +273,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the GraphQL template /sitecore/templates/Project/BlogModule/Headless Tenant
     */
-    export type HeadlessTenantJson = SampleFoundationMultisite.HeadlessTenantJson &  {
+    export type HeadlessTenantJson =  {
         
 
     }
@@ -203,7 +281,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the template /sitecore/templates/Project/BlogModule/JSS Settings
     */
-    export type JssSettings = SampleFoundationMultisite.JssSettings &  {
+    export type JssSettings =  {
         fields?: {         }
 
     }
@@ -211,7 +289,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the GraphQL template /sitecore/templates/Project/BlogModule/JSS Settings
     */
-    export type JssSettingsJson = SampleFoundationMultisite.JssSettingsJson &  {
+    export type JssSettingsJson =  {
         
 
     }
@@ -219,7 +297,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the template /sitecore/templates/Project/BlogModule/Page
     */
-    export type Page = SampleFoundationMultisite.BasePage &  {
+    export type Page =  {
         fields?: { 
             /**
             * Represents the Content field (eeb762f5-de26-4167-9d61-332e6f3ad736).
@@ -237,7 +315,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the GraphQL template /sitecore/templates/Project/BlogModule/Page
     */
-    export type PageJson = SampleFoundationMultisite.BasePageJson &  {
+    export type PageJson =  {
         
             /**
             * Represents the Content field (eeb762f5-de26-4167-9d61-332e6f3ad736).
@@ -259,7 +337,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the template /sitecore/templates/Project/BlogModule/Page Design Folder
     */
-    export type PageDesignFolder = SampleFoundationPresentation.Folders.PageDesignFolder &  {
+    export type PageDesignFolder =  {
         fields?: {         }
 
     }
@@ -267,7 +345,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the GraphQL template /sitecore/templates/Project/BlogModule/Page Design Folder
     */
-    export type PageDesignFolderJson = SampleFoundationPresentation.Folders.PageDesignFolderJson &  {
+    export type PageDesignFolderJson =  {
         
 
     }
@@ -275,7 +353,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the template /sitecore/templates/Project/BlogModule/Page Designs
     */
-    export type PageDesigns = SampleFoundationPresentation.PageDesigns &  {
+    export type PageDesigns =  {
         fields?: {         }
 
     }
@@ -283,7 +361,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the GraphQL template /sitecore/templates/Project/BlogModule/Page Designs
     */
-    export type PageDesignsJson = SampleFoundationPresentation.PageDesignsJson &  {
+    export type PageDesignsJson =  {
         
 
     }
@@ -291,7 +369,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the template /sitecore/templates/Project/BlogModule/Partial Design Folder
     */
-    export type PartialDesignFolder = SampleFoundationPresentation.Folders.PartialDesignFolder &  {
+    export type PartialDesignFolder =  {
         fields?: {         }
 
     }
@@ -299,7 +377,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the GraphQL template /sitecore/templates/Project/BlogModule/Partial Design Folder
     */
-    export type PartialDesignFolderJson = SampleFoundationPresentation.Folders.PartialDesignFolderJson &  {
+    export type PartialDesignFolderJson =  {
         
 
     }
@@ -307,7 +385,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the template /sitecore/templates/Project/BlogModule/Partial Designs
     */
-    export type PartialDesigns = SampleFoundationPresentation.PartialDesigns &  {
+    export type PartialDesigns =  {
         fields?: {         }
 
     }
@@ -315,7 +393,7 @@ export namespace Sample.Project.BlogModule {
     /**
     * Represents the GraphQL template /sitecore/templates/Project/BlogModule/Partial Designs
     */
-    export type PartialDesignsJson = SampleFoundationPresentation.PartialDesignsJson &  {
+    export type PartialDesignsJson =  {
         
 
     }

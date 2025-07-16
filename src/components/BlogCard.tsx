@@ -17,7 +17,7 @@ function fixSitecoreDate(dateString: string): string {
 
 const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
     const blogLink = data?.goToBlog?.url || '#'
-    console.log(data, 'hdsuibdhbs')
+    console.log(data, 'item data')
     const imageField = data.cardImage
         ? data.cardImage?.value
             ? data.cardImage
@@ -74,7 +74,7 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
                     <Text field={data?.content} />
                 </p>
                 <a
-                    href={blogLink}
+                    href={`${blogLink}?itemId=${data?.id}`}
                     className="text-sm font-semibold text-blue-600 hover:underline"
                 >
                     Read more →

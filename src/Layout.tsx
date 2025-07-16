@@ -64,6 +64,15 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
             <Head>
                 <title>{fields?.Title?.value?.toString() || 'Page'}</title>
                 <link rel="icon" href={`${publicUrl}/favicon.ico`} />
+                <link
+                    rel="preconnect"
+                    href="https://fonts.googleapis.com"
+                ></link>
+                <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+                    rel="stylesheet"
+                ></link>
                 {headLinks.map((headLink) => (
                     <link
                         rel={headLink.rel}

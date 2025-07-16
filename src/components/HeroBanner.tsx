@@ -67,10 +67,9 @@ const Banner = (props: BannerProps): JSX.Element => {
         </div>
     )
 }
-
 export const Default = (props: HeroBannerProps): JSX.Element => {
     return (
-        <div className={`mt-5 w-full`}>
+        <div className={`mt-5 w-full ${props.params.backgroundColor}`}>
             <div className={`${container()}`}>
                 {/* Main wrapper with fixed height to ensure both sides match */}
                 <div className="flex items-center justify-center">
@@ -83,7 +82,7 @@ export const Default = (props: HeroBannerProps): JSX.Element => {
 
 export const LeftImage = (props: HeroBannerProps): JSX.Element => {
     return (
-        <div className={`mt-5 w-full`}>
+        <div className={`bg-primary mt-5 w-full`}>
             <div className={`${container()}`}>
                 {/* Main wrapper with fixed height to ensure both sides match */}
                 <div className="flex items-center justify-center">
@@ -96,7 +95,7 @@ export const LeftImage = (props: HeroBannerProps): JSX.Element => {
 
 export const WithoutImage = (props: HeroBannerProps): JSX.Element => {
     return (
-        <div className={`mt-5 w-full`}>
+        <div className={`mt-5 w-full ${props.params.backgroundColor}`}>
             <div className={`${container()}`}>
                 {/* Main wrapper with fixed height to ensure both sides match */}
                 <div className="flex items-center justify-center">

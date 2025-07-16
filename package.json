@@ -33,6 +33,7 @@
         "@emotion/styled": "^11.14.1",
         "@mui/material": "^7.2.0",
         "@radix-ui/react-dialog": "^1.1.14",
+        "@radix-ui/react-dropdown-menu": "^2.1.15",
         "@radix-ui/react-slot": "^1.2.3",
         "@sitecore-jss/sitecore-jss-nextjs": "~22.8.0",
         "@tailwindcss/typography": "^0.5.16",

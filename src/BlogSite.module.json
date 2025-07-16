@@ -3,17 +3,10 @@
     "items": {
         "includes": [
             {
-                "name": "SXAFoundation",
-                "path": "/sitecore/templates/Foundation/JSS Experience Accelerator"
-            },
-            {
                 "name": "BaseComponentFoundation",
                 "path": "/sitecore/templates/Foundation/Base Components"
             },
-            {
-                "name": "SXAFeature",
-                "path": "/sitecore/templates/Feature/JSS Experience Accelerator"
-            },
+
             {
                 "name": "BlogModuleFeature",
                 "path": "/sitecore/templates/Feature/BlogModule"
@@ -30,18 +23,12 @@
                 "@extends": "BlogSite.Base",
                 "@name": "Foundation.Base Components"
             },
-            {
-                "@extends": "BlogSite.Base",
-                "@name": "Foundation.JSS Experience Accelerator"
-            },
+
             {
                 "@extends": "BlogSite.Base",
                 "@name": "Feature.BlogModule"
             },
-            {
-                "@extends": "BlogSite.Base",
-                "@name": "Feature.JSS Experience Accelerator"
-            },
+
             {
                 "@extends": "BlogSite.Base",
                 "@name": "Project.BlogModule"
