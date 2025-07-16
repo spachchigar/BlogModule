@@ -2,11 +2,11 @@ import { JSX, useEffect, useState } from 'react'
 import { Text } from '@sitecore-jss/sitecore-jss-nextjs'
 import { ComponentProps } from 'lib/component-props'
 import { BlogList } from 'models/Feature.BlogModule.Model'
-import BlogCard from './BlogCard'
-import { QueryOperators, SortResponse } from './BlogList'
+import BlogCard from '../BlogCard'
+import { QueryOperators, SortResponse } from '../BlogList'
 import { container } from 'assets/tailwindcss'
 import { graphQLClient } from 'src/utils/graphqlClient'
-import { BLOG_LIST } from 'src/utils/graphqlQuery'
+import { FEATURED_LIST } from 'src/utils/graphqlQuery'
 
 type ArchivedBlogsProps = ComponentProps & BlogList.BlogList
 
@@ -25,13 +25,13 @@ export const Default = (props: ArchivedBlogsProps): JSX.Element => {
     const fetchBlogs = async () => {
         try {
             const result = await graphQLClient.request<SortResponse>(
-                BLOG_LIST,
+                FEATURED_LIST,
                 {
                     first: ITEMS_PER_PAGE,
                     after: endCursors[currentPage - 1],
                     path: '{0D1B78BE-6A64-4160-8DA5-4E5DAB9F1FF5}',
                     templateId: '{AD4713B7-4A01-4642-ACFF-9A0AA72499DF}',
-                    archiveQuery: QueryOperators.EQ,
+                    featureQuery: QueryOperators.EQ,
                 }
             )
             const endCursor = result?.search?.pageInfo?.endCursor

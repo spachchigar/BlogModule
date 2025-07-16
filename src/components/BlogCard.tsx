@@ -1,22 +1,9 @@
 import React, { JSX } from 'react'
-import {
-    Text,
-    Image,
-    ImageField,
-    TextField,
-} from '@sitecore-jss/sitecore-jss-nextjs'
+import { Text, Image, ImageField } from '@sitecore-jss/sitecore-jss-nextjs'
 import { BlogItem } from './BlogList'
 
-function fixSitecoreDate(dateString: string): string {
-    const year = dateString.slice(0, 4)
-    const month = dateString.slice(4, 6)
-    const day = dateString.slice(6, 8)
-    const time = dateString.slice(9, 15) // HHMMSS
-    return `${year}-${month}-${day}T${time.slice(0, 2)}:${time.slice(2, 4)}:${time.slice(4, 6)}Z`
-}
-
 const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
-    const blogLink = data?.goToBlog?.url || '#'
+    const blogLink = data?.goToBlog?.path || '#'
     console.log(data, 'item data')
     const imageField = data.cardImage
         ? data.cardImage?.value
@@ -50,10 +37,10 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
                 <header className="mb-2">
                     <h2 className="text-xl font-semibold text-gray-900 hover:text-blue-600">
                         <a href={blogLink}>
-                            <Text field={data?.title} />
+                            <Text field={data?.pageTitle} />
                         </a>
                     </h2>
-                    <div className="text-sm text-gray-500">
+                    {/* <div className="text-sm text-gray-500">
                         {data.author.jsonValue ? (
                             <Text
                                 field={
@@ -68,13 +55,13 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
                         {new Date(
                             fixSitecoreDate(data?.publishDate?.value)
                         ).toDateString()}
-                    </div>
+                    </div> */}
                 </header>
                 <p className="mb-4 flex-grow text-sm text-gray-700">
-                    <Text field={data?.content} />
+                    <Text field={data?.shortDescription} />
                 </p>
                 <a
-                    href={`${blogLink}?itemId=${data?.id}`}
+                    href={blogLink}
                     className="text-sm font-semibold text-blue-600 hover:underline"
                 >
                     Read more →
