@@ -6,6 +6,7 @@ import {
     TextField,
 } from '@sitecore-jss/sitecore-jss-nextjs'
 import { BlogItem } from './BlogList'
+import Link from 'next/link'
 
 function fixSitecoreDate(dateString: string): string {
     const year = dateString.slice(0, 4)
@@ -29,8 +30,8 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
               }
         : null
     return (
-        <article className="flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-shadow hover:shadow-md">
-            <a href={blogLink} className="block">
+        <div className="flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-shadow hover:shadow-md">
+            <Link href={blogLink} className="block">
                 {/* Image Container with Fixed Aspect Ratio */}
                 <div className="relative flex aspect-video w-full items-center justify-center overflow-hidden rounded-t-lg bg-gray-100">
                     {imageField?.value?.src ? (
@@ -45,7 +46,7 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
                         </div>
                     )}
                 </div>
-            </a>
+            </Link>
             <div className="flex flex-grow flex-col p-4">
                 <header className="mb-2">
                     <h2 className="text-xl font-semibold text-gray-900 hover:text-blue-600">
@@ -80,7 +81,7 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
                     Read more →
                 </a>
             </div>
-        </article>
+        </div>
     )
 }
 
