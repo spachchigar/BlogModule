@@ -1,15 +1,21 @@
 import { JSX } from 'react'
 
 import { PageContent } from 'models/Feature.BlogModule.Model'
-import { ComponentProps } from 'lib/component-props'
+import { ComponentProps, ComponentWithContextProps } from 'lib/component-props'
 import { DateField, Text, TextField } from '@sitecore-jss/sitecore-jss-nextjs'
 import { format } from 'date-fns'
 import { container } from 'assets/tailwindcss'
-type BlogTitleProps = ComponentProps & PageContent.BlogTitle
+import { FieldValue } from 'src/utils/blogListType'
+type BlogTitleProps = ComponentProps &
+    PageContent.BlogTitle &
+    ComponentWithContextProps
 
+export const formatDate = (date?: Date | null): string =>
+    date ? format(date, 'MMMM dd, yyyy') : ''
 export const Default = (props: BlogTitleProps): JSX.Element => {
-    const formatDate = (date?: Date | null): string =>
-        date ? format(date, 'MMMM dd, yyyy') : ''
+    const publishDate = props.sitecoreContext.route?.fields
+        ?.publishDate as FieldValue<string>
+
     return (
         <div
             className={`flex flex-col ${container()} my-5 bg-gray-500 text-white`}
@@ -31,9 +37,9 @@ export const Default = (props: BlogTitleProps): JSX.Element => {
                     </div>
                     <div>
                         <span className="font-bold">
-                            {props.fields?.publishDate && (
+                            {publishDate && (
                                 <DateField
-                                    field={props.fields.publishDate}
+                                    field={publishDate}
                                     render={(date) => formatDate(date)}
                                 />
                             )}

@@ -11,6 +11,8 @@
 import { Field, ImageField, FileField, LinkField, Item } from '@sitecore-jss/sitecore-jss-nextjs';
 // @ts-ignore 
 import { Cards as SampleFoundationCards } from "./Sample.Foundation.model"
+// @ts-ignore 
+import { Enums as SampleFoundationEnums } from "./Sample.Foundation.model"
 
 export namespace Cards {
 
@@ -63,6 +65,52 @@ export namespace Cards {
                 jsonValue: Field<string>
             };
 
+
+    }
+}
+export namespace Enums {
+
+    /**
+    * Represents the template /sitecore/templates/Foundation/Base Components/Enums/Enum
+    */
+    export type Enum =  {
+        fields?: { 
+            /**
+            * Represents the type field (6728a495-bf79-4ff9-8633-115b7b503105).
+            */
+            type?: Field<string>;
+        }
+
+    }
+
+    /**
+    * Represents the GraphQL template /sitecore/templates/Foundation/Base Components/Enums/Enum
+    */
+    export type EnumJson =  {
+        
+            /**
+            * Represents the type field (6728a495-bf79-4ff9-8633-115b7b503105).
+            */
+            type?: {
+                jsonValue: Field<string>
+            };
+
+
+    }
+
+    /**
+    * Represents the template /sitecore/templates/Foundation/Base Components/Enums/Enum Folder
+    */
+    export type EnumFolder =  {
+        fields?: {         }
+
+    }
+
+    /**
+    * Represents the GraphQL template /sitecore/templates/Foundation/Base Components/Enums/Enum Folder
+    */
+    export type EnumFolderJson =  {
+        
 
     }
 }

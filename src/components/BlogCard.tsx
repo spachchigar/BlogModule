@@ -1,10 +1,15 @@
 import React, { JSX } from 'react'
-import { Text, Image, ImageField } from '@sitecore-jss/sitecore-jss-nextjs'
+import {
+    Text,
+    Image,
+    ImageField,
+    DateField,
+} from '@sitecore-jss/sitecore-jss-nextjs'
 import { BlogItem } from './BlogList'
+import { formatDate } from './authorable/BlogTitle'
 
 const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
     const blogLink = data?.goToBlog?.path || '#'
-    console.log(data, 'item data')
     const imageField = data.cardImage
         ? data.cardImage?.value
             ? data.cardImage
@@ -15,6 +20,9 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
                   },
               }
         : null
+    const publishDate = data.publishDate
+    console.log(data)
+    console.log(publishDate)
     return (
         <article className="flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-shadow hover:shadow-md">
             <a href={blogLink} className="block">
@@ -56,6 +64,14 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
                             fixSitecoreDate(data?.publishDate?.value)
                         ).toDateString()}
                     </div> */}
+                    <div className="text-sm text-gray-500">
+                        {publishDate && (
+                            <DateField
+                                field={publishDate}
+                                render={(date) => formatDate(date)}
+                            />
+                        )}
+                    </div>
                 </header>
                 <p className="mb-4 flex-grow text-sm text-gray-700">
                     <Text field={data?.shortDescription} />

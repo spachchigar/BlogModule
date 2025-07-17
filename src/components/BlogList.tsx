@@ -4,7 +4,7 @@ import { container } from '../assets/tailwindcss'
 import { FieldValue, Link, Image } from 'src/utils/blogListType'
 import { graphQLClient } from 'src/utils/graphqlClient'
 import { BLOG_LIST } from 'src/utils/graphqlQuery'
-// import { Button } from './components/ui/button'
+import { Button } from './components/ui/button'
 
 export interface BlogItem {
     // displayName: string;
@@ -13,6 +13,7 @@ export interface BlogItem {
     blogTitle: FieldValue<string>
     shortDescription: FieldValue<string>
     goToBlog: Link
+    publishDate: FieldValue<string>
 }
 export interface SortResponse {
     search: {
@@ -25,10 +26,10 @@ export interface SortResponse {
     }
 }
 
-// interface SortOptions {
-//     sortOrder: 'ASC' | 'DESC'
-//     // Add other sort-related properties here if needed in the future
-// }
+interface SortOptions {
+    sortOrder: 'ASC' | 'DESC'
+    // Add other sort-related properties here if needed in the future
+}
 
 export enum QueryOperators {
     EQ = 'EQ',
@@ -49,9 +50,9 @@ export const Default = (): JSX.Element => {
     const [endCursors, setCursors] = useState<string[]>([''])
     const [currentPage, setCurrentPage] = useState<number>(1)
     const [totalPage, setTotalPage] = useState<number>(1)
-    // const [currentSortOrder, setCurrentSortOrder] = useState<'ASC' | 'DESC'>(
-    //     'DESC'
-    // ) // Default sort order
+    const [currentSortOrder, setCurrentSortOrder] = useState<'ASC' | 'DESC'>(
+        'DESC'
+    ) // Default sort order
 
     // const [pageNumber, setPageNumber] = useState(1);
     const handleNext = async () => {
@@ -60,14 +61,14 @@ export const Default = (): JSX.Element => {
     const handlePrev = async () => {
         setCurrentPage((prv) => prv - 1)
     }
-    // const handleSortChange = (order: 'ASC' | 'DESC') => {
-    //     if (currentSortOrder !== order) {
-    //         setCurrentSortOrder(order)
-    //         setCurrentPage(1) // Reset to first page when sort order changes
-    //         setCursors(['']) // Reset cursors when sort order changes
-    //     }
-    // }
-    const fetchBlogs = async () => {
+    const handleSortChange = (order: 'ASC' | 'DESC') => {
+        if (currentSortOrder !== order) {
+            setCurrentSortOrder(order)
+            setCurrentPage(1) // Reset to first page when sort order changes
+            setCursors(['']) // Reset cursors when sort order changes
+        }
+    }
+    const fetchBlogs = async ({ sortOrder }: SortOptions) => {
         try {
             const result = await graphQLClient.request<SortResponse>(
                 BLOG_LIST,
@@ -76,6 +77,7 @@ export const Default = (): JSX.Element => {
                     after: endCursors[currentPage - 1],
                     path: '{0D1B78BE-6A64-4160-8DA5-4E5DAB9F1FF5}',
                     templateId: '{AD4713B7-4A01-4642-ACFF-9A0AA72499DF}',
+                    sortOrder,
                 }
             )
             const endCursor = result?.search?.pageInfo?.endCursor
@@ -92,8 +94,8 @@ export const Default = (): JSX.Element => {
     }
 
     useEffect(() => {
-        fetchBlogs()
-    }, [currentPage])
+        fetchBlogs({ sortOrder: currentSortOrder })
+    }, [currentPage, currentSortOrder])
 
     if (loading) {
         return <div>Loading…</div>
@@ -106,7 +108,7 @@ export const Default = (): JSX.Element => {
     return (
         <div className={`${container()} my-5`}>
             <h1 className="mb-6 text-3xl font-bold">Latest Blog</h1>
-            {/* <div className="my-5 flex gap-2">
+            <div className="my-5 flex gap-2">
                 <Button
                     variant={
                         currentSortOrder === 'ASC' ? 'default' : 'secondary'
@@ -125,7 +127,7 @@ export const Default = (): JSX.Element => {
                 >
                     Newest Blogs
                 </Button>
-            </div> */}
+            </div>
 
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {/* ➍ Need an explicit return when using braces */}

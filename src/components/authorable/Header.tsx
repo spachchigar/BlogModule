@@ -52,7 +52,9 @@ export const Default = (props: HeaderProps): JSX.Element => {
                                     field={item.fields.link as LinkField}
                                     key={key}
                                 >
-                                    <div className={navigationItem()}>
+                                    <div
+                                        className={`${navigationItem()} text-white`}
+                                    >
                                         <Text
                                             field={
                                                 item.fields.title as TextField

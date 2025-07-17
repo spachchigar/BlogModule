@@ -185,6 +185,7 @@ export const BLOG_LIST = gql`
         $first: Int
         $after: String
         $archiveQuery: ItemSearchOperator = NEQ
+        $sortOrder: OrderByDirection
     ) {
         search(
             where: {
@@ -194,6 +195,7 @@ export const BLOG_LIST = gql`
                     { name: "isArchived", value: "1", operator: $archiveQuery }
                 ]
             }
+            orderBy: { name: "publishDate", direction: $sortOrder }
             first: $first
             after: $after
         ) {
@@ -209,7 +211,11 @@ export const BLOG_LIST = gql`
                         alt
                     }
                 }
-
+                publishDate: field(name: "publishDate") {
+                    ... on DateField {
+                        value: formattedDateValue
+                    }
+                }
                 blogTitle: field(name: "blogTitle") {
                     ... on TextField {
                         value
@@ -272,7 +278,11 @@ export const FEATURED_LIST = gql`
                         value
                     }
                 }
-
+                publishDate: field(name: "publishDate") {
+                    ... on DateField {
+                        value: formattedDateValue
+                    }
+                }
                 pageTitle: field(name: "Title") {
                     ... on TextField {
                         value

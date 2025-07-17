@@ -24,9 +24,39 @@ export namespace Sample.Project.BlogModule {
     export type BlogDetailPage =  {
         fields?: { 
             /**
+            * Represents the blogTitle field (f1b4a6c6-2904-4c3c-8d36-f89544b4bd83).
+            */
+            blogTitle?: Field<string>;
+
+            /**
+            * Represents the cardImage field (d62f8ba5-23fc-499c-a8ee-df84ac388c81).
+            */
+            cardImage?: ImageField;
+
+            /**
             * Represents the Content field (454a5b81-822c-4a51-b70f-5f05d260268f).
             */
             Content?: Field<string>;
+
+            /**
+            * Represents the isArchived field (4c6724cc-2202-41dd-9f92-916c9ea477c9).
+            */
+            isArchived?: Field<boolean>;
+
+            /**
+            * Represents the isFeatured field (4c3bc98d-43af-4903-b7a6-1b19defa797b).
+            */
+            isFeatured?: Field<boolean>;
+
+            /**
+            * Represents the publishDate field (ed5a97b9-e726-4c9e-8ff0-d5c6a174acc0).
+            */
+            publishDate?: Field<string>;
+
+            /**
+            * Represents the shortDescription field (504098a7-563e-4e43-b22d-a98849bdab4a).
+            */
+            shortDescription?: Field<string>;
 
             /**
             * Represents the Title field (24b7fc00-4509-474a-aa89-fe68ccade2a1).
@@ -42,9 +72,51 @@ export namespace Sample.Project.BlogModule {
     export type BlogDetailPageJson =  {
         
             /**
+            * Represents the blogTitle field (f1b4a6c6-2904-4c3c-8d36-f89544b4bd83).
+            */
+            blogTitle?: {
+                jsonValue: Field<string>
+            };
+
+            /**
+            * Represents the cardImage field (d62f8ba5-23fc-499c-a8ee-df84ac388c81).
+            */
+            cardImage?: {
+                jsonValue: ImageField
+            };
+
+            /**
             * Represents the Content field (454a5b81-822c-4a51-b70f-5f05d260268f).
             */
             Content?: {
+                jsonValue: Field<string>
+            };
+
+            /**
+            * Represents the isArchived field (4c6724cc-2202-41dd-9f92-916c9ea477c9).
+            */
+            isArchived?: {
+                jsonValue: Field<boolean>
+            };
+
+            /**
+            * Represents the isFeatured field (4c3bc98d-43af-4903-b7a6-1b19defa797b).
+            */
+            isFeatured?: {
+                jsonValue: Field<boolean>
+            };
+
+            /**
+            * Represents the publishDate field (ed5a97b9-e726-4c9e-8ff0-d5c6a174acc0).
+            */
+            publishDate?: {
+                jsonValue: Field<string>
+            };
+
+            /**
+            * Represents the shortDescription field (504098a7-563e-4e43-b22d-a98849bdab4a).
+            */
+            shortDescription?: {
                 jsonValue: Field<string>
             };
 
@@ -290,6 +362,22 @@ export namespace Sample.Project.BlogModule {
     * Represents the GraphQL template /sitecore/templates/Project/BlogModule/JSS Settings
     */
     export type JssSettingsJson =  {
+        
+
+    }
+
+    /**
+    * Represents the template /sitecore/templates/Project/BlogModule/Local Datasource
+    */
+    export type LocalDatasource =  {
+        fields?: {         }
+
+    }
+
+    /**
+    * Represents the GraphQL template /sitecore/templates/Project/BlogModule/Local Datasource
+    */
+    export type LocalDatasourceJson =  {
         
 
     }
