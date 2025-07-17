@@ -80,114 +80,6 @@ export const BLOGS_QUERY = gql`
     }
 `
 
-export const BLOG_DETAIL_QUERY = gql`
-    query ($itemId: String) {
-        item(path: $itemId, language: "en") {
-            id
-            description: field(name: "description") {
-                ... on RichTextField {
-                    value
-                }
-            }
-            bannerImage: field(name: "bannerImage") {
-                ... on ImageField {
-                    src
-                    alt
-                }
-            }
-            title: field(name: "title") {
-                ... on TextField {
-                    value
-                }
-            }
-            content: field(name: "content") {
-                ... on TextField {
-                    value
-                }
-            }
-            publishDate: field(name: "publishDate") {
-                ... on DateField {
-                    value
-                }
-            }
-            goToBlog: field(name: "goToBlog") {
-                ... on LinkField {
-                    url
-                    anchor
-                    target
-                    text
-                }
-            }
-            author: field(name: "author") {
-                ... on ItemField {
-                    jsonValue
-                }
-            }
-            image: field(name: "cardImage") {
-                ... on ImageField {
-                    alt
-                    description
-                    src
-                }
-            }
-
-            relatedBlogs: field(name: "relatedBlog") {
-                ... on MultilistField {
-                    targetItems {
-                        id
-                        description: field(name: "description") {
-                            ... on RichTextField {
-                                value
-                            }
-                        }
-                        bannerImage: field(name: "bannerImage") {
-                            ... on ImageField {
-                                src
-                                alt
-                            }
-                        }
-                        title: field(name: "title") {
-                            ... on TextField {
-                                value
-                            }
-                        }
-                        content: field(name: "content") {
-                            ... on TextField {
-                                value
-                            }
-                        }
-                        publishDate: field(name: "publishDate") {
-                            ... on DateField {
-                                value
-                            }
-                        }
-                        goToBlog: field(name: "goToBlog") {
-                            ... on LinkField {
-                                url
-                                anchor
-                                target
-                                text
-                            }
-                        }
-                        author: field(name: "author") {
-                            ... on ItemField {
-                                jsonValue
-                            }
-                        }
-                        cardImage: field(name: "cardImage") {
-                            ... on ImageField {
-                                alt
-                                description
-                                src
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-`
-
 export const BLOGS_SORT = gql`
     query BlogSearch(
         $sortOrder: OrderByDirection
@@ -280,6 +172,121 @@ export const BLOGS_SORT = gql`
                         description
                         src
                     }
+                }
+            }
+        }
+    }
+`
+
+export const BLOG_LIST = gql`
+    query BlogSearch(
+        $templateId: String
+        $path: String
+        $first: Int
+        $after: String
+        $archiveQuery: ItemSearchOperator = NEQ
+    ) {
+        search(
+            where: {
+                AND: [
+                    { name: "_path", value: $path }
+                    { name: "_templates", value: $templateId }
+                    { name: "isArchived", value: "1", operator: $archiveQuery }
+                ]
+            }
+            first: $first
+            after: $after
+        ) {
+            total
+            pageInfo {
+                endCursor
+                hasNext
+            }
+            results {
+                cardImage: field(name: "cardImage") {
+                    ... on ImageField {
+                        src
+                        alt
+                    }
+                }
+
+                blogTitle: field(name: "blogTitle") {
+                    ... on TextField {
+                        value
+                    }
+                }
+
+                pageTitle: field(name: "Title") {
+                    ... on TextField {
+                        value
+                    }
+                }
+
+                shortDescription: field(name: "shortDescription") {
+                    ... on TextField {
+                        value
+                    }
+                }
+
+                goToBlog: url {
+                    path
+                }
+            }
+        }
+    }
+`
+
+export const FEATURED_LIST = gql`
+    query BlogSearch(
+        $templateId: String
+        $path: String
+        $first: Int
+        $after: String
+    ) {
+        search(
+            where: {
+                AND: [
+                    { name: "_path", value: $path }
+                    { name: "_templates", value: $templateId }
+                    { name: "isFeatured", value: "1", operator: EQ }
+                ]
+            }
+            first: $first
+            after: $after
+        ) {
+            total
+            pageInfo {
+                endCursor
+                hasNext
+            }
+            results {
+                cardImage: field(name: "cardImage") {
+                    ... on ImageField {
+                        src
+                        alt
+                    }
+                }
+
+                blogTitle: field(name: "blogTitle") {
+                    ... on TextField {
+                        value
+                    }
+                }
+
+                pageTitle: field(name: "Title") {
+                    ... on TextField {
+                        value
+                    }
+                }
+
+                shortDescription: field(name: "shortDescription") {
+                    ... on TextField {
+                        value
+                    }
+                }
+
+                goToBlog: url {
+                    path
                 }
             }
         }
