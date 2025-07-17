@@ -77,12 +77,12 @@ const BlogCard = ({ data }: { data: BlogItem }): JSX.Element => {
                 <p className="mb-4 flex-grow text-sm text-gray-700">
                     <Text field={data?.shortDescription} />
                 </p>
-                <a
+                <Link
                     href={blogLink}
                     className="text-sm font-semibold text-blue-600 hover:underline"
                 >
                     Read more →
-                </a>
+                </Link>
             </div>
         </div>
     )
