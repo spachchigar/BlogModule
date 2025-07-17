@@ -7,6 +7,7 @@ import { SortResponse } from '../BlogList'
 import { container } from 'assets/tailwindcss'
 import { graphQLClient } from 'src/utils/graphqlClient'
 import { FEATURED_LIST } from 'src/utils/graphqlQuery'
+import Pagination from 'components/Pagination'
 
 type ArchivedBlogsProps = ComponentProps & BlogList.BlogList
 
@@ -18,9 +19,7 @@ export const Default = (props: ArchivedBlogsProps): JSX.Element => {
     const [endCursors, setCursors] = useState<string[]>([''])
     const [currentPage, setCurrentPage] = useState<number>(1)
     const [totalPage, setTotalPage] = useState<number>(1)
-    // const [currentSortOrder, setCurrentSortOrder] = useState<'ASC' | 'DESC'>(
-    //     'DESC'
-    // )
+  
 
     const fetchBlogs = async () => {
         try {
@@ -75,25 +74,7 @@ export const Default = (props: ArchivedBlogsProps): JSX.Element => {
                         <BlogCard key={index} data={blog} />
                     ))}
                 </div>
-                <div className="mt-8 flex items-center justify-center gap-4">
-                    {currentPage > 1 && (
-                        <button
-                            onClick={() => handlePrev()}
-                            className="rounded-xl bg-gray-200 px-4 py-2 text-gray-800 shadow-sm transition-all duration-200 hover:bg-gray-300 hover:shadow-md focus:ring-2 focus:ring-gray-400 focus:outline-none"
-                        >
-                            ← Prev
-                        </button>
-                    )}
-
-                    {currentPage < totalPage && (
-                        <button
-                            onClick={() => handleNext()}
-                            className="rounded-xl bg-gray-800 px-4 py-2 text-white shadow-sm transition-all duration-200 hover:bg-gray-700 hover:shadow-md focus:ring-2 focus:ring-gray-600 focus:outline-none"
-                        >
-                            Next →
-                        </button>
-                    )}
-                </div>
+                <Pagination currentPage={currentPage} totalPage={totalPage} handleNext={handleNext} handlePrev={handlePrev}/>
             </div>
         </div>
     )
