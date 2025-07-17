@@ -5,6 +5,7 @@ import { FieldValue, Link, Image } from 'src/utils/blogListType'
 import { graphQLClient } from 'src/utils/graphqlClient'
 import { BLOG_LIST } from 'src/utils/graphqlQuery'
 import { Button } from './components/ui/button'
+import Pagination from './Pagination'
 
 export interface BlogItem {
     // displayName: string;
@@ -135,25 +136,12 @@ export const Default = (): JSX.Element => {
                     <BlogCard key={index} data={blog} />
                 ))}
             </div>
-            <div className="mt-8 flex items-center justify-center gap-4">
-                {currentPage > 1 && (
-                    <button
-                        onClick={() => handlePrev()}
-                        className="rounded-xl bg-gray-200 px-4 py-2 text-gray-800 shadow-sm transition-all duration-200 hover:bg-gray-300 hover:shadow-md focus:ring-2 focus:ring-gray-400 focus:outline-none"
-                    >
-                        ← Prev
-                    </button>
-                )}
-
-                {currentPage < totalPage && (
-                    <button
-                        onClick={() => handleNext()}
-                        className="rounded-xl bg-gray-800 px-4 py-2 text-white shadow-sm transition-all duration-200 hover:bg-gray-700 hover:shadow-md focus:ring-2 focus:ring-gray-600 focus:outline-none"
-                    >
-                        Next →
-                    </button>
-                )}
-            </div>
+            <Pagination
+                currentPage={currentPage}
+                totalPage={totalPage}
+                handleNext={handleNext}
+                handlePrev={handlePrev}
+            />
         </div>
     )
 }
