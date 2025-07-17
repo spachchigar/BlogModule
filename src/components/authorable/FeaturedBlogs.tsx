@@ -3,7 +3,7 @@ import { Text } from '@sitecore-jss/sitecore-jss-nextjs'
 import { ComponentProps } from 'lib/component-props'
 import { BlogList } from 'models/Feature.BlogModule.Model'
 import BlogCard from '../BlogCard'
-import { QueryOperators, SortResponse } from '../BlogList'
+import { SortResponse } from '../BlogList'
 import { container } from 'assets/tailwindcss'
 import { graphQLClient } from 'src/utils/graphqlClient'
 import { FEATURED_LIST } from 'src/utils/graphqlQuery'
@@ -31,7 +31,6 @@ export const Default = (props: ArchivedBlogsProps): JSX.Element => {
                     after: endCursors[currentPage - 1],
                     path: '{0D1B78BE-6A64-4160-8DA5-4E5DAB9F1FF5}',
                     templateId: '{AD4713B7-4A01-4642-ACFF-9A0AA72499DF}',
-                    featureQuery: QueryOperators.EQ,
                 }
             )
             const endCursor = result?.search?.pageInfo?.endCursor

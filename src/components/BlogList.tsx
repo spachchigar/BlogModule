@@ -76,7 +76,6 @@ export const Default = (): JSX.Element => {
                     after: endCursors[currentPage - 1],
                     path: '{0D1B78BE-6A64-4160-8DA5-4E5DAB9F1FF5}',
                     templateId: '{AD4713B7-4A01-4642-ACFF-9A0AA72499DF}',
-                    archiveQuery: QueryOperators.NEQ,
                 }
             )
             const endCursor = result?.search?.pageInfo?.endCursor

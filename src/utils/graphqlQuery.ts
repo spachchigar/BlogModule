@@ -184,18 +184,14 @@ export const BLOG_LIST = gql`
         $path: String
         $first: Int
         $after: String
-        $archiveQuery: ItemSearchOperator
+        $archiveQuery: ItemSearchOperator = NEQ
     ) {
         search(
             where: {
                 AND: [
                     { name: "_path", value: $path }
                     { name: "_templates", value: $templateId }
-                    {
-                        name: "isArchived"
-                        value: "true"
-                        operator: $archiveQuery
-                    }
+                    { name: "isArchived", value: "1", operator: $archiveQuery }
                 ]
             }
             first: $first
@@ -239,24 +235,20 @@ export const BLOG_LIST = gql`
         }
     }
 `
+
 export const FEATURED_LIST = gql`
     query BlogSearch(
         $templateId: String
         $path: String
         $first: Int
         $after: String
-        $featureQuery: ItemSearchOperator
     ) {
         search(
             where: {
                 AND: [
                     { name: "_path", value: $path }
                     { name: "_templates", value: $templateId }
-                    {
-                        name: "isFeatured"
-                        value: "true"
-                        operator: $featureQuery
-                    }
+                    { name: "isFeatured", value: "1", operator: EQ }
                 ]
             }
             first: $first
